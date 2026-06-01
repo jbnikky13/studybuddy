@@ -997,21 +997,21 @@ function copyText(id) {
   });
 }
 
-// ─── CLAUDE API ──────────────────────────────────────────────────
+// ─── GEMINI API ──────────────────────────────────────────────────
 async function callClaude(system, user, maxTokens=1000) {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
+  const GEMINI_KEY = 'AIzaSyAQ.Ab8RN6Id_mkj5R8FEX4P1eeL0Qzxwyq9grCDq2Bv98VWyw3Wuw';
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
+  const res = await fetch(url, {
     method:'POST',
-    headers:{'Content-Type':'application/json','x-api-key':'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','anthropic-version':'2023-06-01'},
+    headers:{'Content-Type':'application/json'},
     body: JSON.stringify({
-      model:'claude-sonnet-4-20250514',
-      max_tokens: maxTokens,
-      system,
-      messages:[{ role:'user', content:user }]
+      contents:[{ parts:[{ text: system + '\n\n' + user }] }],
+      generationConfig:{ maxOutputTokens: maxTokens, temperature: 0.7 }
     })
   });
   const data = await res.json();
   if (data.error) throw new Error(data.error.message);
-  return data.content.map(b => b.text||'').join('');
+  return data.candidates?.[0]?.content?.parts?.[0]?.text || 'No response received.';
 }
 </script>
 </body>
