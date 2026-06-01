@@ -1001,7 +1001,7 @@ function copyText(id) {
 async function callClaude(system, user, maxTokens=1000) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method:'POST',
-    headers:{'Content-Type':'application/json'},
+    headers:{'Content-Type':'application/json','x-api-key':'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','anthropic-version':'2023-06-01'},
     body: JSON.stringify({
       model:'claude-sonnet-4-20250514',
       max_tokens: maxTokens,
