@@ -999,7 +999,7 @@ function copyText(id) {
 
 // ─── GEMINI API ──────────────────────────────────────────────────
 async function callClaude(system, user, maxTokens=1000) {
-  const GEMINI_KEY = 'AIzaSyAQ.Ab8RN6Id_mkj5R8FEX4P1eeL0Qzxwyq9grCDq2Bv98VWyw3Wuw';
+  const GEMINI_KEY = 'AQ.Ab8RN6JH1vpT6WF59i2pe5ER7TBfNiCQ_LDI_pI3jxntmeYAUg';
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
   const res = await fetch(url, {
     method:'POST',
