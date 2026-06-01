@@ -1,0 +1,39 @@
+{
+  "name": "StudyBuddy – AI Learning Assistant",
+  "short_name": "StudyBuddy",
+  "description": "AI-powered study assistant for all education levels",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f1117",
+  "theme_color": "#6c63ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Ask a Question",
+      "short_name": "Ask",
+      "url": "./index.html#ask",
+      "description": "Get instant homework help"
+    },
+    {
+      "name": "Flashcard Maker",
+      "short_name": "Flashcards",
+      "url": "./index.html#tools",
+      "description": "Create revision flashcards"
+    }
+  ]
+}

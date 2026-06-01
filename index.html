@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<meta name="theme-color" content="#6c63ff"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="StudyBuddy"/>
+<meta name="description" content="AI-powered study assistant for all education levels"/>
+<link rel="manifest" href="manifest.json"/>
+<link rel="apple-touch-icon" href="icon.svg"/>
+<title>StudyBuddy – AI Learning Assistant</title>
+<style>
+:root {
+  --bg:#0f1117; --surface:#1a1d27; --card:#22263a; --border:#2e3350;
+  --accent:#6c63ff; --accent2:#48cae4; --accent3:#f77f00;
+  --text:#e8eaf6; --muted:#8b8fa8; --success:#43d9a2; --danger:#ff6b6b;
+  --radius:14px; --font:'Segoe UI',system-ui,sans-serif;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;overflow:hidden;}
+body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex;flex-direction:column;}
+
+/* ── TOP BAR ── */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 18px;background:var(--surface);
+  border-bottom:1px solid var(--border);flex-shrink:0;
+  padding-top: max(14px, env(safe-area-inset-top, 14px));
+}
+.logo{display:flex;align-items:center;gap:9px;font-size:1.15rem;font-weight:800;}
+.logo-icon{width:32px;height:32px;background:linear-gradient(135deg,var(--accent),var(--accent2));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;}
+.level-pill{
+  display:flex;align-items:center;gap:6px;background:var(--card);
+  border:1px solid var(--border);border-radius:999px;padding:5px 12px;
+  font-size:0.75rem;color:var(--muted);cursor:pointer;transition:all .2s;
+}
+.level-pill:hover{border-color:var(--accent);color:var(--text);}
+.level-pill span{font-weight:700;color:var(--accent);}
+
+/* ── SCROLL AREA ── */
+.scroll-area{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;}
+
+/* ── BOTTOM NAV ── */
+.bottom-nav{
+  display:flex;background:var(--surface);border-top:1px solid var(--border);
+  flex-shrink:0;padding-bottom:max(8px, var(--safe-bottom));
+}
+.nav-item{
+  flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;
+  padding:10px 4px 8px;cursor:pointer;transition:all .2s;border:none;background:none;
+  color:var(--muted);font-size:0.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;
+}
+.nav-item .nav-icon{font-size:1.3rem;transition:transform .2s;}
+.nav-item.active{color:var(--accent);}
+.nav-item.active .nav-icon{transform:translateY(-2px);}
+
+/* ── PANELS ── */
+.panel{display:none;padding:16px 16px 24px;}
+.panel.active{display:block;}
+
+/* ── LEVEL MODAL ── */
+.modal-overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:200;
+  display:flex;align-items:flex-end;justify-content:center;
+  opacity:0;pointer-events:none;transition:opacity .25s;
+}
+.modal-overlay.open{opacity:1;pointer-events:all;}
+.modal-sheet{
+  background:var(--surface);border-radius:20px 20px 0 0;
+  padding:20px 20px max(20px, var(--safe-bottom));width:100%;max-width:560px;
+  transform:translateY(30px);transition:transform .25s;
+}
+.modal-overlay.open .modal-sheet{transform:translateY(0);}
+.modal-title{font-size:1rem;font-weight:700;margin-bottom:16px;text-align:center;}
+.level-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.level-card{
+  background:var(--card);border:1px solid var(--border);border-radius:12px;
+  padding:14px;cursor:pointer;transition:all .2s;
+}
+.level-card:hover,.level-card.sel{border-color:var(--accent);background:rgba(108,99,255,.15);}
+.level-card .lc-icon{font-size:1.5rem;margin-bottom:6px;}
+.level-card .lc-name{font-weight:700;font-size:0.85rem;}
+.level-card .lc-range{font-size:0.72rem;color:var(--muted);margin-top:2px;}
+
+/* ── SUBJECT STRIP ── */
+.subject-strip{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;scrollbar-width:none;}
+.subject-strip::-webkit-scrollbar{display:none;}
+.chip{
+  flex-shrink:0;padding:6px 14px;border-radius:999px;
+  border:1px solid var(--border);font-size:0.78rem;cursor:pointer;
+  transition:all .2s;color:var(--muted);background:var(--surface);white-space:nowrap;
+}
+.chip:hover,.chip.sel{color:#fff;border-color:var(--accent);background:rgba(108,99,255,.25);}
+
+/* ── FORM ELEMENTS ── */
+label{display:block;font-size:0.78rem;color:var(--muted);margin-bottom:5px;font-weight:600;}
+textarea,input[type="text"],select{
+  width:100%;background:var(--surface);border:1px solid var(--border);
+  color:var(--text);border-radius:9px;padding:10px 13px;font-size:0.9rem;
+  font-family:var(--font);resize:vertical;transition:border-color .2s;outline:none;
+  -webkit-appearance:none;
+}
+textarea:focus,input:focus,select:focus{border-color:var(--accent);}
+textarea{min-height:90px;}
+select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238b8fa8' stroke-width='2' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:32px;}
+
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px;}
+.field{margin-bottom:12px;}
+
+/* ── BUTTONS ── */
+.btn{
+  display:inline-flex;align-items:center;gap:7px;padding:11px 22px;
+  border-radius:10px;font-size:0.88rem;font-weight:700;cursor:pointer;
+  border:none;transition:all .2s;font-family:var(--font);
+}
+.btn-primary{background:linear-gradient(135deg,var(--accent),#8b80ff);color:#fff;}
+.btn-primary:hover{opacity:.88;transform:translateY(-1px);}
+.btn-ghost{background:var(--surface);border:1px solid var(--border);color:var(--text);}
+.btn-ghost:hover{border-color:var(--accent);}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none!important;}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px;}
+
+/* ── CARD ── */
+.card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:var(--radius);padding:18px;margin-bottom:16px;
+}
+.card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+.card-title{font-weight:700;font-size:0.95rem;display:flex;align-items:center;gap:7px;}
+.badge{font-size:0.68rem;padding:3px 9px;border-radius:999px;font-weight:700;}
+
+/* ── RESPONSE BOX ── */
+.resp-box{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:16px;margin-top:14px;display:none;
+}
+.resp-box.show{display:block;}
+.resp-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
+.resp-label{font-size:0.72rem;font-weight:800;color:var(--success);text-transform:uppercase;letter-spacing:.07em;}
+.copy-btn{background:none;border:1px solid var(--border);color:var(--muted);padding:4px 11px;border-radius:6px;font-size:0.72rem;cursor:pointer;transition:all .2s;}
+.copy-btn:hover{border-color:var(--accent);color:var(--text);}
+.resp-content{font-size:0.88rem;line-height:1.75;white-space:pre-wrap;color:var(--text);}
+
+/* ── LOADER ── */
+.loader{display:none;align-items:center;gap:9px;color:var(--muted);font-size:0.83rem;padding:10px 0;}
+.loader.show{display:flex;}
+.spin{width:17px;height:17px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ── TOOLS GRID ── */
+.tools-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:20px;}
+.tool-tile{
+  background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:18px 14px;cursor:pointer;transition:all .2s;text-align:center;
+}
+.tool-tile:hover{border-color:var(--accent);transform:translateY(-2px);}
+.tool-tile.active-tool{border-color:var(--accent);background:rgba(108,99,255,.12);}
+.tt-icon{font-size:1.8rem;margin-bottom:8px;}
+.tt-name{font-weight:700;font-size:0.82rem;margin-bottom:3px;}
+.tt-desc{font-size:0.7rem;color:var(--muted);line-height:1.4;}
+
+/* ── TOOL PANEL ── */
+.tool-panel{display:none;}
+.tool-panel.show{display:block;}
+.tool-back{background:none;border:none;color:var(--accent);font-size:0.82rem;font-weight:700;cursor:pointer;padding:0 0 14px;display:flex;align-items:center;gap:5px;}
+
+/* ── FLASHCARD ── */
+.fc-wrap{perspective:1000px;margin:14px 0;}
+.fc{
+  background:linear-gradient(135deg,var(--card),var(--surface));
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:28px 20px;text-align:center;cursor:pointer;
+  min-height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  transition:all .3s;position:relative;
+}
+.fc:hover{border-color:var(--accent);}
+.fc-q{font-size:1rem;font-weight:700;line-height:1.5;}
+.fc-a{font-size:0.88rem;color:var(--success);line-height:1.6;}
+.fc-tag{position:absolute;top:10px;left:14px;font-size:0.65rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);}
+.fc-hint{position:absolute;bottom:10px;right:14px;font-size:0.65rem;color:var(--muted);}
+.fc-nav{display:flex;align-items:center;justify-content:center;gap:14px;}
+.fc-counter{font-size:0.82rem;color:var(--muted);min-width:50px;text-align:center;}
+
+/* ── PROGRESS BAR ── */
+.progress-bar{height:3px;background:var(--border);border-radius:3px;margin-bottom:14px;overflow:hidden;}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .4s;}
+
+/* ── QUIZ ── */
+.quiz-q{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;margin-bottom:10px;}
+.quiz-q-num{font-size:0.7rem;font-weight:800;color:var(--accent);text-transform:uppercase;margin-bottom:5px;}
+.quiz-q-text{font-size:0.88rem;line-height:1.6;}
+.quiz-options{display:grid;gap:7px;margin-top:10px;}
+.quiz-opt{
+  background:var(--card);border:1px solid var(--border);border-radius:8px;
+  padding:9px 14px;cursor:pointer;font-size:0.85rem;transition:all .2s;text-align:left;
+  font-family:var(--font);color:var(--text);
+}
+.quiz-opt:hover:not(:disabled){border-color:var(--accent);}
+.quiz-opt.correct{border-color:var(--success);background:rgba(67,217,162,.12);color:var(--success);}
+.quiz-opt.wrong{border-color:var(--danger);background:rgba(255,107,107,.12);color:var(--danger);}
+.quiz-opt:disabled{cursor:default;}
+
+/* ── HISTORY ── */
+.hist-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:13px;margin-bottom:10px;cursor:pointer;transition:border-color .2s;}
+.hist-item:hover{border-color:var(--accent);}
+.hist-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;}
+.hist-subject{font-size:0.72rem;font-weight:800;color:var(--accent);}
+.hist-time{font-size:0.68rem;color:var(--muted);}
+.hist-q{font-size:0.82rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.hist-expand{font-size:0.78rem;line-height:1.6;white-space:pre-wrap;color:var(--text);margin-top:8px;display:none;border-top:1px solid var(--border);padding-top:8px;}
+
+/* ── SETTINGS ── */
+.setting-row{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border);}
+.setting-row:last-child{border-bottom:none;}
+.setting-label{font-size:0.88rem;font-weight:600;}
+.setting-desc{font-size:0.72rem;color:var(--muted);margin-top:2px;}
+.toggle{width:44px;height:24px;background:var(--border);border-radius:999px;position:relative;cursor:pointer;transition:background .2s;border:none;flex-shrink:0;}
+.toggle.on{background:var(--accent);}
+.toggle::after{content:'';position:absolute;width:18px;height:18px;background:#fff;border-radius:50%;top:3px;left:3px;transition:transform .2s;}
+.toggle.on::after{transform:translateX(20px);}
+
+/* ── INSTALL BANNER ── */
+.install-banner{
+  background:linear-gradient(135deg,rgba(108,99,255,.25),rgba(72,202,228,.15));
+  border:1px solid var(--accent);border-radius:12px;padding:14px 16px;
+  display:flex;align-items:center;gap:12px;margin-bottom:16px;
+}
+.install-banner .ib-text{flex:1;font-size:0.82rem;}
+.install-banner .ib-title{font-weight:700;margin-bottom:2px;}
+.install-banner .ib-sub{color:var(--muted);font-size:0.73rem;}
+.ib-close{background:none;border:none;color:var(--muted);cursor:pointer;font-size:1rem;padding:4px;}
+
+/* ── SECTION LABEL ── */
+.sec-label{font-size:0.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px;}
+
+/* ── HERO STRIP ── */
+.hero-strip{
+  background:linear-gradient(135deg,rgba(108,99,255,.15),rgba(72,202,228,.08));
+  border-bottom:1px solid var(--border);padding:14px 16px;display:flex;align-items:center;gap:10px;
+}
+.hero-strip .hs-text{flex:1;}
+.hero-strip h2{font-size:0.95rem;font-weight:800;}
+.hero-strip p{font-size:0.73rem;color:var(--muted);margin-top:2px;}
+
+@media(min-width:560px){
+  .panel{max-width:620px;margin:0 auto;}
+  .tools-grid{grid-template-columns:repeat(3,1fr);}
+  .level-grid{grid-template-columns:repeat(3,1fr);}
+}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="logo"><div class="logo-icon">📚</div> StudyBuddy</div>
+  <div class="level-pill" onclick="openLevelModal()">
+    🎓 Level: <span id="levelLabel">Secondary</span> ▾
+  </div>
+</div>
+
+<!-- SCROLL AREA -->
+<div class="scroll-area" id="scrollArea">
+
+  <!-- ═══ PANEL: ASK ═══ -->
+  <div class="panel active" id="panel-ask">
+
+    <div id="installBanner" class="install-banner" style="display:none;">
+      <div style="font-size:1.5rem;">📲</div>
+      <div class="ib-text">
+        <div class="ib-title">Install StudyBuddy</div>
+        <div class="ib-sub">Add to home screen for app-like experience</div>
+      </div>
+      <button class="btn btn-primary" style="padding:8px 14px;font-size:0.78rem;" onclick="installPWA()">Install</button>
+      <button class="ib-close" onclick="document.getElementById('installBanner').style.display='none'">✕</button>
+    </div>
+
+    <div class="hero-strip">
+      <div style="font-size:1.8rem;">✨</div>
+      <div class="hs-text">
+        <h2>What do you need help with?</h2>
+        <p>Pick a subject, describe your task, and get instant AI help.</p>
+      </div>
+    </div>
+
+    <!-- SUBJECT STRIP -->
+    <div class="subject-strip" id="subjectStrip" style="margin-top:14px;"></div>
+
+    <div class="card">
+      <div class="card-head">
+        <div class="card-title">✏️ My Assignment <span class="badge" id="subBadge" style="background:rgba(108,99,255,.2);color:var(--accent);">General</span></div>
+      </div>
+
+      <div class="row2">
+        <div>
+          <label>Help Type</label>
+          <select id="helpType" onchange="onHelpTypeChange()">
+            <option value="explain">Explain the concept</option>
+            <option value="solve">Solve step by step</option>
+            <option value="essay">Essay / outline</option>
+            <option value="summarise">Summarise into notes</option>
+            <option value="check">Check my answer</option>
+            <option value="examples">Give examples</option>
+            <option value="critique">Critical analysis</option>
+            <option value="research">Research guidance</option>
+            <option value="code">Debug / explain code</option>
+            <option value="maths">Maths workthrough</option>
+          </select>
+        </div>
+        <div>
+          <label>Response Style</label>
+          <select id="respStyle">
+            <option value="detailed">Detailed explanation</option>
+            <option value="concise">Quick & concise</option>
+            <option value="bullet">Bullet points</option>
+            <option value="eli5">Simple (ELI5)</option>
+            <option value="exam">Exam answer style</option>
+            <option value="socratic">Socratic (guide me)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Your Question or Task</label>
+        <textarea id="qInput" placeholder="Type your assignment question, topic, or problem here…" rows="4"></textarea>
+      </div>
+
+      <div class="field" id="myAnsWrap" style="display:none;">
+        <label>Your Draft Answer (for checking)</label>
+        <textarea id="myAns" rows="3" placeholder="Paste your answer here for AI feedback…"></textarea>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-primary" id="askBtn" onclick="askQuestion()">✨ Get Help</button>
+        <button class="btn btn-ghost" onclick="clearAsk()">Clear</button>
+      </div>
+
+      <div class="loader" id="askLoader"><div class="spin"></div> Thinking…</div>
+
+      <div class="resp-box" id="askResp">
+        <div class="resp-head">
+          <span class="resp-label">📖 Answer</span>
+          <button class="copy-btn" onclick="copyText('askRespContent')">📋 Copy</button>
+        </div>
+        <div class="resp-content" id="askRespContent"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══ PANEL: TOOLS ═══ -->
+  <div class="panel" id="panel-tools">
+
+    <div id="toolsHome">
+      <div class="sec-label" style="margin-top:4px;">Study Tools</div>
+      <div class="tools-grid">
+        <div class="tool-tile" onclick="openTool('flashcards')"><div class="tt-icon">🃏</div><div class="tt-name">Flashcards</div><div class="tt-desc">Auto-generate revision cards</div></div>
+        <div class="tool-tile" onclick="openTool('quiz')"><div class="tt-icon">❓</div><div class="tt-name">Practice Quiz</div><div class="tt-desc">Interactive MCQ quiz</div></div>
+        <div class="tool-tile" onclick="openTool('essay')"><div class="tt-icon">📄</div><div class="tt-name">Essay Planner</div><div class="tt-desc">Structured essay outline</div></div>
+        <div class="tool-tile" onclick="openTool('glossary')"><div class="tt-icon">📖</div><div class="tt-name">Glossary</div><div class="tt-desc">Key terms & definitions</div></div>
+        <div class="tool-tile" onclick="openTool('mindmap')"><div class="tt-icon">🧠</div><div class="tt-name">Mind Map Notes</div><div class="tt-desc">Structured topic breakdown</div></div>
+        <div class="tool-tile" onclick="openTool('citation')"><div class="tt-icon">📎</div><div class="tt-name">Citation Helper</div><div class="tt-desc">Format references correctly</div></div>
+      </div>
+    </div>
+
+    <!-- FLASHCARDS TOOL -->
+    <div class="tool-panel" id="tp-flashcards">
+      <button class="tool-back" onclick="closeTool()">← Back to Tools</button>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:14px;">🃏 Flashcard Maker</div>
+        <div class="field"><label>Topic</label><input type="text" id="fc-topic" placeholder="e.g. Mitosis and Meiosis"/></div>
+        <div class="field"><label>Number of Cards</label>
+          <select id="fc-count"><option value="5">5 cards</option><option value="8" selected>8 cards</option><option value="12">12 cards</option></select>
+        </div>
+        <button class="btn btn-primary" onclick="makeFlashcards()">🃏 Generate</button>
+        <div class="loader" id="fc-loader"><div class="spin"></div> Generating flashcards…</div>
+        <div id="fc-area" style="display:none;margin-top:16px;">
+          <div class="progress-bar"><div class="progress-fill" id="fc-prog" style="width:0%"></div></div>
+          <div class="fc-wrap"><div class="fc" id="fc-card" onclick="flipCard()">
+            <div class="fc-tag" id="fc-side">QUESTION</div>
+            <div id="fc-text" class="fc-q"></div>
+            <div class="fc-hint">tap to flip</div>
+          </div></div>
+          <div class="fc-nav">
+            <button class="btn btn-ghost" style="padding:8px 16px;" onclick="prevCard()">◀</button>
+            <div class="fc-counter" id="fc-counter"></div>
+            <button class="btn btn-ghost" style="padding:8px 16px;" onclick="nextCard()">▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUIZ TOOL -->
+    <div class="tool-panel" id="tp-quiz">
+      <button class="tool-back" onclick="closeTool()">← Back to Tools</button>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:14px;">❓ Practice Quiz</div>
+        <div class="field"><label>Topic</label><input type="text" id="quiz-topic" placeholder="e.g. Quadratic Equations"/></div>
+        <div class="field"><label>Difficulty</label>
+          <select id="quiz-diff"><option value="easy">Easy</option><option value="medium" selected>Medium</option><option value="hard">Hard</option></select>
+        </div>
+        <button class="btn btn-primary" onclick="makeQuiz()">❓ Start Quiz</button>
+        <div class="loader" id="quiz-loader"><div class="spin"></div> Building quiz…</div>
+        <div id="quiz-area" style="margin-top:16px;display:none;"></div>
+        <div id="quiz-score" style="display:none;text-align:center;padding:16px;">
+          <div style="font-size:2rem;margin-bottom:6px;">🎉</div>
+          <div style="font-size:1.1rem;font-weight:800;" id="quiz-score-text"></div>
+          <button class="btn btn-primary" style="margin-top:12px;" onclick="makeQuiz()">Try Again</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ESSAY PLANNER -->
+    <div class="tool-panel" id="tp-essay">
+      <button class="tool-back" onclick="closeTool()">← Back to Tools</button>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:14px;">📄 Essay Planner</div>
+        <div class="field"><label>Essay Title / Question</label><input type="text" id="essay-q" placeholder="e.g. Analyse the causes of the Cold War"/></div>
+        <div class="field"><label>Essay Type</label>
+          <select id="essay-type">
+            <option value="argumentative">Argumentative</option>
+            <option value="analytical">Analytical</option>
+            <option value="descriptive">Descriptive</option>
+            <option value="compare-contrast">Compare & Contrast</option>
+            <option value="research">Research / Academic</option>
+            <option value="reflective">Reflective</option>
+            <option value="literature-review">Literature Review</option>
+          </select>
+        </div>
+        <div class="field"><label>Word Count Target</label>
+          <select id="essay-words">
+            <option value="300-500">300-500 words</option>
+            <option value="500-800" selected>500-800 words</option>
+            <option value="800-1200">800-1,200 words</option>
+            <option value="1500-2000">1,500-2,000 words</option>
+            <option value="3000+">3,000+ words</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" onclick="makeEssayPlan()">📄 Generate Outline</button>
+        <div class="loader" id="essay-loader"><div class="spin"></div> Planning…</div>
+        <div class="resp-box" id="essay-resp">
+          <div class="resp-head"><span class="resp-label">📄 Essay Outline</span><button class="copy-btn" onclick="copyText('essay-content')">📋 Copy</button></div>
+          <div class="resp-content" id="essay-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GLOSSARY -->
+    <div class="tool-panel" id="tp-glossary">
+      <button class="tool-back" onclick="closeTool()">← Back to Tools</button>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:14px;">📖 Key Term Glossary</div>
+        <div class="field"><label>Subject & Topic</label><input type="text" id="gloss-topic" placeholder="e.g. Economics – Supply and Demand"/></div>
+        <button class="btn btn-primary" onclick="makeGlossary()">📖 Get Terms</button>
+        <div class="loader" id="gloss-loader"><div class="spin"></div> Fetching terms…</div>
+        <div class="resp-box" id="gloss-resp">
+          <div class="resp-head"><span class="resp-label">📖 Glossary</span><button class="copy-btn" onclick="copyText('gloss-content')">📋 Copy</button></div>
+          <div class="resp-content" id="gloss-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MIND MAP -->
+    <div class="tool-panel" id="tp-mindmap">
+      <button class="tool-back" onclick="closeTool()">← Back to Tools</button>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:14px;">🧠 Mind Map Notes</div>
+        <div class="field"><label>Topic / Chapter</label><input type="text" id="mm-topic" placeholder="e.g. The Human Immune System"/></div>
+        <button class="btn btn-primary" onclick="makeMindMap()">🧠 Generate</button>
+        <div class="loader" id="mm-loader"><div class="spin"></div> Mapping…</div>
+        <div class="resp-box" id="mm-resp">
+          <div class="resp-head"><span class="resp-label">🧠 Mind Map</span><button class="copy-btn" onclick="copyText('mm-content')">📋 Copy</button></div>
+          <div class="resp-content" id="mm-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CITATION HELPER -->
+    <div class="tool-panel" id="tp-citation">
+      <button class="tool-back" onclick="closeTool()">← Back to Tools</button>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:14px;">📎 Citation Helper</div>
+        <div class="field"><label>Source Type</label>
+          <select id="cite-type">
+            <option value="book">Book</option>
+            <option value="journal article">Journal Article</option>
+            <option value="website">Website</option>
+            <option value="newspaper">Newspaper Article</option>
+            <option value="report">Report / Government Source</option>
+          </select>
+        </div>
+        <div class="field"><label>Citation Style</label>
+          <select id="cite-style">
+            <option value="APA 7th">APA 7th</option>
+            <option value="Harvard">Harvard</option>
+            <option value="MLA 9th">MLA 9th</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Vancouver">Vancouver</option>
+          </select>
+        </div>
+        <div class="field"><label>Source Details (author, title, year, publisher, URL, etc.)</label>
+          <textarea id="cite-details" rows="3" placeholder="e.g. Smith, John. The Great Experiment. Oxford University Press, 2019."></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="makeCitation()">📎 Format Citation</button>
+        <div class="loader" id="cite-loader"><div class="spin"></div> Formatting…</div>
+        <div class="resp-box" id="cite-resp">
+          <div class="resp-head"><span class="resp-label">📎 Citation</span><button class="copy-btn" onclick="copyText('cite-content')">📋 Copy</button></div>
+          <div class="resp-content" id="cite-content"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══ PANEL: HISTORY ═══ -->
+  <div class="panel" id="panel-history">
+    <div class="sec-label" style="margin-top:4px;">Recent Sessions</div>
+    <div id="histList"></div>
+  </div>
+
+  <!-- ═══ PANEL: SETTINGS ═══ -->
+  <div class="panel" id="panel-settings">
+    <div class="sec-label" style="margin-top:4px;">Preferences</div>
+    <div class="card">
+      <div class="setting-row">
+        <div><div class="setting-label">🌙 Dark Mode</div><div class="setting-desc">Always on for now</div></div>
+        <button class="toggle on" disabled></button>
+      </div>
+      <div class="setting-row">
+        <div><div class="setting-label">💾 Save History</div><div class="setting-desc">Store sessions on device</div></div>
+        <button class="toggle on" id="tog-history" onclick="toggleSetting('history')"></button>
+      </div>
+      <div class="setting-row">
+        <div><div class="setting-label">📳 Haptic Feedback</div><div class="setting-desc">Vibrate on interactions</div></div>
+        <button class="toggle" id="tog-haptic" onclick="toggleSetting('haptic')"></button>
+      </div>
+    </div>
+
+    <div class="sec-label">Education Level</div>
+    <div class="card" id="settingsLevelCard"></div>
+
+    <div class="sec-label">About</div>
+    <div class="card">
+      <div class="setting-row">
+        <div><div class="setting-label">📚 StudyBuddy</div><div class="setting-desc">Powered by Claude AI · All levels</div></div>
+        <span style="font-size:0.78rem;color:var(--muted);">v2.0</span>
+      </div>
+      <div class="setting-row">
+        <div><div class="setting-label">🗑 Clear All History</div><div class="setting-desc">Remove all saved sessions</div></div>
+        <button class="btn btn-ghost" style="padding:6px 12px;font-size:0.78rem;" onclick="clearHistory()">Clear</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end scroll-area -->
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+  <button class="nav-item active" id="nav-ask" onclick="switchPanel('ask')"><span class="nav-icon">✨</span>Ask</button>
+  <button class="nav-item" id="nav-tools" onclick="switchPanel('tools')"><span class="nav-icon">🛠</span>Tools</button>
+  <button class="nav-item" id="nav-history" onclick="switchPanel('history')"><span class="nav-icon">📋</span>History</button>
+  <button class="nav-item" id="nav-settings" onclick="switchPanel('settings')"><span class="nav-icon">⚙️</span>Settings</button>
+</div>
+
+<!-- LEVEL MODAL -->
+<div class="modal-overlay" id="levelModal" onclick="closeLevelModal(event)">
+  <div class="modal-sheet">
+    <div class="modal-title">🎓 Select Education Level</div>
+    <div class="level-grid" id="levelGrid"></div>
+    <button class="btn btn-ghost" style="width:100%;margin-top:14px;" onclick="closeLevelModal()">Cancel</button>
+  </div>
+</div>
+
+<script>
+// ─── DATA ──────────────────────────────────────────────────────
+const LEVELS = [
+  { id:'primary',    icon:'🏫', name:'Primary',       range:'Ages 5–11', prompt:'primary school student (age 5-11), use very simple language, short sentences, fun examples' },
+  { id:'secondary',  icon:'🎒', name:'Secondary',      range:'Ages 11–16 / GCSE', prompt:'secondary school student (GCSE/O-Level, age 11-16)' },
+  { id:'alevel',     icon:'📘', name:'A-Level / IB',   range:'Ages 16–18', prompt:'A-Level or IB student (age 16-18), use more depth and academic language' },
+  { id:'university', icon:'🎓', name:'University',     range:'Undergraduate', prompt:'undergraduate university student, use academic language, reference theories, cite where relevant' },
+  { id:'postgrad',   icon:'🔬', name:'Postgraduate',   range:'Masters / PhD', prompt:'postgraduate researcher or masters student, use advanced academic language, expect familiarity with literature' },
+  { id:'professional',icon:'💼','name':'Professional', range:'Work / Exams', prompt:'professional studying for a qualification (e.g. CPA, Bar, ACCA, PMP), be precise and exam-focused' },
+];
+
+const SUBJECTS_BY_LEVEL = {
+  primary:     ['🌐 General','📐 Maths','🔬 Science','📝 English','🌍 Geography','🎨 Art','🎵 Music','💻 Computing'],
+  secondary:   ['🌐 General','📐 Maths','🔬 Science','📝 English','🏛️ History','🌍 Geography','🧬 Biology','⚗️ Chemistry','⚡ Physics','🗣️ Languages','💻 Computing','💰 Economics','🎨 Art'],
+  alevel:      ['🌐 General','📐 Pure Maths','📊 Statistics','🧬 Biology','⚗️ Chemistry','⚡ Physics','📝 English Lit','🏛️ History','🌍 Geography','💰 Economics','🧠 Psychology','💻 Computer Science','⚖️ Law','🎭 Drama'],
+  university:  ['🌐 General','📐 Mathematics','🧬 Life Sciences','⚗️ Chemistry','⚡ Physics','💻 Computer Science','💰 Economics','⚖️ Law','🏥 Medicine','🧠 Psychology','📊 Statistics','🏗️ Engineering','📚 Literature','🌐 Sociology','🏦 Business','🧾 Accounting','📡 Data Science'],
+  postgrad:    ['🌐 General','🔬 Research Methods','📊 Advanced Statistics','🧬 Biosciences','💻 AI/ML','💰 Finance','⚖️ Legal Research','🏥 Clinical Research','🧠 Neuroscience','🏗️ Engineering Research','📚 Humanities','🌐 Social Sciences'],
+  professional:['🌐 General','💼 Business','🏦 Finance / ACCA','⚖️ Law / Bar','🩺 Medicine / CPD','💻 IT Certifications','📊 Data / Analytics','🏗️ Project Mgmt / PMP','🏘️ Real Estate','🔐 Cybersecurity'],
+};
+
+let state = {
+  level: 'secondary',
+  subject: 'General',
+  history: JSON.parse(localStorage.getItem('sb_hist_v2') || '[]'),
+  settings: JSON.parse(localStorage.getItem('sb_settings') || '{"history":true,"haptic":false}'),
+};
+
+let flashcards = [], fcIdx = 0, fcFlipped = false;
+let quizData = [], quizAnswered = 0, quizCorrect = 0;
+let deferredInstall = null;
+
+// ─── INIT ──────────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  buildLevelGrid();
+  buildSubjectStrip();
+  updateLevelLabel();
+  renderHistory();
+  applySettings();
+  registerSW();
+});
+
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault(); deferredInstall = e;
+  document.getElementById('installBanner').style.display = 'flex';
+});
+
+function registerSW() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  }
+}
+
+function installPWA() {
+  if (deferredInstall) { deferredInstall.prompt(); deferredInstall = null; document.getElementById('installBanner').style.display = 'none'; }
+}
+
+// ─── LEVEL ──────────────────────────────────────────────────────
+function buildLevelGrid() {
+  const g = document.getElementById('levelGrid');
+  g.innerHTML = LEVELS.map(l => `
+    <div class="level-card ${l.id===state.level?'sel':''}" onclick="setLevel('${l.id}')">
+      <div class="lc-icon">${l.icon}</div>
+      <div class="lc-name">${l.name}</div>
+      <div class="lc-range">${l.range}</div>
+    </div>`).join('');
+
+  // settings level card mirror
+  const sc = document.getElementById('settingsLevelCard');
+  if (sc) sc.innerHTML = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">' + LEVELS.map(l => `
+    <div class="level-card" style="padding:10px;" onclick="setLevel('${l.id}');switchPanel('ask')">
+      <div class="lc-icon" style="font-size:1.2rem;">${l.icon}</div>
+      <div class="lc-name" style="font-size:0.78rem;">${l.name}</div>
+    </div>`).join('') + '</div>';
+}
+
+function setLevel(id) {
+  state.level = id;
+  buildSubjectStrip();
+  updateLevelLabel();
+  buildLevelGrid();
+  closeLevelModal();
+}
+
+function updateLevelLabel() {
+  const l = LEVELS.find(x => x.id === state.level);
+  document.getElementById('levelLabel').textContent = l.name;
+}
+
+function openLevelModal() { document.getElementById('levelModal').classList.add('open'); }
+function closeLevelModal(e) {
+  if (!e || e.target === document.getElementById('levelModal')) {
+    document.getElementById('levelModal').classList.remove('open');
+  }
+}
+
+// ─── SUBJECTS ───────────────────────────────────────────────────
+function buildSubjectStrip() {
+  const subs = SUBJECTS_BY_LEVEL[state.level] || SUBJECTS_BY_LEVEL.secondary;
+  const strip = document.getElementById('subjectStrip');
+  strip.innerHTML = subs.map(s => {
+    const name = s.replace(/^.+?\s/,'');
+    return `<div class="chip ${name===state.subject?'sel':''}" onclick="setSubject('${name}','${s}')">${s}</div>`;
+  }).join('');
+}
+
+function setSubject(name, full) {
+  state.subject = name;
+  buildSubjectStrip();
+  document.getElementById('subBadge').textContent = name;
+}
+
+// ─── PANEL NAV ──────────────────────────────────────────────────
+function switchPanel(id) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('panel-'+id).classList.add('active');
+  document.getElementById('nav-'+id).classList.add('active');
+  document.getElementById('scrollArea').scrollTop = 0;
+  if (id === 'history') renderHistory();
+  if (id === 'settings') buildLevelGrid();
+  haptic();
+}
+
+// ─── TOOLS NAV ──────────────────────────────────────────────────
+function openTool(name) {
+  document.getElementById('toolsHome').style.display = 'none';
+  document.querySelectorAll('.tool-panel').forEach(p => p.classList.remove('show'));
+  document.getElementById('tp-'+name).classList.add('show');
+  document.getElementById('scrollArea').scrollTop = 0;
+  haptic();
+}
+function closeTool() {
+  document.getElementById('toolsHome').style.display = 'block';
+  document.querySelectorAll('.tool-panel').forEach(p => p.classList.remove('show'));
+  document.getElementById('scrollArea').scrollTop = 0;
+}
+
+// ─── ASK ────────────────────────────────────────────────────────
+function onHelpTypeChange() {
+  const t = document.getElementById('helpType').value;
+  document.getElementById('myAnsWrap').style.display = t === 'check' ? 'block' : 'none';
+}
+
+async function askQuestion() {
+  const q = document.getElementById('qInput').value.trim();
+  if (!q) { alert('Please enter a question first.'); return; }
+  const helpType = document.getElementById('helpType').value;
+  const respStyle = document.getElementById('respStyle').value;
+  const myAns = document.getElementById('myAns').value.trim();
+  const level = LEVELS.find(l => l.id === state.level);
+
+  const styleGuide = {
+    detailed: 'Give a detailed, thorough explanation.',
+    concise: 'Be concise and to the point.',
+    bullet: 'Use bullet points and numbered lists.',
+    eli5: 'Explain as simply as possible, like to a 10-year-old.',
+    exam: 'Format your answer like a model exam response.',
+    socratic: 'Guide the student with leading questions rather than giving the answer directly.',
+  };
+  const helpGuide = {
+    explain:'Explain clearly', solve:'Solve step by step showing all working',
+    essay:'Write or outline an essay', summarise:'Summarise into concise revision notes',
+    check:'Review the student\'s answer and provide detailed feedback, pointing out errors and what to improve',
+    examples:'Provide diverse, helpful examples', critique:'Provide critical analysis',
+    research:'Give research guidance and direction', code:'Debug and explain the code',
+    maths:'Work through the maths step by step',
+  };
+
+  const sys = `You are StudyBuddy, an expert AI tutor. You are currently helping a ${level.prompt}. Subject: ${state.subject}. Task: ${helpGuide[helpType]}. Style: ${styleGuide[respStyle]}. Be encouraging and clear. Use relevant notation, formulas, or examples where helpful.`;
+  let prompt = `Question/Task: ${q}`;
+  if (helpType === 'check' && myAns) prompt += `\n\nStudent's answer: ${myAns}`;
+
+  setLoading('ask', true);
+  try {
+    const res = await callClaude(sys, prompt, 1200);
+    document.getElementById('askRespContent').textContent = res;
+    document.getElementById('askResp').classList.add('show');
+    saveHistory(state.subject, q, res);
+  } catch(e) {
+    document.getElementById('askRespContent').textContent = '⚠️ ' + e.message;
+    document.getElementById('askResp').classList.add('show');
+  }
+  setLoading('ask', false);
+  haptic();
+}
+
+function clearAsk() {
+  document.getElementById('qInput').value = '';
+  document.getElementById('myAns').value = '';
+  document.getElementById('askResp').classList.remove('show');
+  document.getElementById('askRespContent').textContent = '';
+}
+
+// ─── FLASHCARDS ─────────────────────────────────────────────────
+async function makeFlashcards() {
+  const topic = document.getElementById('fc-topic').value.trim();
+  const count = document.getElementById('fc-count').value;
+  const level = LEVELS.find(l => l.id === state.level);
+  if (!topic) { alert('Enter a topic.'); return; }
+  setLoading('fc', true);
+  document.getElementById('fc-area').style.display = 'none';
+  try {
+    const sys = `You are a revision tool for a ${level.prompt}. Return ONLY valid JSON — an array of ${count} objects each with "q" (question, concise) and "a" (answer, clear and informative). No markdown, no backticks, no extra text.`;
+    const txt = await callClaude(sys, `Generate ${count} flashcard Q&A pairs for the topic: ${topic}`);
+    flashcards = JSON.parse(txt.replace(/```json|```/g,'').trim());
+    fcIdx = 0; fcFlipped = false;
+    showCard();
+    document.getElementById('fc-area').style.display = 'block';
+  } catch(e) { alert('Error: '+e.message); }
+  setLoading('fc', false);
+}
+
+function showCard() {
+  if (!flashcards.length) return;
+  fcFlipped = false;
+  const el = document.getElementById('fc-text');
+  el.className = 'fc-q';
+  el.textContent = flashcards[fcIdx].q;
+  document.getElementById('fc-side').textContent = 'QUESTION';
+  document.getElementById('fc-counter').textContent = `${fcIdx+1} / ${flashcards.length}`;
+  document.getElementById('fc-prog').style.width = `${((fcIdx+1)/flashcards.length)*100}%`;
+}
+
+function flipCard() {
+  if (!flashcards.length) return;
+  fcFlipped = !fcFlipped;
+  const el = document.getElementById('fc-text');
+  el.className = fcFlipped ? 'fc-a' : 'fc-q';
+  el.textContent = fcFlipped ? flashcards[fcIdx].a : flashcards[fcIdx].q;
+  document.getElementById('fc-side').textContent = fcFlipped ? 'ANSWER' : 'QUESTION';
+  haptic();
+}
+function nextCard() { if (fcIdx < flashcards.length-1) { fcIdx++; showCard(); haptic(); } }
+function prevCard() { if (fcIdx > 0) { fcIdx--; showCard(); haptic(); } }
+
+// ─── QUIZ ────────────────────────────────────────────────────────
+async function makeQuiz() {
+  const topic = document.getElementById('quiz-topic').value.trim();
+  const diff = document.getElementById('quiz-diff').value;
+  const level = LEVELS.find(l => l.id === state.level);
+  if (!topic) { alert('Enter a topic.'); return; }
+  document.getElementById('quiz-area').style.display = 'none';
+  document.getElementById('quiz-score').style.display = 'none';
+  setLoading('quiz', true);
+  try {
+    const sys = `You are a quiz generator for a ${level.prompt}. Return ONLY valid JSON — an array of 5 multiple choice question objects. Each object must have: "q" (question string), "opts" (array of 4 strings), "ans" (index 0-3 of correct answer), "exp" (brief explanation). Difficulty: ${diff}. No markdown, no backticks.`;
+    const txt = await callClaude(sys, `Create a ${diff} quiz on: ${topic}`);
+    quizData = JSON.parse(txt.replace(/```json|```/g,'').trim());
+    quizAnswered = 0; quizCorrect = 0;
+    renderQuiz();
+    document.getElementById('quiz-area').style.display = 'block';
+  } catch(e) { alert('Error: '+e.message); }
+  setLoading('quiz', false);
+}
+
+function renderQuiz() {
+  const area = document.getElementById('quiz-area');
+  area.innerHTML = quizData.map((q, qi) => `
+    <div class="quiz-q" id="qq-${qi}">
+      <div class="quiz-q-num">Question ${qi+1} of ${quizData.length}</div>
+      <div class="quiz-q-text">${q.q}</div>
+      <div class="quiz-options">
+        ${q.opts.map((o, oi) => `<button class="quiz-opt" onclick="answerQuiz(${qi},${oi})">${String.fromCharCode(65+oi)}. ${o}</button>`).join('')}
+      </div>
+      <div id="exp-${qi}" style="display:none;font-size:0.78rem;color:var(--muted);margin-top:8px;padding:8px;background:var(--bg);border-radius:7px;line-height:1.5;"></div>
+    </div>`).join('');
+}
+
+function answerQuiz(qi, oi) {
+  const q = quizData[qi];
+  const container = document.querySelector(`#qq-${qi} .quiz-options`);
+  const buttons = container.querySelectorAll('.quiz-opt');
+  buttons.forEach((b, i) => {
+    b.disabled = true;
+    if (i === q.ans) b.classList.add('correct');
+    else if (i === oi && oi !== q.ans) b.classList.add('wrong');
+  });
+  document.getElementById(`exp-${qi}`).style.display = 'block';
+  document.getElementById(`exp-${qi}`).textContent = '💡 ' + q.exp;
+  if (oi === q.ans) quizCorrect++;
+  quizAnswered++;
+  haptic();
+  if (quizAnswered === quizData.length) {
+    setTimeout(() => {
+      document.getElementById('quiz-area').style.display = 'none';
+      document.getElementById('quiz-score').style.display = 'block';
+      document.getElementById('quiz-score-text').textContent = `Score: ${quizCorrect} / ${quizData.length} — ${quizCorrect===quizData.length?'Perfect! 🏆':quizCorrect>=Math.ceil(quizData.length*.6)?'Well done! 👏':'Keep practising! 💪'}`;
+    }, 800);
+  }
+}
+
+// ─── ESSAY ───────────────────────────────────────────────────────
+async function makeEssayPlan() {
+  const q = document.getElementById('essay-q').value.trim();
+  const type = document.getElementById('essay-type').value;
+  const words = document.getElementById('essay-words').value;
+  const level = LEVELS.find(l => l.id === state.level);
+  if (!q) { alert('Enter an essay question.'); return; }
+  setLoading('essay', true);
+  document.getElementById('essay-resp').classList.remove('show');
+  try {
+    const sys = `You are an expert essay planning tutor for a ${level.prompt}. Create a detailed ${type} essay outline for a ${words} word essay. Include: Introduction (hook, context, thesis statement), Body paragraphs (each with topic sentence, key arguments/evidence, linking sentence), Conclusion (restate thesis, synthesis, closing thought). Be specific and academic.`;
+    const txt = await callClaude(sys, `Essay question: ${q}`);
+    document.getElementById('essay-content').textContent = txt;
+    document.getElementById('essay-resp').classList.add('show');
+  } catch(e) { alert('Error: '+e.message); }
+  setLoading('essay', false);
+}
+
+// ─── GLOSSARY ────────────────────────────────────────────────────
+async function makeGlossary() {
+  const t = document.getElementById('gloss-topic').value.trim();
+  const level = LEVELS.find(l => l.id === state.level);
+  if (!t) { alert('Enter a topic.'); return; }
+  setLoading('gloss', true);
+  document.getElementById('gloss-resp').classList.remove('show');
+  try {
+    const sys = `You are a subject tutor for a ${level.prompt}. List 10 key terms with clear, accurate definitions. Format: TERM – definition. Include etymology or mnemonics where helpful.`;
+    const txt = await callClaude(sys, `Topic: ${t}`);
+    document.getElementById('gloss-content').textContent = txt;
+    document.getElementById('gloss-resp').classList.add('show');
+  } catch(e) { alert('Error: '+e.message); }
+  setLoading('gloss', false);
+}
+
+// ─── MIND MAP ────────────────────────────────────────────────────
+async function makeMindMap() {
+  const t = document.getElementById('mm-topic').value.trim();
+  const level = LEVELS.find(l => l.id === state.level);
+  if (!t) { alert('Enter a topic.'); return; }
+  setLoading('mm', true);
+  document.getElementById('mm-resp').classList.remove('show');
+  try {
+    const sys = `You are a study notes expert for a ${level.prompt}. Create structured mind map notes using indentation. Format: MAIN TOPIC at top, then branches (→) with sub-branches (  •) underneath. Be comprehensive but scannable. Great for revision.`;
+    const txt = await callClaude(sys, `Create mind map notes for: ${t}`);
+    document.getElementById('mm-content').textContent = txt;
+    document.getElementById('mm-resp').classList.add('show');
+  } catch(e) { alert('Error: '+e.message); }
+  setLoading('mm', false);
+}
+
+// ─── CITATION ────────────────────────────────────────────────────
+async function makeCitation() {
+  const type = document.getElementById('cite-type').value;
+  const style = document.getElementById('cite-style').value;
+  const details = document.getElementById('cite-details').value.trim();
+  if (!details) { alert('Enter source details.'); return; }
+  setLoading('cite', true);
+  document.getElementById('cite-resp').classList.remove('show');
+  try {
+    const sys = `You are a professional academic citation formatter. Format the given source details as a correctly formatted ${style} citation for a ${type}. Also provide an in-text citation example. Be precise about punctuation, italics (use underscores), and ordering.`;
+    const txt = await callClaude(sys, `Format this ${type} in ${style} style:\n${details}`);
+    document.getElementById('cite-content').textContent = txt;
+    document.getElementById('cite-resp').classList.add('show');
+  } catch(e) { alert('Error: '+e.message); }
+  setLoading('cite', false);
+}
+
+// ─── HISTORY ─────────────────────────────────────────────────────
+function saveHistory(subject, q, ans) {
+  if (!state.settings.history) return;
+  state.history.unshift({ subject, q: q.substring(0,150), ans, level:state.level, time: new Date().toLocaleString() });
+  if (state.history.length > 30) state.history.pop();
+  localStorage.setItem('sb_hist_v2', JSON.stringify(state.history));
+}
+
+function renderHistory() {
+  const el = document.getElementById('histList');
+  if (!state.history.length) { el.innerHTML = '<p style="color:var(--muted);font-size:.88rem;">No history yet. Ask a question to get started!</p>'; return; }
+  el.innerHTML = state.history.map((h,i) => `
+    <div class="hist-item" onclick="toggleHist(${i})">
+      <div class="hist-meta">
+        <span class="hist-subject">${h.subject} · ${LEVELS.find(l=>l.id===h.level)?.name||h.level}</span>
+        <span class="hist-time">${h.time}</span>
+      </div>
+      <div class="hist-q">${h.q}</div>
+      <div class="hist-expand" id="he-${i}">${h.ans}</div>
+    </div>`).join('');
+}
+
+function toggleHist(i) {
+  const el = document.getElementById('he-'+i);
+  el.style.display = el.style.display === 'block' ? 'none' : 'block';
+}
+
+function clearHistory() {
+  if (confirm('Clear all history?')) { state.history = []; localStorage.removeItem('sb_hist_v2'); renderHistory(); }
+}
+
+// ─── SETTINGS ────────────────────────────────────────────────────
+function toggleSetting(key) {
+  state.settings[key] = !state.settings[key];
+  localStorage.setItem('sb_settings', JSON.stringify(state.settings));
+  applySettings();
+}
+function applySettings() {
+  ['history','haptic'].forEach(k => {
+    const t = document.getElementById('tog-'+k);
+    if (t) t.classList.toggle('on', !!state.settings[k]);
+  });
+}
+function haptic() {
+  if (state.settings.haptic && navigator.vibrate) navigator.vibrate(8);
+}
+
+// ─── UTILITIES ───────────────────────────────────────────────────
+function setLoading(id, on) {
+  const l = document.getElementById(id+'-loader');
+  if (l) l.classList.toggle('show', on);
+  const btn = document.querySelector(`#tp-${id} .btn-primary, #panel-ask .btn-primary`);
+}
+
+function copyText(id) {
+  const txt = document.getElementById(id).textContent;
+  navigator.clipboard.writeText(txt).then(() => {
+    haptic();
+    const btn = event.target;
+    const orig = btn.textContent;
+    btn.textContent = '✅ Copied!';
+    setTimeout(() => btn.textContent = orig, 1500);
+  });
+}
+
+// ─── CLAUDE API ──────────────────────────────────────────────────
+async function callClaude(system, user, maxTokens=1000) {
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({
+      model:'claude-sonnet-4-20250514',
+      max_tokens: maxTokens,
+      system,
+      messages:[{ role:'user', content:user }]
+    })
+  });
+  const data = await res.json();
+  if (data.error) throw new Error(data.error.message);
+  return data.content.map(b => b.text||'').join('');
+}
+</script>
+</body>
+</html>
