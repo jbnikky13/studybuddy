@@ -1008,7 +1008,7 @@ async function callClaude(system, user, maxTokens=1000) {
       'X-Title':'StudyBuddy'
     },
     body: JSON.stringify({
-      model: 'qwen/qwen3-8b:free',
+      model: 'openrouter/auto',
       max_tokens: maxTokens,
       messages:[
         { role:'system', content: system },
