@@ -1003,12 +1003,12 @@ async function callClaude(system, user, maxTokens=1000) {
     method:'POST',
     headers:{
       'Content-Type':'application/json',
-      'Authorization':'Bearer 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',
+      'Authorization':'Bearer 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',
       'HTTP-Referer':'https://jbnikky13.github.io/studybuddy/',
       'X-Title':'StudyBuddy'
     },
     body: JSON.stringify({
-      model: 'meta-llama/llama-3.1-8b-instruct:free',
+      model: 'mistralai/mistral-7b-instruct:free',
       max_tokens: maxTokens,
       messages:[
         { role:'system', content: system },
