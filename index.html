@@ -1008,7 +1008,7 @@ async function callClaude(system, user, maxTokens=1000) {
       'X-Title':'StudyBuddy'
     },
     body: JSON.stringify({
-      model: 'openrouter/auto',
+      model: 'deepseek/deepseek-r1-0528:free',
       max_tokens: maxTokens,
       messages:[
         { role:'system', content: system },
