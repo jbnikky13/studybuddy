@@ -4,6 +4,7 @@ const ASSETS = [
   './pharmacy.html',
   './review.js',
   './daily-feed.js',
+  './data/latest-intelligence.json',
   './manifest.json'
 ];
 
