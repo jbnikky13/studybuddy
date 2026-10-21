@@ -1,0 +1,9 @@
+{
+  "generatedAt": null,
+  "query": "(pharmacology OR pharmacy OR drug safety OR pharmacovigilance OR antimicrobial stewardship)",
+  "source": "National Library of Medicine PubMed via NCBI E-utilities",
+  "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+  "recordCount": 0,
+  "records": [],
+  "notice": "Scheduled digest will populate after the workflow runs on the default branch. Research discovery only; not clinical guidance."
+}

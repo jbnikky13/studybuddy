@@ -1,24 +1,43 @@
-const CACHE_NAME = 'studybuddy-v1';
+const CACHE_NAME = 'studybuddy-v3';
 const ASSETS = [
   './index.html',
+  './pharmacy.html',
+  './review.js',
+  './daily-feed.js',
+  './data/latest-intelligence.json',
   './manifest.json'
 ];
 
-self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)));
   self.skipWaiting();
 });
 
-self.addEventListener('activate', e => {
-  e.waitUntil(caches.keys().then(keys =>
-    Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys =>
+    Promise.all(keys.filter(key => key.startsWith('studybuddy-') && key !== CACHE_NAME).map(key => caches.delete(key)))
   ));
   self.clients.claim();
 });
 
-self.addEventListener('fetch', e => {
-  if (e.request.url.includes('api.anthropic.com')) return;
-  e.respondWith(
-    caches.match(e.request).then(cached => cached || fetch(e.request).catch(() => caches.match('./index.html')))
+self.addEventListener('fetch', event => {
+  const requestUrl = new URL(event.request.url);
+
+  // Never cache API calls, even when the app is installed offline.
+  if (requestUrl.pathname.startsWith('/api/') || event.request.method !== 'GET') return;
+
+  // External resources (such as PubMed) stay network-only.
+  if (requestUrl.origin !== self.location.origin) return;
+
+  event.respondWith(
+    caches.match(event.request).then(cached =>
+      cached || fetch(event.request).then(response => {
+        if (response.ok && requestUrl.origin === self.location.origin) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+        }
+        return response;
+      }).catch(() => caches.match('./index.html'))
+    )
   );
 });
