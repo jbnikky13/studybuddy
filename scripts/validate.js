@@ -12,6 +12,7 @@ function checkInlineScripts(file) {
 const main = checkInlineScripts('index.html');
 const pharmacy = checkInlineScripts('pharmacy.html');
 new vm.Script(fs.readFileSync('api/chat.js', 'utf8'), { filename: 'api/chat.js' });
+new vm.Script(fs.readFileSync('api/telegram-webhook.js', 'utf8'), { filename: 'api/telegram-webhook.js' });
 new vm.Script(fs.readFileSync('sw.js', 'utf8'), { filename: 'sw.js' });
 new vm.Script(fs.readFileSync('review.js', 'utf8'), { filename: 'review.js' });
 new vm.Script(fs.readFileSync('daily-feed.js', 'utf8'), { filename: 'daily-feed.js' });
@@ -36,4 +37,10 @@ if (!ingestion.includes("datetype: 'edat'") || !ingestion.includes('mindate: min
 if (!ingestion.includes('indexDateWindow')) throw new Error('PubMed digest must expose its PubMed entry-date window');
 if (!ingestion.includes('electronic publication details')) throw new Error('PubMed digest must explain citation-date caveats');
 
+const telegramBot = fs.readFileSync('api/telegram-webhook.js', 'utf8');
+if (!telegramBot.includes('x-telegram-bot-api-secret-token')) throw new Error('Telegram webhook secret verification is missing');
+if (!telegramBot.includes('SUPABASE_SERVICE_ROLE_KEY')) throw new Error('Telegram game must use a server-side Supabase service-role key');
+if (!telegramBot.includes('current_question_id=eq.')) throw new Error('Telegram answer scoring must guard against duplicate callbacks');
+if (!telegramBot.includes('data/latest-intelligence.json')) throw new Error('Telegram research digest integration is missing');
+if (!fs.readFileSync('sql/telegram-game.sql', 'utf8').includes('enable row level security')) throw new Error('Telegram player table must enable row-level security');
 console.log('StudyBuddy validation passed: inline JavaScript parses, AI key is not in the frontend, secure AI endpoint is referenced, and PubMed/NAFDAC sources are wired.');
