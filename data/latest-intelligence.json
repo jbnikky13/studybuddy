@@ -1,9 +1,200 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-10-21T20:17:04.913Z",
   "query": "(pharmacology OR pharmacy OR drug safety OR pharmacovigilance OR antimicrobial stewardship)",
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
   "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/",
-  "recordCount": 0,
-  "records": [],
-  "notice": "Scheduled digest will populate after the workflow runs on the default branch. Research discovery only; not clinical guidance."
+  "recordCount": 12,
+  "records": [
+    {
+      "id": "42862737",
+      "title": "Beyond stroke: atrial fibrillation and the broader burden of thromboembolic events in the population-based EpiHealth study.",
+      "journal": "Scandinavian cardiovascular journal : SCJ",
+      "publicationDate": "2027 Dec",
+      "authors": [
+        "Höiby P",
+        "Zarrouk M",
+        "Lind L"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42862737/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42861727",
+      "title": "Comparative efficacy of topical garlic extract and 20% podophyllin solution in the treatment of female genital warts: a triple-blind randomized clinical trial.",
+      "journal": "The Journal of dermatological treatment",
+      "publicationDate": "2027 Dec",
+      "authors": [
+        "Naseri M",
+        "Sarfallah Z",
+        "Saadat M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42861727/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42860039",
+      "title": "Postoperative infections after cardiac surgery with cardiopulmonary bypass - incidence, performance of diagnostic procedures, and predictive factors.",
+      "journal": "Scandinavian cardiovascular journal : SCJ",
+      "publicationDate": "2027 Dec",
+      "authors": [
+        "Erixon C",
+        "Johannesson E",
+        "Dardashti A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42860039/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42848027",
+      "title": "Clinical Outcomes following invasive coronary angiography for patients with acute coronary syndromes pretreated with P2Y(12) inhibitors and considered for urgent coronary artery bypass graft surgery.",
+      "journal": "Scandinavian cardiovascular journal : SCJ",
+      "publicationDate": "2027 Dec",
+      "authors": [
+        "Lim CJ",
+        "Singh M",
+        "Sammut MA"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42848027/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42841288",
+      "title": "Circulatory arrest versus aortic cross-clamping in proximal thoracic aortic aneurysm repair.",
+      "journal": "Scandinavian cardiovascular journal : SCJ",
+      "publicationDate": "2027 Dec",
+      "authors": [
+        "Braatz E",
+        "Stenman M",
+        "Al-Mousli J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42841288/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42815512",
+      "title": "Global, regional, and national burden of exposure to chewing tobacco, 1990-2023: a systematic analysis of the Global Burden of Disease Study 2023.",
+      "journal": "The Lancet. Global health",
+      "publicationDate": "2027 Jul 20",
+      "authors": [
+        "GBD 2023 Chewing Tobacco Collaborators"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42815512/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42869047",
+      "title": "Refining global models for large-scale food fortification.",
+      "journal": "The Lancet. Global health",
+      "publicationDate": "2027 Jun 23",
+      "authors": [
+        "Jummala S",
+        "Kumari C M",
+        "Tripathi S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42869047/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42777751",
+      "title": "Pre-hospital time and risk of perforation in patients with acute appendicitis in 112 countries (AlliGatOr): an international, prospective, observational cohort study.",
+      "journal": "The Lancet. Global health",
+      "publicationDate": "2027 Jun 2",
+      "authors": [
+        "Anyomih TTK",
+        "Aregawi AB",
+        "Calvache JA"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42777751/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42526491",
+      "title": "Advances in tuberculosis treatment: novel regimens, new drug pipelines, host-directed therapies, and updated management guidelines.",
+      "journal": "The Lancet. Microbe",
+      "publicationDate": "2027 Apr 26",
+      "authors": [
+        "Marais BJ",
+        "Goletti D",
+        "McHugh TD"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42526491/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42701548",
+      "title": "Characterization of two key cytochrome P450 enzymes in Isodon amethystoides and de novo production of 3α,15β-dihydroxy-ent-kaurene in yeast.",
+      "journal": "Synthetic and systems biotechnology",
+      "publicationDate": "2027 Apr",
+      "authors": [
+        "Chen Y",
+        "Song X",
+        "Wang Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42701548/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42524027",
+      "title": "Benefit of Linked-Color Imaging in Artificial Intelligence-Assisted Diagnosis of Early Gastric Cancer: A Pilot Study With Propensity Score Adjustment.",
+      "journal": "DEN open",
+      "publicationDate": "2027 Apr",
+      "authors": [
+        "Mohamed AN",
+        "Minoda Y",
+        "Maruoka R"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42524027/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    },
+    {
+      "id": "42901677",
+      "title": "Effects of indigenous microbiota in fresh produce on Salmonella survival and inactivation by oregano essential oil vapor.",
+      "journal": "Food microbiology",
+      "publicationDate": "2027 Mar",
+      "authors": [
+        "Lin Z",
+        "Chen M",
+        "Miao Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901677/",
+      "retrievedAt": "2026-10-21T20:17:04.913Z"
+    }
+  ],
+  "notice": "Research discovery only. Publication records are not verified clinical guidance. Check the original paper, applicable guidelines, and official regulator notices before acting."
 }
