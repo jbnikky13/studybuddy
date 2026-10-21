@@ -34,7 +34,13 @@ Extend StudyBuddy into a pharmacist's personal medical-intelligence and long-ter
 - The server applies input length limits and a best-effort per-instance rate guard. This is not a substitute for durable, account-based quotas; add authentication and durable rate limiting before public launch.
 - Keep references and dates visible for medical claims. Do not substitute for current clinical guidelines, local protocols, professional judgment, or an official drug-information reference.
 
-## Phase 6 — Personalization and delivery
+## Phase 6 — Telegram Pharmacy Game (MVP scaffold added)
+- Server-side Telegram webhook supports quiz rounds, quick revision cards, PubMed digest links, topic map and player stats.
+- XP, level, streak, accuracy and current-question state are stored in Supabase; webhook authentication uses Telegram's secret-token header.
+- Requires a BotFather token, Supabase table setup, server-only environment variables and a deployed webhook before users can access it. It is not live merely because the code is in GitHub.
+- Future work: topic-filtered rounds, daily challenges, badges, leaderboard, reminders, moderation, transactional scoring and question-bank expansion.
+
+## Phase 7 — Personalization and delivery
 - Daily digest preferences by topic/source, saved searches, and optional reminder delivery.
 - Nigeria-first relevance with international coverage.
 - Add authentication, data retention controls, source monitoring, and privacy review before launch.
