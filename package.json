@@ -1,0 +1,9 @@
+{
+  "name": "studybuddy-pharmacy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StudyBuddy Pharmacy and medical intelligence workspace",
+  "engines": {
+    "node": ">=20"
+  }
+}
