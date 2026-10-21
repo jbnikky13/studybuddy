@@ -1,7 +1,8 @@
-const CACHE_NAME = 'studybuddy-v2';
+const CACHE_NAME = 'studybuddy-v3';
 const ASSETS = [
   './index.html',
   './pharmacy.html',
+  './review.js',
   './manifest.json'
 ];
 
