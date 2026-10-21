@@ -1,4 +1,4 @@
-const CACHE_NAME = 'studybuddy-v3';
+const CACHE_NAME = 'studybuddy-v4';
 const ASSETS = [
   './index.html',
   './pharmacy.html',
@@ -28,6 +28,20 @@ self.addEventListener('fetch', event => {
 
   // External resources (such as PubMed) stay network-only.
   if (requestUrl.origin !== self.location.origin) return;
+
+  // The digest changes daily, so prefer the network and use the cached JSON only offline.
+  if (requestUrl.pathname.endsWith('/data/latest-intelligence.json')) {
+    event.respondWith(
+      fetch(event.request).then(response => {
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+        }
+        return response;
+      }).catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request).then(cached =>
