@@ -1,5 +1,10 @@
 name: Refresh pharmacy intelligence digest
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update-intelligence.js'
+      - '.github/workflows/daily-intelligence.yml'
   schedule:
     - cron: '0 7 * * *'
   workflow_dispatch:
