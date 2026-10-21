@@ -11,6 +11,9 @@ Open `pharmacy.html` from the app, or use the **Pharmacy Hub** link in the main 
 
 PubMed records are research references, not automatically clinical recommendations. Always inspect the original paper and current applicable guidance.
 
+## Telegram Pharmacy Game
+A Telegram learning game is being added in `api/telegram-webhook.js`, with setup instructions in `docs/TELEGRAM-BOT-SETUP.md` and the Supabase player schema in `sql/telegram-game.sql`. It requires a Telegram bot token and server-side Supabase credentials in a deployed serverless environment; it is not active until configured and a webhook is registered.
+
 ## AI endpoint and deployment
 The main app sends AI requests to the same-origin `/api/chat` serverless endpoint. GitHub Pages is static hosting and cannot run this endpoint. Deploy the repository to Vercel to use the AI proxy.
 
