@@ -5,7 +5,7 @@ StudyBuddy is a mobile-first AI study assistant. The Pharmacy Hub adds pharmacy-
 ## Pharmacy Hub
 Open `pharmacy.html` from the app, or use the **Pharmacy Hub** link in the main top bar. It includes:
 - Live PubMed publication search through NCBI E-utilities.
-- A direct link to NAFDAC's official recalls and safety alerts.
+- Official medicine-safety links for NAFDAC (Nigeria), WHO (global), FDA (US), and EMA (EU). These are direct source links, not all automated feeds.
 - Pharmacy topic refresh, active-recall questions, and saved learning items.
 - Clearly labelled sample briefing cards; these are not current medical alerts.
 
