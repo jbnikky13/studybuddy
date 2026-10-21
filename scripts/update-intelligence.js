@@ -1,7 +1,7 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 
-const QUERY = '(pharmacology OR pharmacy OR drug safety OR pharmacovigilance OR antimicrobial stewardship)';
+const QUERY = '("pharmacology"[Title/Abstract] OR "pharmacy"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR "drug safety"[Title/Abstract] OR "medication safety"[Title/Abstract] OR "antimicrobial stewardship"[Title/Abstract] OR "pharmaceutical care"[Title/Abstract] OR "adverse drug reaction"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR "drug interaction"[Title/Abstract] OR "medicine recall"[Title/Abstract])';
 const BASE = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/';
 const OUT = path.join(process.cwd(), 'data', 'latest-intelligence.json');
 
@@ -14,8 +14,14 @@ async function getJson(endpoint, params) {
 }
 
 async function main() {
+  const today = new Date();
+  const maxDate = today.toISOString().slice(0, 10).replace(/-/g, '/');
+  const oldest = new Date(today);
+  oldest.setUTCDate(oldest.getUTCDate() - 90);
+  const minDate = oldest.toISOString().slice(0, 10).replace(/-/g, '/');
   const search = await getJson('esearch.fcgi', {
-    db: 'pubmed', term: QUERY, sort: 'pub_date', retmax: '12', retmode: 'json'
+    db: 'pubmed', term: QUERY, datetype: 'pdat', mindate: minDate, maxdate: maxDate,
+    sort: 'pub_date', retmax: '12', retmode: 'json'
   });
   const ids = search?.esearchresult?.idlist || [];
   let records = [];
@@ -44,6 +50,7 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     query: QUERY,
+    publicationDateWindow: { from: minDate, through: maxDate, dateType: 'publication date' },
     source: 'National Library of Medicine PubMed via NCBI E-utilities',
     sourceUrl: 'https://pubmed.ncbi.nlm.nih.gov/',
     recordCount: records.length,
