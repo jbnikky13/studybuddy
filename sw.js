@@ -3,6 +3,7 @@ const ASSETS = [
   './index.html',
   './pharmacy.html',
   './review.js',
+  './daily-feed.js',
   './manifest.json'
 ];
 
