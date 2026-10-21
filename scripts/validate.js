@@ -27,6 +27,8 @@ if (!pharmacy.includes('https://www.ema.europa.eu/en/news-events/whats-new')) th
 if (!pharmacy.includes('review.js')) throw new Error('Spaced-repetition module is not loaded');
 if (!pharmacy.includes('daily-feed.js')) throw new Error('Daily intelligence feed is not loaded');
 if (!fs.readFileSync('review.js', 'utf8').includes('studybuddy-pharmacy-spaced-repetition-v1')) throw new Error('Spaced-repetition persistence is missing');
+const serviceWorker = fs.readFileSync('sw.js', 'utf8');
+if (!serviceWorker.includes("requestUrl.pathname.endsWith('/data/latest-intelligence.json')") || !serviceWorker.includes('fetch(event.request).then(response =>')) throw new Error('Daily digest must use network-first service-worker caching');
 const ingestion = fs.readFileSync('scripts/update-intelligence.js', 'utf8');
 if (!ingestion.includes("datetype: 'edat'") || !ingestion.includes('mindate: minDate') || !ingestion.includes('maxdate: maxDate')) throw new Error('PubMed digest must constrain results to recently entered records');
 if (!ingestion.includes('indexDateWindow')) throw new Error('PubMed digest must expose its PubMed entry-date window');
