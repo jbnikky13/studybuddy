@@ -39,6 +39,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex
 }
 .level-pill:hover{border-color:var(--accent);color:var(--text);}
 .level-pill span{font-weight:700;color:var(--accent);}
+.pharmacy-link{display:inline-flex;align-items:center;gap:5px;text-decoration:none;background:rgba(67,217,162,.12);border:1px solid rgba(67,217,162,.35);border-radius:999px;padding:7px 10px;color:var(--success);font-size:.72rem;font-weight:800;white-space:nowrap;}
+@media(max-width:380px){.pharmacy-link{font-size:.65rem;padding:6px 7px;}}
 
 /* ── SCROLL AREA ── */
 .scroll-area{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;}
@@ -257,6 +259,7 @@ select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
 <!-- TOP BAR -->
 <div class="topbar">
   <div class="logo"><div class="logo-icon">📚</div> StudyBuddy</div>
+  <a class="pharmacy-link" href="./pharmacy.html">💊 Pharmacy Hub</a>
   <div class="level-pill" onclick="openLevelModal()">
     🎓 Level: <span id="levelLabel">Secondary</span> ▾
   </div>
