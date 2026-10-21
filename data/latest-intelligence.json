@@ -1,206 +1,206 @@
 {
-  "generatedAt": "2026-10-21T20:18:27.115Z",
+  "generatedAt": "2026-10-21T20:21:06.214Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
-  "publicationDateWindow": {
+  "indexDateWindow": {
     "from": "2026/07/23",
     "through": "2026/10/21",
-    "dateType": "publication date"
+    "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
   "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/",
   "recordCount": 12,
   "records": [
     {
-      "id": "42780481",
-      "title": "Dynamics modelling and control strategies of malaria transmission interruption by antimalarial-treated nets.",
-      "journal": "Infectious Disease Modelling",
-      "publicationDate": "2027 Mar",
+      "id": "42902597",
+      "title": "Oral Versus Injectable Incretin-Based Anti-Obesity Therapies: An Integrated Computational and Evidence-Based Comparison of Orforglipron, Semaglutide, and Tirzepatide.",
+      "journal": "Omics : a journal of integrative biology",
+      "publicationDate": "2026 Oct 20",
       "authors": [
-        "Qiao F",
-        "Li G"
+        "Sahu L",
+        "Nayak L",
+        "Tripathy A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42780481/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902597/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42580611",
-      "title": "Procalcitonin measurement uncertainty around Sepsis-related decision thresholds: Monte Carlo modeling from a large-scale clinical laboratory dataset.",
-      "journal": "Clinica chimica acta; international journal of clinical chemistry",
-      "publicationDate": "2027 Feb 15",
+      "id": "42902502",
+      "title": "Population pharmacokinetics of levetiracetam in term neonates with hypoxic-ischemic encephalopathy and therapeutic hypothermia: The LEVNEONAT-1 study.",
+      "journal": "British journal of clinical pharmacology",
+      "publicationDate": "2026 Oct 20",
       "authors": [
-        "Haytaç B",
-        "Gök G",
-        "Erel Ö"
+        "Mimram L",
+        "Ursino M",
+        "Leger J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42580611/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902502/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42830003",
-      "title": "Machine learning algorithms empower traditional Chinese medicine: Breakthrough approaches from chemical component analysis to pharmacological mechanism research.",
-      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
-      "publicationDate": "2027 Feb 5",
+      "id": "42902462",
+      "title": "Chaihu-Guizhi Decoction Attenuates Airway Remodelling in COPD Mice via the TGF-β1/Smads Signalling Pathway: An Integrated Proteomic and Metabolomic Analysis.",
+      "journal": "Biomedical chromatography : BMC",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Han Z",
-        "Zhao F",
-        "Xu H"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42830003/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
-    },
-    {
-      "id": "42648265",
-      "title": "AIE-pharmacology-enabled organelle therapeutics for microplastic-induced asthenozoospermia.",
-      "journal": "Biomaterials",
-      "publicationDate": "2027 Feb",
-      "authors": [
-        "Wen F",
-        "Zhang Y",
-        "Zhao F"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42648265/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
-    },
-    {
-      "id": "42628453",
-      "title": "A smartphone-assisted one-tube ERA-CRISPR/Cas12a biosensor for integrated detection of hypervirulence and antimicrobial resistance determinants in Klebsiella pneumoniae.",
-      "journal": "Talanta",
-      "publicationDate": "2027 Feb 1",
-      "authors": [
-        "Xu L",
-        "Wang S",
-        "Zhou Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42628453/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
-    },
-    {
-      "id": "42526547",
-      "title": "Jianpi Bushen Qingchang Huashi formula alleviates DSS-induced colitis through butyrate-associated HDAC1 inhibition and Th17/Treg homeostasis.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
-      "authors": [
-        "Feng W",
-        "Wang Y",
-        "Jin Z"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42526547/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
-    },
-    {
-      "id": "42521001",
-      "title": "Zhenwu Decoction ameliorates experimental benign prostatic hyperplasia: association with mitochondrial quality control, oxidative stress and apoptosis regulation.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
-      "authors": [
-        "Zhou X",
         "Yu J",
-        "He H"
+        "Wu X",
+        "Chen Z"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42521001/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902462/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42508546",
-      "title": "Unveiling the skin-protective material basis of Coreopsis tinctoria Nutt.: Ethnopharmacology-Guided discovery of multi-target enzyme inhibitors using a ligand-fishing approach.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
+      "id": "42902412",
+      "title": "Nanoengineered STING agonists for cancer therapy: toward immunodynamic control.",
+      "journal": "Journal of hematology & oncology",
+      "publicationDate": "2026 Oct 20",
       "authors": [
-        "Ablat A",
-        "Wang Y",
-        "Zhai X"
+        "Liu N",
+        "Wang X",
+        "Zhang W"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42508546/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902412/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42508544",
-      "title": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
+      "id": "42902349",
+      "title": "A mixed-methods study on the effectiveness and optimization needs of a prescription review training program: from the KAP perspective of returning trainees.",
+      "journal": "BMC medical education",
+      "publicationDate": "2026 Aug 18",
       "authors": [
-        "Peng G",
-        "Qu G",
-        "Cheng B"
+        "Shi X",
+        "Yin Z",
+        "Chen X"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902349/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42497599",
-      "title": "Integrating multi-omics and network pharmacology in a systems approach: a mechanism study of ginseng-derived panaxadiol saponins against immune-mediated aplastic anemia.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
+      "id": "42902335",
+      "title": "Student participation in accelerated experience-based co-design for healthcare decarbonisation education: a focused ethnographic study.",
+      "journal": "BMC medical education",
+      "publicationDate": "2026 Jul 25",
       "authors": [
-        "Mi A",
-        "Wu L",
-        "Wu S"
+        "McLaughlin-Borlace N",
+        "Craig S",
+        "Anderson T"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42497599/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902335/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42492704",
-      "title": "Areca catechu L. procyanidins alleviate pulmonary fibrosis by suppressing the TGF-β/Smad/ERK cascade: Validation of a traditional herbal medicine.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
+      "id": "42902306",
+      "title": "Antibiotic dispensing practices and patterns of non-prescription antibiotic sales among retail drug outlets in Ghana.",
+      "journal": "BMC public health",
+      "publicationDate": "2026 Jul 25",
       "authors": [
-        "Liu B",
-        "Zhao Y",
-        "Zhu M"
+        "Donkor BS",
+        "Badu K",
+        "Boampong K"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42492704/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902306/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     },
     {
-      "id": "42492703",
-      "title": "Jiajian Shuyu Pills ameliorates cerebral ischemia-reperfusion injury by regulation hippo signaling and the lipid metabolism-ferroptosis axis.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2027 Jan 10",
+      "id": "42902256",
+      "title": "Palliative Care education in undergraduate pharmacy curricula in Brazil: a descriptive cross-sectional study.",
+      "journal": "BMC palliative care",
+      "publicationDate": "2026 Jul 24",
       "authors": [
-        "Yu X",
-        "Wu Y",
-        "Su W"
+        "Silva RADS",
+        "Ferreira MCP",
+        "Martine Teixeira GF"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42492703/",
-      "retrievedAt": "2026-10-21T20:18:27.115Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902256/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
+    },
+    {
+      "id": "42902228",
+      "title": "Antimicrobial resistance patterns and difficult-to-treat resistance in uropathogens among diabetic and non-diabetic patients: a cross-sectional study.",
+      "journal": "BMC infectious diseases",
+      "publicationDate": "2026 Jul 23",
+      "authors": [
+        "Priyadarshini A",
+        "Kalola P",
+        "Patadia H"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902228/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
+    },
+    {
+      "id": "42902170",
+      "title": "A case of recurrent pleural effusion: tuberculous pleurisy or other disease? A case report.",
+      "journal": "BMC geriatrics",
+      "publicationDate": "2026 Jul 25",
+      "authors": [
+        "Ji Y",
+        "Yang J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902170/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
+    },
+    {
+      "id": "42902025",
+      "title": "Context-dependent vascular effects of platycodin D: inhibition of neointima formation but aggravation of atherosclerosis with involvement of mTORC1 signaling.",
+      "journal": "Acta pharmacologica Sinica",
+      "publicationDate": "2026 Oct 21",
+      "authors": [
+        "Yan BJ",
+        "Belke D",
+        "Chen YX"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902025/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
+    },
+    {
+      "id": "42901820",
+      "title": "Bispecific antibodies in NSCLC: immune reengineering to neutralize adaptive tumor resistance.",
+      "journal": "Trends in cancer",
+      "publicationDate": "2026 Oct 20",
+      "authors": [
+        "Li Z",
+        "Wang H",
+        "Diao M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901820/",
+      "retrievedAt": "2026-10-21T20:21:06.214Z"
     }
   ],
-  "notice": "Research discovery only. Publication records are not verified clinical guidance. Check the original paper, applicable guidelines, and official regulator notices before acting."
+  "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
 }
