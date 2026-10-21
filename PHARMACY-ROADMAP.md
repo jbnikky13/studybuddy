@@ -11,7 +11,7 @@ Extend StudyBuddy into a pharmacist's personal medical-intelligence and long-ter
 - Example briefing cards are explicitly marked as illustrative; they must never be mistaken for current alerts.
 
 ## Phase 2 — Verified intelligence sources (first slice implemented)
-- PubMed live search uses NCBI E-utilities to retrieve recent publication records, links each result to its original PubMed record, and labels records as research rather than clinical recommendations.
+- PubMed live search uses NCBI E-utilities to retrieve research records and links each result to its original PubMed record. The scheduled digest selects recently entered PubMed records; displayed citation/issue dates can be later than online-first publication, so the original record must be checked. Items are research discovery, not clinical recommendations.
 - Official links are provided for NAFDAC recalls/safety alerts (Nigeria), WHO medical product alerts (global), FDA drug safety communications (US), and EMA medicine updates (EU). These links are direct source access, not yet automated ingestion; always check the original notice and local applicability.
 - `scripts/update-intelligence.js` and `.github/workflows/daily-intelligence.yml` refresh `data/latest-intelligence.json` daily at 07:00 UTC (08:00 WAT) from PubMed E-utilities; the workflow can also be run manually. The digest preserves original links, publication date, retrieval time, jurisdiction, source type and an explicit 'evidence type not assessed' label.
 - The scheduled workflow starts running after merge into the default branch. Broader ingestion from WHO/WHO AFRO, FDA, EMA and NAFDAC remains future work.
