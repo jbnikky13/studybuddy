@@ -12,6 +12,7 @@ function checkInlineScripts(file) {
 const main = checkInlineScripts('index.html');
 const pharmacy = checkInlineScripts('pharmacy.html');
 new vm.Script(fs.readFileSync('api/chat.js', 'utf8'), { filename: 'api/chat.js' });
+new vm.Script(fs.readFileSync('sw.js', 'utf8'), { filename: 'sw.js' });
 new vm.Script(fs.readFileSync('review.js', 'utf8'), { filename: 'review.js' });
 new vm.Script(fs.readFileSync('daily-feed.js', 'utf8'), { filename: 'daily-feed.js' });
 new vm.Script(fs.readFileSync('scripts/update-intelligence.js', 'utf8'), { filename: 'scripts/update-intelligence.js' });
