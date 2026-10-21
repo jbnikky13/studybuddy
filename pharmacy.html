@@ -11,7 +11,10 @@
 <header class="head"><div class="brand">＋ StudyBuddy Pharmacy<small>Medical intelligence · lifelong learning</small></div><div class="pill">Personal learning workspace</div></header>
 <section class="hero"><small>Your pharmacist learning companion</small><h1>Stay current.<br>Remember what matters.</h1><p>One place for pharmaceutical developments, medical research and the pharmacy-school knowledge you want to keep sharp.</p><button class="btn primary" onclick="tab('learn')">Start a quick revision →</button></section>
 <nav class="nav"><button class="active" data-tab="briefing" onclick="tab('briefing')">Daily briefing</button><button data-tab="learn" onclick="tab('learn')">Knowledge refresh</button><button data-tab="quiz" onclick="tab('quiz')">Recall quiz</button><button data-tab="saved" onclick="tab('saved')">Saved items</button></nav>
-<section id="briefing"><div class="section-head"><h2>Medical intelligence</h2><p>Curated news and evidence — this prototype uses sample cards, not live feeds.</p></div><div class="filters" id="filters"><button class="chip active" data-filter="All">All</button><button class="chip" data-filter="Drug safety">Drug safety</button><button class="chip" data-filter="Research">Research</button><button class="chip" data-filter="Regulation">Regulation</button><button class="chip" data-filter="Public health">Public health</button></div><div class="grid" id="feed"></div><div class="note">Demo content only. Live mode must display source links, publication dates, jurisdiction and evidence type. Do not use these sample cards for clinical decisions.</div></section>
+<section id="briefing"><div class="section-head"><h2>Medical intelligence</h2><p>Live PubMed research search plus verified regulator links. Sample cards are clearly labelled.</p></div>
+<div class="card"><div class="tag">Live research search · PubMed</div><h3>Find recent biomedical research</h3><p>Search publication records from the National Library of Medicine. Results link to the original PubMed record; abstracts and studies still need critical appraisal.</p><div class="toolbar"><input id="pubmedQuery" value="pharmacy OR pharmacology OR drug safety" aria-label="PubMed search query" placeholder="e.g. antimicrobial resistance, pharmacovigilance"><button class="btn primary" id="pubmedSearch" onclick="searchPubMed()">Search latest</button></div><div id="pubmedStatus" class="meta">Search PubMed to load current publication records.</div><div id="pubmedFeed" class="grid"></div></div>
+<div class="card"><div class="tag">Official safety source · Nigeria</div><h3>NAFDAC recalls and safety alerts</h3><p>For Nigerian medicine alerts, recalls, counterfeit-product notices and regulatory safety communications, check the official source directly.</p><a class="btn primary" href="https://nafdac.gov.ng/category/recalls-and-alerts/" target="_blank" rel="noopener noreferrer">Open NAFDAC alerts ↗</a></div>
+<div class="filters" id="filters"><button class="chip active" data-filter="All">All</button><button class="chip" data-filter="Drug safety">Drug safety</button><button class="chip" data-filter="Research">Research</button><button class="chip" data-filter="Regulation">Regulation</button><button class="chip" data-filter="Public health">Public health</button></div><div class="grid" id="feed"></div><div class="note">The cards below are illustrative examples, not live news. PubMed search results are live publication records, not automatic clinical recommendations. Confirm safety actions against the regulator’s original notice and local guidance.</div></section>
 <section id="learn" class="hide"><div class="section-head"><h2>Knowledge refresh</h2><p>Search core topics and launch a recall question.</p></div><div class="toolbar"><input id="search" placeholder="Search pharmacology, therapeutics, calculations…" aria-label="Search topics"></div><div class="grid" id="topics"></div></section>
 <section id="quiz" class="hide"><div class="section-head"><h2>Active recall</h2><p>Answer first, then read the explanation.</p></div><div class="card" id="quizCard"></div></section>
 <section id="saved" class="hide"><div class="section-head"><h2>Saved items</h2><p>Your personal revision list.</p></div><div class="grid" id="savedList"></div></section>
@@ -42,5 +45,51 @@ function answer(i){if(done)return;done=true;attemptCount++;const x=lessons[qi%le
 function next(){qi=(qi+1)%lessons.length;renderQuiz()}
 document.getElementById('filters').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(!b)return;filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));renderStories()});
 document.getElementById('search').addEventListener('input',e=>renderLessons(e.target.value));
+
+function escapeHTML(value) {
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+async function searchPubMed() {
+  const query = document.getElementById('pubmedQuery').value.trim();
+  const status = document.getElementById('pubmedStatus');
+  const feed = document.getElementById('pubmedFeed');
+  const button = document.getElementById('pubmedSearch');
+  if (!query) { status.textContent = 'Enter a search term first.'; return; }
+  button.disabled = true;
+  status.textContent = 'Searching PubMed…';
+  feed.innerHTML = '';
+  try {
+    const searchUrl = new URL('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi');
+    searchUrl.search = new URLSearchParams({db:'pubmed',term:query,sort:'date',retmax:'10',retmode:'json',tool:'StudyBuddyPharmacy'}).toString();
+    const searchResponse = await fetch(searchUrl.toString(), {headers:{Accept:'application/json'}});
+    if (!searchResponse.ok) throw new Error('PubMed search returned HTTP ' + searchResponse.status);
+    const searchData = await searchResponse.json();
+    const ids = searchData?.esearchresult?.idlist || [];
+    if (!ids.length) {
+      status.textContent = 'No results found. Try broader keywords.';
+      return;
+    }
+    const summaryUrl = new URL('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi');
+    summaryUrl.search = new URLSearchParams({db:'pubmed',id:ids.join(','),retmode:'json',tool:'StudyBuddyPharmacy'}).toString();
+    const summaryResponse = await fetch(summaryUrl.toString(), {headers:{Accept:'application/json'}});
+    if (!summaryResponse.ok) throw new Error('PubMed record retrieval returned HTTP ' + summaryResponse.status);
+    const summaryData = await summaryResponse.json();
+    const records = summaryData?.result || {};
+    const cards = ids.map(id => {
+      const item = records[id];
+      if (!item) return '';
+      const authors = (item.authors || []).slice(0,3).map(a=>a.name).filter(Boolean).join(', ');
+      const journal = [item.fulljournalname || item.source, item.pubdate].filter(Boolean).join(' · ');
+      return '<article class="card"><div class="tag">PubMed record · publication</div><h3>'+escapeHTML(item.title || 'Untitled record')+'</h3><p>'+escapeHTML(journal || 'Publication details available at source')+'</p><p>'+escapeHTML(authors)+'</p><div class="meta">PMID '+escapeHTML(id)+' · Verify study type, methods and limitations in the original record.</div><a class="btn" href="https://pubmed.ncbi.nlm.nih.gov/'+encodeURIComponent(id)+'/" target="_blank" rel="noopener noreferrer">Read PubMed record ↗</a></article>';
+    }).filter(Boolean);
+    feed.innerHTML = cards.join('') || '<p>No record summaries were returned.</p>';
+    status.textContent = 'Loaded '+cards.length+' publication records. Results are sorted by publication date where available; indexing and publication dates may differ.';
+  } catch (error) {
+    status.textContent = 'Could not load PubMed right now. Check your connection or open PubMed directly.';
+    feed.innerHTML = '<p><a href="https://pubmed.ncbi.nlm.nih.gov/?term='+encodeURIComponent(query)+'" target="_blank" rel="noopener noreferrer">Open this search directly on PubMed ↗</a></p>';
+  } finally {
+    button.disabled = false;
+  }
+}
 renderStories();renderLessons();renderSaved();renderQuiz();
 </script></body></html>
