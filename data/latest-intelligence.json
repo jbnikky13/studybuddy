@@ -1,199 +1,205 @@
 {
-  "generatedAt": "2026-10-21T20:17:04.913Z",
-  "query": "(pharmacology OR pharmacy OR drug safety OR pharmacovigilance OR antimicrobial stewardship)",
+  "generatedAt": "2026-10-21T20:18:27.115Z",
+  "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
+  "publicationDateWindow": {
+    "from": "2026/07/23",
+    "through": "2026/10/21",
+    "dateType": "publication date"
+  },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
   "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/",
   "recordCount": 12,
   "records": [
     {
-      "id": "42862737",
-      "title": "Beyond stroke: atrial fibrillation and the broader burden of thromboembolic events in the population-based EpiHealth study.",
-      "journal": "Scandinavian cardiovascular journal : SCJ",
-      "publicationDate": "2027 Dec",
-      "authors": [
-        "Höiby P",
-        "Zarrouk M",
-        "Lind L"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42862737/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42861727",
-      "title": "Comparative efficacy of topical garlic extract and 20% podophyllin solution in the treatment of female genital warts: a triple-blind randomized clinical trial.",
-      "journal": "The Journal of dermatological treatment",
-      "publicationDate": "2027 Dec",
-      "authors": [
-        "Naseri M",
-        "Sarfallah Z",
-        "Saadat M"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42861727/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42860039",
-      "title": "Postoperative infections after cardiac surgery with cardiopulmonary bypass - incidence, performance of diagnostic procedures, and predictive factors.",
-      "journal": "Scandinavian cardiovascular journal : SCJ",
-      "publicationDate": "2027 Dec",
-      "authors": [
-        "Erixon C",
-        "Johannesson E",
-        "Dardashti A"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42860039/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42848027",
-      "title": "Clinical Outcomes following invasive coronary angiography for patients with acute coronary syndromes pretreated with P2Y(12) inhibitors and considered for urgent coronary artery bypass graft surgery.",
-      "journal": "Scandinavian cardiovascular journal : SCJ",
-      "publicationDate": "2027 Dec",
-      "authors": [
-        "Lim CJ",
-        "Singh M",
-        "Sammut MA"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42848027/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42841288",
-      "title": "Circulatory arrest versus aortic cross-clamping in proximal thoracic aortic aneurysm repair.",
-      "journal": "Scandinavian cardiovascular journal : SCJ",
-      "publicationDate": "2027 Dec",
-      "authors": [
-        "Braatz E",
-        "Stenman M",
-        "Al-Mousli J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42841288/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42815512",
-      "title": "Global, regional, and national burden of exposure to chewing tobacco, 1990-2023: a systematic analysis of the Global Burden of Disease Study 2023.",
-      "journal": "The Lancet. Global health",
-      "publicationDate": "2027 Jul 20",
-      "authors": [
-        "GBD 2023 Chewing Tobacco Collaborators"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42815512/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42869047",
-      "title": "Refining global models for large-scale food fortification.",
-      "journal": "The Lancet. Global health",
-      "publicationDate": "2027 Jun 23",
-      "authors": [
-        "Jummala S",
-        "Kumari C M",
-        "Tripathi S"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42869047/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42777751",
-      "title": "Pre-hospital time and risk of perforation in patients with acute appendicitis in 112 countries (AlliGatOr): an international, prospective, observational cohort study.",
-      "journal": "The Lancet. Global health",
-      "publicationDate": "2027 Jun 2",
-      "authors": [
-        "Anyomih TTK",
-        "Aregawi AB",
-        "Calvache JA"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42777751/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42526491",
-      "title": "Advances in tuberculosis treatment: novel regimens, new drug pipelines, host-directed therapies, and updated management guidelines.",
-      "journal": "The Lancet. Microbe",
-      "publicationDate": "2027 Apr 26",
-      "authors": [
-        "Marais BJ",
-        "Goletti D",
-        "McHugh TD"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42526491/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42701548",
-      "title": "Characterization of two key cytochrome P450 enzymes in Isodon amethystoides and de novo production of 3α,15β-dihydroxy-ent-kaurene in yeast.",
-      "journal": "Synthetic and systems biotechnology",
-      "publicationDate": "2027 Apr",
-      "authors": [
-        "Chen Y",
-        "Song X",
-        "Wang Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42701548/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42524027",
-      "title": "Benefit of Linked-Color Imaging in Artificial Intelligence-Assisted Diagnosis of Early Gastric Cancer: A Pilot Study With Propensity Score Adjustment.",
-      "journal": "DEN open",
-      "publicationDate": "2027 Apr",
-      "authors": [
-        "Mohamed AN",
-        "Minoda Y",
-        "Maruoka R"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42524027/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
-    },
-    {
-      "id": "42901677",
-      "title": "Effects of indigenous microbiota in fresh produce on Salmonella survival and inactivation by oregano essential oil vapor.",
-      "journal": "Food microbiology",
+      "id": "42780481",
+      "title": "Dynamics modelling and control strategies of malaria transmission interruption by antimalarial-treated nets.",
+      "journal": "Infectious Disease Modelling",
       "publicationDate": "2027 Mar",
       "authors": [
-        "Lin Z",
-        "Chen M",
-        "Miao Y"
+        "Qiao F",
+        "Li G"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901677/",
-      "retrievedAt": "2026-10-21T20:17:04.913Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42780481/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42580611",
+      "title": "Procalcitonin measurement uncertainty around Sepsis-related decision thresholds: Monte Carlo modeling from a large-scale clinical laboratory dataset.",
+      "journal": "Clinica chimica acta; international journal of clinical chemistry",
+      "publicationDate": "2027 Feb 15",
+      "authors": [
+        "Haytaç B",
+        "Gök G",
+        "Erel Ö"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42580611/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42830003",
+      "title": "Machine learning algorithms empower traditional Chinese medicine: Breakthrough approaches from chemical component analysis to pharmacological mechanism research.",
+      "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+      "publicationDate": "2027 Feb 5",
+      "authors": [
+        "Han Z",
+        "Zhao F",
+        "Xu H"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42830003/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42648265",
+      "title": "AIE-pharmacology-enabled organelle therapeutics for microplastic-induced asthenozoospermia.",
+      "journal": "Biomaterials",
+      "publicationDate": "2027 Feb",
+      "authors": [
+        "Wen F",
+        "Zhang Y",
+        "Zhao F"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42648265/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42628453",
+      "title": "A smartphone-assisted one-tube ERA-CRISPR/Cas12a biosensor for integrated detection of hypervirulence and antimicrobial resistance determinants in Klebsiella pneumoniae.",
+      "journal": "Talanta",
+      "publicationDate": "2027 Feb 1",
+      "authors": [
+        "Xu L",
+        "Wang S",
+        "Zhou Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42628453/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42526547",
+      "title": "Jianpi Bushen Qingchang Huashi formula alleviates DSS-induced colitis through butyrate-associated HDAC1 inhibition and Th17/Treg homeostasis.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Feng W",
+        "Wang Y",
+        "Jin Z"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42526547/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42521001",
+      "title": "Zhenwu Decoction ameliorates experimental benign prostatic hyperplasia: association with mitochondrial quality control, oxidative stress and apoptosis regulation.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Zhou X",
+        "Yu J",
+        "He H"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42521001/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42508546",
+      "title": "Unveiling the skin-protective material basis of Coreopsis tinctoria Nutt.: Ethnopharmacology-Guided discovery of multi-target enzyme inhibitors using a ligand-fishing approach.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Ablat A",
+        "Wang Y",
+        "Zhai X"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42508546/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42508544",
+      "title": "Anti-asthmatic effects of Chai-Po-Tang in experimental models: chemical profiling, exploratory network pharmacology, and assessment of NLRP3/Caspase-1/GSDMD-related pyroptosis signaling.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Peng G",
+        "Qu G",
+        "Cheng B"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42508544/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42497599",
+      "title": "Integrating multi-omics and network pharmacology in a systems approach: a mechanism study of ginseng-derived panaxadiol saponins against immune-mediated aplastic anemia.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Mi A",
+        "Wu L",
+        "Wu S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42497599/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42492704",
+      "title": "Areca catechu L. procyanidins alleviate pulmonary fibrosis by suppressing the TGF-β/Smad/ERK cascade: Validation of a traditional herbal medicine.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Liu B",
+        "Zhao Y",
+        "Zhu M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42492704/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
+    },
+    {
+      "id": "42492703",
+      "title": "Jiajian Shuyu Pills ameliorates cerebral ischemia-reperfusion injury by regulation hippo signaling and the lipid metabolism-ferroptosis axis.",
+      "journal": "Journal of ethnopharmacology",
+      "publicationDate": "2027 Jan 10",
+      "authors": [
+        "Yu X",
+        "Wu Y",
+        "Su W"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42492703/",
+      "retrievedAt": "2026-10-21T20:18:27.115Z"
     }
   ],
   "notice": "Research discovery only. Publication records are not verified clinical guidance. Check the original paper, applicable guidelines, and official regulator notices before acting."
