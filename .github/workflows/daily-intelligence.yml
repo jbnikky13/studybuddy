@@ -4,11 +4,13 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-intelligence.js'
+      - 'daily-feed.js'
       - '.github/workflows/daily-intelligence.yml'
   schedule:
     - cron: '0 7 * * *'
   workflow_dispatch:
 
+  # The digest output JSON is intentionally excluded from push paths to prevent loops.
 permissions:
   contents: write
 
