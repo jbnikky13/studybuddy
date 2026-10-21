@@ -5,6 +5,7 @@ Extend StudyBuddy into a pharmacist's personal medical-intelligence and long-ter
 
 ## Phase 1 — Pharmacy learning foundation (implemented in the feature branch)
 - `pharmacy.html`: mobile-friendly medical intelligence, topic search, saved items, and active-recall questions.
+- `review.js`: browser-local spaced-repetition queue with adaptive review intervals and export/reset controls.
 - Core topics include pharmacokinetics, pharmacodynamics, antimicrobial stewardship, adverse drug reactions, and pharmaceutical calculations.
 - Example briefing cards are explicitly marked as illustrative; they must never be mistaken for current alerts.
 
@@ -20,8 +21,8 @@ Extend StudyBuddy into a pharmacist's personal medical-intelligence and long-ter
 - Add tags, search, bookmarks, personal notes, and export.
 
 ## Phase 4 — Adaptive revision
-- Spaced repetition and active recall tracking correct/incorrect answers and confidence.
-- Schedule weak topics and allow a configurable daily study time.
+- Implemented browser-local spaced repetition for the five starter lessons: due queue, answer reveal, Again/Hard/Good/Easy grades, adaptive intervals, review/lapse counts, JSON export, and reset.
+- Review state currently stays in localStorage on one browser/device; account sync, configurable daily study time, and more curriculum cards remain future work.
 - Keep source material distinct from generated questions; flag uncertain or conflicting explanations.
 
 ## Phase 5 — Secure AI study companion (server endpoint scaffold implemented)
