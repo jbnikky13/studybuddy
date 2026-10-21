@@ -1,43 +1,48 @@
 # StudyBuddy Pharmacy — product roadmap
 
 ## Product goal
-Extend StudyBuddy into a pharmacist's personal medical-intelligence and long-term knowledge-retention workspace. Build on the existing mobile-first StudyBuddy rather than replacing its general study tools.
+Extend StudyBuddy into a pharmacist's personal medical-intelligence and long-term knowledge-retention workspace. Keep the existing general study tools and add a pharmacy-focused workspace.
 
-## Phase 1 — Safe pharmacy learning foundation
-- Add a pharmacy-focused workspace with daily briefing, knowledge refresh, recall quiz, and saved items.
-- Clearly label sample/demo content; do not present static cards as current news.
-- Keep learning interactions lightweight and mobile-friendly.
-- Do not use the client-side AI credential currently present in the existing `index.html`. Revoke/rotate it and proxy model requests through a server-side endpoint with secrets stored only in deployment environment variables.
+## Phase 1 — Pharmacy learning foundation (implemented in the feature branch)
+- `pharmacy.html`: mobile-friendly medical intelligence, topic search, saved items, and active-recall questions.
+- Core topics include pharmacokinetics, pharmacodynamics, antimicrobial stewardship, adverse drug reactions, and pharmaceutical calculations.
+- Example briefing cards are explicitly marked as illustrative; they must never be mistaken for current alerts.
 
-## Phase 2 — Verified intelligence feeds
-- Ingest WHO and WHO AFRO updates, PubMed search results, EMA news/regulatory feeds, FDA safety notices, and NAFDAC notices.
-- Store title, canonical source URL, source organization, publication date, retrieved date, jurisdiction, category, study/evidence type, and summary.
-- Deduplicate items, preserve original links, and distinguish research findings from regulatory decisions and clinical guidance.
-- Show source outages and last-successful-refresh timestamps; never fabricate fresh items.
+## Phase 2 — Verified intelligence sources (first slice implemented)
+- PubMed live search uses NCBI E-utilities to retrieve recent publication records, links each result to its original PubMed record, and labels records as research rather than clinical recommendations.
+- A direct link to NAFDAC's official recalls and safety alerts is provided for Nigeria-specific medicine safety notices.
+- Next: build scheduled ingestion and persistence for PubMed, WHO/WHO AFRO, FDA, EMA, and NAFDAC; capture canonical source URL, publication date, retrieval date, jurisdiction, source type, and evidence type.
+- Deduplicate notices and preserve the original source. Show last successful refresh and source outages; never fabricate current items.
 
 ## Phase 3 — Personal knowledge base
-- Pharmacy curriculum map: pharmacology, pharmacokinetics, pharmacodynamics, therapeutics, pharmaceutics, medicinal chemistry, microbiology, toxicology, clinical pharmacy, calculations, and public health.
+- Curriculum map: pharmacology, pharmacokinetics, pharmacodynamics, therapeutics, pharmaceutics, medicinal chemistry, microbiology, toxicology, clinical pharmacy, calculations, and public health.
 - Import user-provided notes and documents; create editable summaries and flashcards with traceable references.
-- Add tags, search, bookmarks, and personal notes.
+- Add tags, search, bookmarks, personal notes, and export.
 
 ## Phase 4 — Adaptive revision
-- Use spaced repetition and active recall, tracking correct/incorrect answers and confidence.
-- Schedule weak topics and let the user adjust daily study time.
-- Keep source material and generated questions distinct; flag uncertain or conflicting explanations for review.
+- Spaced repetition and active recall tracking correct/incorrect answers and confidence.
+- Schedule weak topics and allow a configurable daily study time.
+- Keep source material distinct from generated questions; flag uncertain or conflicting explanations.
 
-## Phase 5 — AI study companion
-- Explain topics at beginner, student, and practicing-pharmacist levels.
-- Support critical appraisal, drug-class comparisons, mechanism-of-action explanations, and case-based learning.
-- Cite evidence for medical claims and show publication dates. Do not substitute for clinical guidelines, local protocols, professional judgment, or an official drug-information reference.
+## Phase 5 — Secure AI study companion (server endpoint scaffold implemented)
+- Browser calls same-origin `/api/chat`; provider credentials are only read by the server from `OPENROUTER_API_KEY`.
+- Configure `OPENROUTER_API_KEY` and optionally `OPENROUTER_MODEL` in Vercel Project Settings; set `APP_ORIGIN` to the exact deployed origin (no trailing slash) for origin checks.
+- The server applies input length limits and a best-effort per-instance rate guard. This is not a substitute for durable, account-based quotas; add authentication and durable rate limiting before public launch.
+- Keep references and dates visible for medical claims. Do not substitute for current clinical guidelines, local protocols, professional judgment, or an official drug-information reference.
 
 ## Phase 6 — Personalization and delivery
-- Daily digest settings by topic and source, saved searches, and optional reminder delivery.
+- Daily digest preferences by topic/source, saved searches, and optional reminder delivery.
 - Nigeria-first relevance with international coverage.
-- Review privacy, authentication, data retention, API quotas, and deployment security before launch.
+- Add authentication, data retention controls, source monitoring, and privacy review before launch.
+
+## Security and deployment notes
+- The old frontend contained an exposed provider credential. Rotate/revoke it with the provider; removing it from the current file does not remove it from Git history.
+- This app needs a Vercel deployment for `/api/chat`. GitHub Pages alone cannot run the serverless function. Do not configure a public production deployment until the new endpoint and environment variables have been tested.
+- Do not commit secrets or `.env` files.
 
 ## Acceptance criteria
 - No sample card is mistaken for live news.
-- Every live intelligence item links to its original source and displays dates.
+- Every live intelligence item links to its original source and displays available publication metadata.
 - Medical summaries distinguish evidence types and uncertainty.
-- Revision history persists across sessions and the user can export/delete their learning data.
-- AI secrets never ship to the browser.
+- Revision history persists across sessions and users can export/delete learning data.
+- Provider credentials never ship to the browser.
