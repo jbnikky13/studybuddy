@@ -17,7 +17,7 @@
   // Seed a personal review card for each built-in lesson on first visit.
   function seedCards() {
     const cards = getCards();
-    (window.lessons || []).forEach((lesson, index) => {
+    ((typeof lessons !== 'undefined') ? lessons : []).forEach((lesson, index) => {
       const id = 'lesson-' + index;
       if (!cards[id]) cards[id] = {
         id, title: lesson.title, question: lesson.q, answers: lesson.a,
