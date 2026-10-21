@@ -10,7 +10,7 @@
     card.className = 'card';
     card.id = 'dailyDigest';
     card.style.marginBottom = '12px';
-    card.innerHTML = '<div class="tag">Daily digest · automated source refresh</div><h3>Latest pharmacy research records</h3><p class="meta" id="digestStatus">Loading the latest scheduled digest…</p><div class="grid" id="digestFeed"></div><p class="meta">Research discovery only. Publication type and evidence quality are not automatically appraised.</p>';
+    card.innerHTML = '<div class="tag">Daily digest · automated source refresh</div><h3>Latest pharmacy research records</h3><p class="meta" id="digestStatus">Loading the latest scheduled digest…</p><div class="grid" id="digestFeed"></div><p class="meta">Research discovery only. Publication type and evidence quality are not automatically appraised. Citation or issue dates can be later than online publication; open the original record to check electronic publication details.</p>';
     pubmedCard.before(card);
     const status = document.getElementById('digestStatus');
     const feed = document.getElementById('digestFeed');
@@ -23,7 +23,7 @@
         status.textContent = 'No records in the scheduled digest yet. Use live PubMed search below.';
         return;
       }
-      feed.innerHTML = records.map(item => '<article class="card"><div class="tag">PubMed · '+escapeHTML(item.sourceType || 'Research record')+'</div><h3>'+escapeHTML(item.title)+'</h3><p>'+escapeHTML([item.journal,item.publicationDate].filter(Boolean).join(' · '))+'</p><p>'+escapeHTML((item.authors || []).join(', '))+'</p><div class="meta">Evidence type: '+escapeHTML(item.evidenceType || 'Not assessed')+'<br>Jurisdiction: '+escapeHTML(item.jurisdiction || 'International literature')+'</div><a class="btn" href="'+escapeHTML(item.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Read original record ↗</a></article>').join('');
+      feed.innerHTML = records.map(item => '<article class="card"><div class="tag">PubMed · '+escapeHTML(item.sourceType || 'Research record')+'</div><h3>'+escapeHTML(item.title)+'</h3><p>'+escapeHTML([item.journal,item.publicationDate ? 'Citation date: ' + item.publicationDate : 'Citation date unavailable'].filter(Boolean).join(' · '))+'</p><p>'+escapeHTML((item.authors || []).join(', '))+'</p><div class="meta">Evidence type: '+escapeHTML(item.evidenceType || 'Not assessed')+'<br>Jurisdiction: '+escapeHTML(item.jurisdiction || 'International literature')+'</div><a class="btn" href="'+escapeHTML(item.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Read original record ↗</a></article>').join('');
       const refreshed = digest.generatedAt ? new Date(digest.generatedAt).toLocaleString() : 'time unavailable';
       status.textContent = records.length+' records · Last scheduled refresh: '+refreshed;
     } catch {
