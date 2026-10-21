@@ -1,7 +1,7 @@
 {
-  "name": "StudyBuddy – AI Learning Assistant",
+  "name": "StudyBuddy – Learning Assistant",
   "short_name": "StudyBuddy",
-  "description": "AI-powered study assistant for all education levels",
+  "description": "AI study assistant with a pharmacy learning and medical intelligence hub",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0f1117",
@@ -21,13 +21,22 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["education", "productivity"],
+  "categories": [
+    "education",
+    "productivity"
+  ],
   "shortcuts": [
     {
       "name": "Ask a Question",
       "short_name": "Ask",
       "url": "./index.html#ask",
-      "description": "Get instant homework help"
+      "description": "Get study help"
+    },
+    {
+      "name": "Pharmacy Hub",
+      "short_name": "Pharmacy",
+      "url": "./pharmacy.html",
+      "description": "Explore pharmacy research and revision"
     },
     {
       "name": "Flashcard Maker",
