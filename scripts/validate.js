@@ -3,7 +3,7 @@ const vm = require('node:vm');
 
 function checkInlineScripts(file) {
   const html = fs.readFileSync(file, 'utf8');
-  const scripts = [...html.matchAll(/<script(?:\\s[^>]*)?>([\\s\\S]*?)<\\/script>/gi)];
+  const scripts = [...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
   if (!scripts.length) throw new Error(file + ': no inline script found');
   scripts.forEach((match, index) => new vm.Script(match[1], { filename: file + ':inline-script-' + (index + 1) }));
   return html;
