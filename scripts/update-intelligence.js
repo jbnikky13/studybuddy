@@ -20,8 +20,8 @@ async function main() {
   oldest.setUTCDate(oldest.getUTCDate() - 90);
   const minDate = oldest.toISOString().slice(0, 10).replace(/-/g, '/');
   const search = await getJson('esearch.fcgi', {
-    db: 'pubmed', term: QUERY, datetype: 'pdat', mindate: minDate, maxdate: maxDate,
-    sort: 'pub_date', retmax: '12', retmode: 'json'
+    db: 'pubmed', term: QUERY, datetype: 'edat', mindate: minDate, maxdate: maxDate,
+    sort: 'date', retmax: '12', retmode: 'json'
   });
   const ids = search?.esearchresult?.idlist || [];
   let records = [];
@@ -50,12 +50,12 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     query: QUERY,
-    publicationDateWindow: { from: minDate, through: maxDate, dateType: 'publication date' },
+    indexDateWindow: { from: minDate, through: maxDate, dateType: 'PubMed entry date' },
     source: 'National Library of Medicine PubMed via NCBI E-utilities',
     sourceUrl: 'https://pubmed.ncbi.nlm.nih.gov/',
     recordCount: records.length,
     records,
-    notice: 'Research discovery only. Publication records are not verified clinical guidance. Check the original paper, applicable guidelines, and official regulator notices before acting.'
+    notice: 'Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting.'
   };
   await fs.mkdir(path.dirname(OUT), { recursive: true });
   await fs.writeFile(OUT, JSON.stringify(payload, null, 2) + '\n');
