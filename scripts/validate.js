@@ -27,6 +27,8 @@ if (!pharmacy.includes('https://www.ema.europa.eu/en/news-events/whats-new')) th
 if (!pharmacy.includes('review.js')) throw new Error('Spaced-repetition module is not loaded');
 if (!pharmacy.includes('daily-feed.js')) throw new Error('Daily intelligence feed is not loaded');
 if (!fs.readFileSync('review.js', 'utf8').includes('studybuddy-pharmacy-spaced-repetition-v1')) throw new Error('Spaced-repetition persistence is missing');
+const digestWorkflow = fs.readFileSync('.github/workflows/daily-intelligence.yml', 'utf8');
+if (!digestWorkflow.includes('group: studybuddy-pharmacy-digest') || !digestWorkflow.includes('git fetch origin main') || !digestWorkflow.includes('git reset --hard origin/main')) throw new Error('Digest workflow must serialize runs and recover from concurrent main updates');
 const serviceWorker = fs.readFileSync('sw.js', 'utf8');
 if (!serviceWorker.includes("requestUrl.pathname.endsWith('/data/latest-intelligence.json')") || !serviceWorker.includes('fetch(event.request).then(response =>')) throw new Error('Daily digest must use network-first service-worker caching');
 const ingestion = fs.readFileSync('scripts/update-intelligence.js', 'utf8');
