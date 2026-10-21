@@ -20,7 +20,10 @@ new vm.Script(fs.readFileSync('scripts/update-intelligence.js', 'utf8'), { filen
 if (main.includes('sk-or-v1-')) throw new Error('index.html must not contain a provider API key');
 if (!main.includes("fetch('/api/chat'")) throw new Error('index.html must use the server-side /api/chat endpoint');
 if (!pharmacy.includes('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi')) throw new Error('Live PubMed search endpoint is missing');
-if (!pharmacy.includes('https://nafdac.gov.ng/category/recalls-and-alerts/')) throw new Error('Official NAFDAC safety-alert link is missing');
+if (!pharmacy.includes('https://nafdac.gov.ng/our-services/pharmacovigilance-post-market-surveillance/recalls-safety-alerts/')) throw new Error('Official NAFDAC safety-alert link is missing');
+if (!pharmacy.includes('https://www.who.int/teams/regulation-prequalification/incidents-and-SF/full-list-of-who-medical-product-alerts')) throw new Error('Official WHO medical product alerts link is missing');
+if (!pharmacy.includes('https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications')) throw new Error('Official FDA safety communications link is missing');
+if (!pharmacy.includes('https://www.ema.europa.eu/en/news-events/whats-new')) throw new Error('Official EMA updates link is missing');
 if (!pharmacy.includes('review.js')) throw new Error('Spaced-repetition module is not loaded');
 if (!pharmacy.includes('daily-feed.js')) throw new Error('Daily intelligence feed is not loaded');
 if (!fs.readFileSync('review.js', 'utf8').includes('studybuddy-pharmacy-spaced-repetition-v1')) throw new Error('Spaced-repetition persistence is missing');
