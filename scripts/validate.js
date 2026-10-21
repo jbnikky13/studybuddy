@@ -28,7 +28,8 @@ if (!pharmacy.includes('review.js')) throw new Error('Spaced-repetition module i
 if (!pharmacy.includes('daily-feed.js')) throw new Error('Daily intelligence feed is not loaded');
 if (!fs.readFileSync('review.js', 'utf8').includes('studybuddy-pharmacy-spaced-repetition-v1')) throw new Error('Spaced-repetition persistence is missing');
 const ingestion = fs.readFileSync('scripts/update-intelligence.js', 'utf8');
-if (!ingestion.includes("datetype: 'pdat'" ) || !ingestion.includes('mindate: minDate') || !ingestion.includes('maxdate: maxDate')) throw new Error('PubMed digest must constrain results to a publication-date window');
-if (!ingestion.includes('publicationDateWindow')) throw new Error('PubMed digest must expose its publication-date window');
+if (!ingestion.includes("datetype: 'edat'") || !ingestion.includes('mindate: minDate') || !ingestion.includes('maxdate: maxDate')) throw new Error('PubMed digest must constrain results to recently entered records');
+if (!ingestion.includes('indexDateWindow')) throw new Error('PubMed digest must expose its PubMed entry-date window');
+if (!ingestion.includes('electronic publication details')) throw new Error('PubMed digest must explain citation-date caveats');
 
 console.log('StudyBuddy validation passed: inline JavaScript parses, AI key is not in the frontend, secure AI endpoint is referenced, and PubMed/NAFDAC sources are wired.');
