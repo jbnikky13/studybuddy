@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-21T20:23:09.159Z",
+  "generatedAt": "2026-10-22T12:44:13.405Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/23",
-    "through": "2026/10/21",
+    "from": "2026/07/24",
+    "through": "2026/10/22",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -24,7 +24,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902597/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902502",
@@ -40,7 +40,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902502/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902462",
@@ -56,7 +56,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902462/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902412",
@@ -72,7 +72,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902412/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902349",
@@ -88,7 +88,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902349/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902335",
@@ -104,7 +104,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902335/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902306",
@@ -120,7 +120,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902306/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902256",
@@ -136,7 +136,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902256/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902228",
@@ -152,7 +152,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902228/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902170",
@@ -167,7 +167,7 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902170/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
       "id": "42902025",
@@ -183,23 +183,23 @@
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
       "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902025/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     },
     {
-      "id": "42901820",
-      "title": "Bispecific antibodies in NSCLC: immune reengineering to neutralize adaptive tumor resistance.",
-      "journal": "Trends in cancer",
+      "id": "42901874",
+      "title": "Closed multilumen infusion system reduces CLABSI and antibiotic exposure in very preterm neonates.",
+      "journal": "BMJ paediatrics open",
       "publicationDate": "2026 Oct 20",
       "authors": [
-        "Li Z",
-        "Wang H",
-        "Diao M"
+        "Dacquino FM",
+        "Gotchac J",
+        "Le Cabec E"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901820/",
-      "retrievedAt": "2026-10-21T20:23:09.159Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901874/",
+      "retrievedAt": "2026-10-22T12:44:13.405Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
