@@ -23,8 +23,7 @@ create table if not exists public.telegram_question_attempts (
  question_id text not null,
  selected_option smallint not null check (selected_option between 0 and 3),
  is_correct boolean not null,
- answered_at timestamptz not null default now(),
- unique (telegram_user_id, question_id)
+ answered_at timestamptz not null default now()
 );
 create index if not exists telegram_question_attempts_user_answered_idx
  on public.telegram_question_attempts (telegram_user_id, answered_at desc);
