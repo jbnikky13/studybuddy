@@ -11,11 +11,11 @@
 - Progress is stored in Supabase. Telegram webhook calls are checked using a secret-token header.
 - Question bank includes case-based therapeutics, medicine safety, emergency red flags, renal dosing, monitoring, calculations and core pharmacology.
 - The bot records each learner's answered question IDs in `telegram_question_attempts` and prioritizes unseen questions until the bank is exhausted.
-- `clinical.html` is a Telegram-ready Mini App MVP. Its standalone progress is stored locally in that browser; it is not yet synced to Telegram/Supabase player stats.
+- `clinical.html` syncs seen-question history and quiz results to a private Supabase table when opened inside Telegram; browser-local storage remains as an offline fallback. The Mini App uses Telegram's signed `initData` verified server-side, not a user ID supplied by the browser.
 
 ## Setup
 1. In Telegram, use the official @BotFather account and send /newbot. Save the token privately; never commit it to GitHub.
-2. Run the complete `sql/telegram-game.sql` in the intended Supabase project's SQL Editor. This migration creates the player table and per-question history table required by the updated webhook.
+2. Run `sql/telegram-game.sql` and `sql/clinical-progress.sql` in the intended Supabase project's SQL Editor. The second migration creates the private Mini App progress table.
 3. Deploy this repository to Vercel or another Node serverless host. GitHub Pages cannot run this webhook.
 4. Set these server-only environment variables: TELEGRAM_BOT_TOKEN, TELEGRAM_WEBHOOK_SECRET, SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY. Never expose the service-role key in browser code.
 5. After deploying a test environment, register the webhook. Replace placeholders and keep both token and secret private:
@@ -24,7 +24,7 @@
       -H "Content-Type: application/json" \
       -d '{"url":"https://YOUR-DEPLOYMENT.vercel.app/api/telegram-webhook","secret_token":"YOUR_TELEGRAM_WEBHOOK_SECRET","allowed_updates":["message","callback_query"]}'
 
-6. Test `/start`, unseen-question selection, answer scoring, `/stats`, duplicate button taps and `/news` before inviting users.
+6. Test `/start`, unseen-question selection, answer scoring, `/stats`, duplicate button taps and `/news` before inviting users. Also open the Mini App from Telegram, answer a case, close/reopen it, and verify the progress is restored. If the SQL migration has not run, sync will fall back to browser-local progress.
 7. After deploying the updated code, open `https://YOUR-DEPLOYMENT.vercel.app/clinical.html` in a browser. Configure the bot's Main Mini App through @BotFather if you want an Open App button on the profile. The bot's menu button points to the current Vercel production URL and should be changed if that domain changes.
 
 ## Safety and limits
