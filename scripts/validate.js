@@ -11,6 +11,8 @@ function checkInlineScripts(file) {
 
 const main = checkInlineScripts('index.html');
 const pharmacy = checkInlineScripts('pharmacy.html');
+const clinical = checkInlineScripts('clinical.html');
+new vm.Script(fs.readFileSync('api/clinical-progress.js', 'utf8'), { filename: 'api/clinical-progress.js' });
 new vm.Script(fs.readFileSync('api/chat.js', 'utf8'), { filename: 'api/chat.js' });
 new vm.Script(fs.readFileSync('api/telegram-webhook.js', 'utf8'), { filename: 'api/telegram-webhook.js' });
 new vm.Script(fs.readFileSync('sw.js', 'utf8'), { filename: 'sw.js' });
@@ -43,4 +45,7 @@ if (!telegramBot.includes('SUPABASE_SERVICE_ROLE_KEY')) throw new Error('Telegra
 if (!telegramBot.includes('current_question_id=eq.')) throw new Error('Telegram answer scoring must guard against duplicate callbacks');
 if (!telegramBot.includes('data/latest-intelligence.json')) throw new Error('Telegram research digest integration is missing');
 if (!fs.readFileSync('sql/telegram-game.sql', 'utf8').includes('enable row level security')) throw new Error('Telegram player table must enable row-level security');
+if (!clinical.includes('/api/clinical-progress')) throw new Error('Clinical Mini App progress sync endpoint is missing');
+if (!fs.readFileSync('api/clinical-progress.js', 'utf8').includes('timingSafeEqual')) throw new Error('Mini App must validate Telegram initData signatures');
+if (!fs.readFileSync('sql/clinical-progress.sql', 'utf8').includes('enable row level security')) throw new Error('Mini App progress table must enable row-level security');
 console.log('StudyBuddy validation passed: inline JavaScript parses, AI key is not in the frontend, secure AI endpoint is referenced, and PubMed/NAFDAC sources are wired.');
