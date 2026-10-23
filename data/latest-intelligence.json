@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-22T12:44:13.405Z",
+  "generatedAt": "2026-10-23T12:21:54.750Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/24",
-    "through": "2026/10/22",
+    "from": "2026/07/25",
+    "through": "2026/10/23",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,195 +11,195 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42902597",
-      "title": "Oral Versus Injectable Incretin-Based Anti-Obesity Therapies: An Integrated Computational and Evidence-Based Comparison of Orforglipron, Semaglutide, and Tirzepatide.",
-      "journal": "Omics : a journal of integrative biology",
-      "publicationDate": "2026 Oct 20",
+      "id": "42908873",
+      "title": "Antioxidant evaluation, phytochemical profiling, and in silico investigation of Asparagus setaceus root metabolites as potential hepatoprotective agents.",
+      "journal": "In silico pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Sahu L",
-        "Nayak L",
-        "Tripathy A"
+        "Agrawal A",
+        "Jain P",
+        "Teotia D"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902597/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908873/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902502",
-      "title": "Population pharmacokinetics of levetiracetam in term neonates with hypoxic-ischemic encephalopathy and therapeutic hypothermia: The LEVNEONAT-1 study.",
-      "journal": "British journal of clinical pharmacology",
-      "publicationDate": "2026 Oct 20",
+      "id": "42908859",
+      "title": "Targeting the Parkinson's disease interactome: a systems pharmacology and molecular dynamics investigation unveils Berberis aristata-derived phytoconstituents as potential modulators of tyrosine hydroxylase and p53: a systems and molecular dynamics investigation.",
+      "journal": "In silico pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Mimram L",
-        "Ursino M",
-        "Leger J"
+        "Chatterjee A",
+        "De A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902502/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908859/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902462",
-      "title": "Chaihu-Guizhi Decoction Attenuates Airway Remodelling in COPD Mice via the TGF-β1/Smads Signalling Pathway: An Integrated Proteomic and Metabolomic Analysis.",
-      "journal": "Biomedical chromatography : BMC",
+      "id": "42908797",
+      "title": "Formononetin relieves chronic stress-related neointimal hyperplasia in mice by regulating HDAC6.",
+      "journal": "Frontiers in cardiovascular medicine",
+      "publicationDate": "2026",
+      "authors": [
+        "Li S",
+        "Wu W",
+        "Xu C"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908797/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
+    },
+    {
+      "id": "42908691",
+      "title": "Beyond pharmacology: The mediating role of expectations in the experience of side effects in anxious patients treated with secukinumab.",
+      "journal": "Brain, behavior, & immunity - health",
       "publicationDate": "2026 Dec",
       "authors": [
-        "Yu J",
-        "Wu X",
-        "Chen Z"
+        "Mühlhaus S",
+        "Krefting F",
+        "Bese D"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902462/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908691/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902412",
-      "title": "Nanoengineered STING agonists for cancer therapy: toward immunodynamic control.",
-      "journal": "Journal of hematology & oncology",
-      "publicationDate": "2026 Oct 20",
+      "id": "42908686",
+      "title": "Clinical efficacy and multi-target mechanisms of liver-dispersing, bile-inducing, and heat-clearing TCM formulas in cholelithiasis: network meta-analysis, network pharmacology, and molecular docking study.",
+      "journal": "Frontiers in medicine",
+      "publicationDate": "2026",
       "authors": [
-        "Liu N",
-        "Wang X",
-        "Zhang W"
+        "Cai L",
+        "Lyu Y",
+        "Li P"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902412/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908686/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902349",
-      "title": "A mixed-methods study on the effectiveness and optimization needs of a prescription review training program: from the KAP perspective of returning trainees.",
-      "journal": "BMC medical education",
-      "publicationDate": "2026 Aug 18",
+      "id": "42908664",
+      "title": "Comparative real-world pharmacovigilance analysis of adverse event signals associated with six approved CAR-T products using the FAERS database.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Shi X",
-        "Yin Z",
-        "Chen X"
+        "Xiao S",
+        "Li Y",
+        "Wang H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902349/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908664/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902335",
-      "title": "Student participation in accelerated experience-based co-design for healthcare decarbonisation education: a focused ethnographic study.",
-      "journal": "BMC medical education",
-      "publicationDate": "2026 Jul 25",
+      "id": "42908656",
+      "title": "The pharmacokinetics and pharmacogenomics of voriconazole in pediatric Saudi patients: advancing toward precision medicine.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "McLaughlin-Borlace N",
-        "Craig S",
-        "Anderson T"
+        "Albassam A",
+        "Alharbi A",
+        "Al Anizi H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902335/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908656/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902306",
-      "title": "Antibiotic dispensing practices and patterns of non-prescription antibiotic sales among retail drug outlets in Ghana.",
-      "journal": "BMC public health",
-      "publicationDate": "2026 Jul 25",
+      "id": "42908580",
+      "title": "Social Marketing Strategies in the Pharmaceutical Industry, Characteristics and Impact; a scoping review.",
+      "journal": "Farmaceuticos comunitarios",
+      "publicationDate": "2026 Oct 15",
       "authors": [
-        "Donkor BS",
-        "Badu K",
-        "Boampong K"
+        "Carreño-Patiño LB",
+        "Menco-Goenaga EI",
+        "Cepeda-Obregón RD"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902306/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908580/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902256",
-      "title": "Palliative Care education in undergraduate pharmacy curricula in Brazil: a descriptive cross-sectional study.",
-      "journal": "BMC palliative care",
-      "publicationDate": "2026 Jul 24",
+      "id": "42908576",
+      "title": "Case Report: Fatal varicella-zoster virus meningoencephalitis with Froin-like cerebrospinal fluid and hydrocephalus following pembrolizumab-containing chemoimmunotherapy.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Silva RADS",
-        "Ferreira MCP",
-        "Martine Teixeira GF"
+        "Shen F",
+        "Fan S",
+        "Wang Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902256/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908576/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902228",
-      "title": "Antimicrobial resistance patterns and difficult-to-treat resistance in uropathogens among diabetic and non-diabetic patients: a cross-sectional study.",
-      "journal": "BMC infectious diseases",
-      "publicationDate": "2026 Jul 23",
+      "id": "42908552",
+      "title": "Consumption and knowledge of protein supplements in the Spanish adult population: A cross-sectional survey-based study.",
+      "journal": "Farmaceuticos comunitarios",
+      "publicationDate": "2026 Oct 15",
       "authors": [
-        "Priyadarshini A",
-        "Kalola P",
-        "Patadia H"
+        "Bethencourt-Barbuzano E",
+        "Paz-Montelongo S",
+        "Gutiérrez ÁJ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902228/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908552/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902170",
-      "title": "A case of recurrent pleural effusion: tuberculous pleurisy or other disease? A case report.",
-      "journal": "BMC geriatrics",
-      "publicationDate": "2026 Jul 25",
+      "id": "42908546",
+      "title": "Paclitaxel retention of drug-coated balloons in veins and arteries under arteriovenous fistula hemodynamics.",
+      "journal": "Frontiers in cardiovascular medicine",
+      "publicationDate": "2026",
       "authors": [
-        "Ji Y",
-        "Yang J"
+        "Liu LB",
+        "Lowry K",
+        "Habermacher B"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902170/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908546/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     },
     {
-      "id": "42902025",
-      "title": "Context-dependent vascular effects of platycodin D: inhibition of neointima formation but aggravation of atherosclerosis with involvement of mTORC1 signaling.",
-      "journal": "Acta pharmacologica Sinica",
-      "publicationDate": "2026 Oct 21",
+      "id": "42908528",
+      "title": "Comparative analysis of quality indicators in two ISO 9001:2015-certified community pharmacies (2020-2025).",
+      "journal": "Farmaceuticos comunitarios",
+      "publicationDate": "2026 Oct 15",
       "authors": [
-        "Yan BJ",
-        "Belke D",
-        "Chen YX"
+        "Barris-Blundell D",
+        "Benítez-Pacheco G",
+        "Mercado-Cano MÁ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42902025/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
-    },
-    {
-      "id": "42901874",
-      "title": "Closed multilumen infusion system reduces CLABSI and antibiotic exposure in very preterm neonates.",
-      "journal": "BMJ paediatrics open",
-      "publicationDate": "2026 Oct 20",
-      "authors": [
-        "Dacquino FM",
-        "Gotchac J",
-        "Le Cabec E"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42901874/",
-      "retrievedAt": "2026-10-22T12:44:13.405Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908528/",
+      "retrievedAt": "2026-10-23T12:21:54.750Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
