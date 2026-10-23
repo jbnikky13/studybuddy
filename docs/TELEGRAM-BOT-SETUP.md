@@ -9,11 +9,13 @@
 - /topics: curriculum map
 - Correct answers earn 10 XP; attempts earn 2 XP
 - Progress is stored in Supabase. Telegram webhook calls are checked using a secret-token header.
-- Question bank includes pharmacokinetics, pharmacodynamics, antimicrobial stewardship, ADRs, calculations and medicine safety.
+- Question bank includes case-based therapeutics, medicine safety, emergency red flags, renal dosing, monitoring, calculations and core pharmacology.
+- The bot records each learner's answered question IDs in `telegram_question_attempts` and prioritizes unseen questions until the bank is exhausted.
+- `clinical.html` is a Telegram-ready Mini App MVP. Its standalone progress is stored locally in that browser; it is not yet synced to Telegram/Supabase player stats.
 
 ## Setup
 1. In Telegram, use the official @BotFather account and send /newbot. Save the token privately; never commit it to GitHub.
-2. Run sql/telegram-game.sql in the intended Supabase project's SQL Editor.
+2. Run the complete `sql/telegram-game.sql` in the intended Supabase project's SQL Editor. This migration creates the player table and per-question history table required by the updated webhook.
 3. Deploy this repository to Vercel or another Node serverless host. GitHub Pages cannot run this webhook.
 4. Set these server-only environment variables: TELEGRAM_BOT_TOKEN, TELEGRAM_WEBHOOK_SECRET, SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY. Never expose the service-role key in browser code.
 5. After deploying a test environment, register the webhook. Replace placeholders and keep both token and secret private:
@@ -22,7 +24,8 @@
       -H "Content-Type: application/json" \
       -d '{"url":"https://YOUR-DEPLOYMENT.vercel.app/api/telegram-webhook","secret_token":"YOUR_TELEGRAM_WEBHOOK_SECRET","allowed_updates":["message","callback_query"]}'
 
-6. Test /start, /quiz, answer scoring, /stats, duplicate button taps and /news before inviting users.
+6. Test `/start`, unseen-question selection, answer scoring, `/stats`, duplicate button taps and `/news` before inviting users.
+7. After deploying the updated code, open `https://YOUR-DEPLOYMENT.vercel.app/clinical.html` in a browser. Configure the bot's Main Mini App through @BotFather if you want an Open App button on the profile. The bot's menu button points to the current Vercel production URL and should be changed if that domain changes.
 
 ## Safety and limits
 This is a learning game, not diagnosis or treatment advice. PubMed items are research discovery, not appraised clinical guidance. Check original papers, official NAFDAC notices and local protocols. Do not ask users to submit identifiable patient information. Mixed-topic quizzes are the first version; topic-specific rounds, daily challenges, badges, leaderboards and reminders can follow. For a large audience, move scoring into a database transaction and add durable abuse controls.
