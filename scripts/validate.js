@@ -46,6 +46,7 @@ if (!telegramBot.includes('current_question_id=eq.')) throw new Error('Telegram 
 if (!telegramBot.includes('data/latest-intelligence.json')) throw new Error('Telegram research digest integration is missing');
 if (!fs.readFileSync('sql/telegram-game.sql', 'utf8').includes('enable row level security')) throw new Error('Telegram player table must enable row-level security');
 if (!clinical.includes('/api/clinical-progress')) throw new Error('Clinical Mini App progress sync endpoint is missing');
+if (!clinical.includes('topicDashboard') || !clinical.includes('revisionFocus') || !clinical.includes('renderDashboard')) throw new Error('Clinical learner dashboard is missing topic accuracy or revision guidance');
 if (!fs.readFileSync('api/clinical-progress.js', 'utf8').includes('timingSafeEqual')) throw new Error('Mini App must validate Telegram initData signatures');
 if (!fs.readFileSync('sql/clinical-progress.sql', 'utf8').includes('enable row level security')) throw new Error('Mini App progress table must enable row-level security');
 console.log('StudyBuddy validation passed: inline JavaScript parses, AI key is not in the frontend, secure AI endpoint is referenced, and PubMed/NAFDAC sources are wired.');
