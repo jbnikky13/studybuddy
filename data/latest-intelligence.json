@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-23T12:21:54.750Z",
+  "generatedAt": "2026-10-24T11:48:46.379Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/25",
-    "through": "2026/10/23",
+    "from": "2026/07/26",
+    "through": "2026/10/24",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,195 +11,190 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42908873",
-      "title": "Antioxidant evaluation, phytochemical profiling, and in silico investigation of Asparagus setaceus root metabolites as potential hepatoprotective agents.",
-      "journal": "In silico pharmacology",
+      "id": "42920723",
+      "title": "Microbiological patterns of bacterial bloodstream infections and predictors of kidney dysfunction at a tertiary hospital in Zambia.",
+      "journal": "The Pan African medical journal",
       "publicationDate": "2026",
       "authors": [
-        "Agrawal A",
-        "Jain P",
-        "Teotia D"
+        "Nzobokela J",
+        "Chisompola D",
+        "Chinyante E"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908873/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920723/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     },
     {
-      "id": "42908859",
-      "title": "Targeting the Parkinson's disease interactome: a systems pharmacology and molecular dynamics investigation unveils Berberis aristata-derived phytoconstituents as potential modulators of tyrosine hydroxylase and p53: a systems and molecular dynamics investigation.",
-      "journal": "In silico pharmacology",
+      "id": "42920675",
+      "title": "Severe Gastroparesis-like Syndrome Following Single-dose Liraglutide Administration: A Case Report : Short title: Severe Gastroparesis-like Syndrome Following Single-dose Liraglutide Administration.",
+      "journal": "Galen medical journal",
       "publicationDate": "2026",
       "authors": [
-        "Chatterjee A",
-        "De A"
+        "A Makkawy E"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908859/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920675/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     },
     {
-      "id": "42908797",
-      "title": "Formononetin relieves chronic stress-related neointimal hyperplasia in mice by regulating HDAC6.",
-      "journal": "Frontiers in cardiovascular medicine",
+      "id": "42920672",
+      "title": "Artificial intelligence in pharmacy practice in the Middle East: a scoping review of applications, adoption, barriers, and future directions.",
+      "journal": "Frontiers in digital health",
       "publicationDate": "2026",
       "authors": [
-        "Li S",
-        "Wu W",
-        "Xu C"
+        "Alhomoud F"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908797/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920672/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     },
     {
-      "id": "42908691",
-      "title": "Beyond pharmacology: The mediating role of expectations in the experience of side effects in anxious patients treated with secukinumab.",
-      "journal": "Brain, behavior, & immunity - health",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Mühlhaus S",
-        "Krefting F",
-        "Bese D"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908691/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
-    },
-    {
-      "id": "42908686",
-      "title": "Clinical efficacy and multi-target mechanisms of liver-dispersing, bile-inducing, and heat-clearing TCM formulas in cholelithiasis: network meta-analysis, network pharmacology, and molecular docking study.",
-      "journal": "Frontiers in medicine",
+      "id": "42920620",
+      "title": "Ulcerative colitis reporting across medications: FAERS analysis and cross-species transcriptomic triangulation.",
+      "journal": "Frontiers in immunology",
       "publicationDate": "2026",
       "authors": [
-        "Cai L",
-        "Lyu Y",
-        "Li P"
+        "Long H",
+        "Duan C",
+        "Liu J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908686/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920620/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     },
     {
-      "id": "42908664",
-      "title": "Comparative real-world pharmacovigilance analysis of adverse event signals associated with six approved CAR-T products using the FAERS database.",
+      "id": "42920608",
+      "title": "Adverse reactions of immune checkpoint inhibitors combined with acetaminophen/non-steroidal anti-inflammatory drugs (NSAIDs): a pharmacovigilance analysis of drug-drug interactions.",
       "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Xiao S",
-        "Li Y",
-        "Wang H"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908664/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
-    },
-    {
-      "id": "42908656",
-      "title": "The pharmacokinetics and pharmacogenomics of voriconazole in pediatric Saudi patients: advancing toward precision medicine.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Albassam A",
-        "Alharbi A",
-        "Al Anizi H"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908656/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
-    },
-    {
-      "id": "42908580",
-      "title": "Social Marketing Strategies in the Pharmaceutical Industry, Characteristics and Impact; a scoping review.",
-      "journal": "Farmaceuticos comunitarios",
-      "publicationDate": "2026 Oct 15",
-      "authors": [
-        "Carreño-Patiño LB",
-        "Menco-Goenaga EI",
-        "Cepeda-Obregón RD"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908580/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
-    },
-    {
-      "id": "42908576",
-      "title": "Case Report: Fatal varicella-zoster virus meningoencephalitis with Froin-like cerebrospinal fluid and hydrocephalus following pembrolizumab-containing chemoimmunotherapy.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Shen F",
-        "Fan S",
+        "Ren X",
+        "Xue L",
         "Wang Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908576/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920608/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     },
     {
-      "id": "42908552",
-      "title": "Consumption and knowledge of protein supplements in the Spanish adult population: A cross-sectional survey-based study.",
-      "journal": "Farmaceuticos comunitarios",
-      "publicationDate": "2026 Oct 15",
-      "authors": [
-        "Bethencourt-Barbuzano E",
-        "Paz-Montelongo S",
-        "Gutiérrez ÁJ"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908552/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
-    },
-    {
-      "id": "42908546",
-      "title": "Paclitaxel retention of drug-coated balloons in veins and arteries under arteriovenous fistula hemodynamics.",
-      "journal": "Frontiers in cardiovascular medicine",
+      "id": "42920606",
+      "title": "Population cellular kinetics and exposure-CSR analysis of CAR-T cells in Chinese patients with relapsed/refractory B-ALL.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Liu LB",
-        "Lowry K",
-        "Habermacher B"
+        "Bian Y",
+        "Yuan J",
+        "Huang C"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908546/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920606/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     },
     {
-      "id": "42908528",
-      "title": "Comparative analysis of quality indicators in two ISO 9001:2015-certified community pharmacies (2020-2025).",
-      "journal": "Farmaceuticos comunitarios",
-      "publicationDate": "2026 Oct 15",
+      "id": "42920604",
+      "title": "Case Report: Sustained pubertal suppression for 68 months with a single histrelin acetate implant in central precocious puberty.",
+      "journal": "Frontiers in endocrinology",
+      "publicationDate": "2026",
       "authors": [
-        "Barris-Blundell D",
-        "Benítez-Pacheco G",
-        "Mercado-Cano MÁ"
+        "Ilmer S",
+        "Salemi P"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42908528/",
-      "retrievedAt": "2026-10-23T12:21:54.750Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920604/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
+    },
+    {
+      "id": "42920566",
+      "title": "Metformin-associated diarrhea in FAERS: a structured pharmacovigilance study with long-term temporal consistency assessment.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
+      "authors": [
+        "Chen S",
+        "Xu C"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920566/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
+    },
+    {
+      "id": "42920550",
+      "title": "Development and application of a targeted MISCP-S intervention model for psychiatric hospitals.",
+      "journal": "Frontiers in cellular and infection microbiology",
+      "publicationDate": "2026",
+      "authors": [
+        "Du J",
+        "Jiang X",
+        "Li Q"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920550/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
+    },
+    {
+      "id": "42920451",
+      "title": "Adapting the Girandole framework for cross-disciplinary social justice reflection in health professions education.",
+      "journal": "Frontiers in medicine",
+      "publicationDate": "2026",
+      "authors": [
+        "De Luca E",
+        "Islam-Ali B",
+        "Siddiqui Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920451/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
+    },
+    {
+      "id": "42920438",
+      "title": "Case Report: Ribociclib-associated bilateral neurotrophic keratitis requiring amniotic membrane transplantation during adjuvant treatment of early breast cancer.",
+      "journal": "Frontiers in oncology",
+      "publicationDate": "2026",
+      "authors": [
+        "DeCicco D",
+        "Nethagani S",
+        "Lai L"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920438/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
+    },
+    {
+      "id": "42920403",
+      "title": "Analysis of queries in an HIV drug-drug interaction checker to explore changes in prescribing patterns: A 5-year analysis.",
+      "journal": "British journal of clinical pharmacology",
+      "publicationDate": "2026 Oct 24",
+      "authors": [
+        "Gras C",
+        "Le MP",
+        "Chiong J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920403/",
+      "retrievedAt": "2026-10-24T11:48:46.379Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
