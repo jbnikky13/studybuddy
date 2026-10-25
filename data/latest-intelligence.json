@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-24T11:48:46.379Z",
+  "generatedAt": "2026-10-25T12:17:59.988Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/26",
-    "through": "2026/10/24",
+    "from": "2026/07/27",
+    "through": "2026/10/25",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,190 +11,195 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42920723",
-      "title": "Microbiological patterns of bacterial bloodstream infections and predictors of kidney dysfunction at a tertiary hospital in Zambia.",
-      "journal": "The Pan African medical journal",
-      "publicationDate": "2026",
+      "id": "42927046",
+      "title": "Hybrid Mechanistic-Neural Modeling of Concentration-Time Dynamics Generalizes Human Pharmacokinetics Prediction Across Unseen Chemical Space.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "publicationDate": "2026 Oct 7",
       "authors": [
-        "Nzobokela J",
-        "Chisompola D",
-        "Chinyante E"
+        "Badkul A",
+        "Cai L",
+        "Kim M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920723/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42927046/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920675",
-      "title": "Severe Gastroparesis-like Syndrome Following Single-dose Liraglutide Administration: A Case Report : Short title: Severe Gastroparesis-like Syndrome Following Single-dose Liraglutide Administration.",
-      "journal": "Galen medical journal",
-      "publicationDate": "2026",
+      "id": "42926812",
+      "title": "Beat-to-Beat Action Potential Duration Variability, Not Duration, Reflects β-Adrenergic Stimulation-Induced Repolarization Instability.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "publicationDate": "2026 Oct 6",
       "authors": [
-        "A Makkawy E"
+        "Sato D",
+        "Shetty R",
+        "Coppini R"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920675/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926812/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920672",
-      "title": "Artificial intelligence in pharmacy practice in the Middle East: a scoping review of applications, adoption, barriers, and future directions.",
-      "journal": "Frontiers in digital health",
-      "publicationDate": "2026",
+      "id": "42926783",
+      "title": "Stoichiometry-dependent gating and structural pharmacology of cardiac GIRK1/4 channels.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "publicationDate": "2026 Oct 7",
       "authors": [
-        "Alhomoud F"
+        "Wang L",
+        "Kawano T",
+        "Santa-Cruz A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920672/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926783/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920620",
-      "title": "Ulcerative colitis reporting across medications: FAERS analysis and cross-species transcriptomic triangulation.",
-      "journal": "Frontiers in immunology",
-      "publicationDate": "2026",
+      "id": "42926782",
+      "title": "Dexmedetomidine Suspected Fever and Clinical Escalation: A Pilot Study Evaluating the Impact in the Intensive Care Unit.",
+      "journal": "The Journal of pharmacy technology : jPT : official publication of the Association of Pharmacy Technicians",
+      "publicationDate": "2026 Oct 23",
       "authors": [
-        "Long H",
-        "Duan C",
-        "Liu J"
+        "Quigg K",
+        "Sutton LH",
+        "Aymond K"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920620/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926782/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920608",
-      "title": "Adverse reactions of immune checkpoint inhibitors combined with acetaminophen/non-steroidal anti-inflammatory drugs (NSAIDs): a pharmacovigilance analysis of drug-drug interactions.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
+      "id": "42926777",
+      "title": "A CNS-targeted atovaquone nanotherapy mitigates complement activation and neuromuscular degeneration in ALS.",
+      "journal": "Materials today. Bio",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Ren X",
-        "Xue L",
-        "Wang Y"
+        "Ding YN",
+        "Bahati M",
+        "Li MQ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920608/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926777/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920606",
-      "title": "Population cellular kinetics and exposure-CSR analysis of CAR-T cells in Chinese patients with relapsed/refractory B-ALL.",
-      "journal": "Frontiers in pharmacology",
+      "id": "42926751",
+      "title": "Deciphering the therapeutic mechanisms of Pluchea lanceolata in Rheumatoid arthritis (RA) using network pharmacology, molecular docking and in silico molecular dynamics simulations.",
+      "journal": "In silico pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Bian Y",
-        "Yuan J",
-        "Huang C"
+        "Anand A",
+        "Kumari J",
+        "Kashyap H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920606/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926751/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920604",
-      "title": "Case Report: Sustained pubertal suppression for 68 months with a single histrelin acetate implant in central precocious puberty.",
-      "journal": "Frontiers in endocrinology",
-      "publicationDate": "2026",
+      "id": "42926694",
+      "title": "One Scaffold, Many Targets: Fully Modified RNA Nanostructures for Multi-Gene Silencing Beyond the Liver.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "publicationDate": "2026 Oct 9",
       "authors": [
-        "Ilmer S",
-        "Salemi P"
+        "Fakih HH",
+        "Summers A",
+        "Tang Q"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920604/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926694/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920566",
-      "title": "Metformin-associated diarrhea in FAERS: a structured pharmacovigilance study with long-term temporal consistency assessment.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
+      "id": "42926620",
+      "title": "Biological network identifies pathways linking mental health drugs to adverse weight-related side effects.",
+      "journal": "medRxiv : the preprint server for health sciences",
+      "publicationDate": "2026 Oct 8",
       "authors": [
-        "Chen S",
-        "Xu C"
+        "Arehart CH",
+        "Evans LM"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920566/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926620/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920550",
-      "title": "Development and application of a targeted MISCP-S intervention model for psychiatric hospitals.",
-      "journal": "Frontiers in cellular and infection microbiology",
-      "publicationDate": "2026",
+      "id": "42926496",
+      "title": "An astrocytic AMPAR-dependent parity signal preserves synaptic strength.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "publicationDate": "2026 Oct 11",
       "authors": [
-        "Du J",
-        "Jiang X",
-        "Li Q"
+        "Elazar N",
+        "Ravenel JR",
+        "Kim J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920550/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926496/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920451",
-      "title": "Adapting the Girandole framework for cross-disciplinary social justice reflection in health professions education.",
-      "journal": "Frontiers in medicine",
-      "publicationDate": "2026",
+      "id": "42926471",
+      "title": "Binding kinetics enable tumor-selective MAPK and growth suppression by a Type 1 RAF Inhibitor.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "publicationDate": "2026 Oct 6",
       "authors": [
-        "De Luca E",
-        "Islam-Ali B",
-        "Siddiqui Y"
+        "Desaunay M",
+        "Peters TL",
+        "Matenoglou E"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920451/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926471/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920438",
-      "title": "Case Report: Ribociclib-associated bilateral neurotrophic keratitis requiring amniotic membrane transplantation during adjuvant treatment of early breast cancer.",
-      "journal": "Frontiers in oncology",
-      "publicationDate": "2026",
+      "id": "42926410",
+      "title": "Focal drug uncaging for the precise control of endogenous nicotinic receptors in behaving mice.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "publicationDate": "2026 Oct 8",
       "authors": [
-        "DeCicco D",
-        "Nethagani S",
-        "Lai L"
+        "Guyon N",
+        "Mohayyaei M",
+        "Bergel A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920438/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926410/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     },
     {
-      "id": "42920403",
-      "title": "Analysis of queries in an HIV drug-drug interaction checker to explore changes in prescribing patterns: A 5-year analysis.",
-      "journal": "British journal of clinical pharmacology",
-      "publicationDate": "2026 Oct 24",
+      "id": "42926296",
+      "title": "Lipoplex Nanoparticle-Based RNA Delivery to 3D Melanoma Spheroids.",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "publicationDate": "2027",
       "authors": [
-        "Gras C",
-        "Le MP",
-        "Chiong J"
+        "Rudolf R",
+        "Cesetti T",
+        "Keller F"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42920403/",
-      "retrievedAt": "2026-10-24T11:48:46.379Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926296/",
+      "retrievedAt": "2026-10-25T12:17:59.988Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
