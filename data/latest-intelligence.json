@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-25T12:17:59.988Z",
+  "generatedAt": "2026-10-26T13:48:51.734Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/27",
-    "through": "2026/10/25",
+    "from": "2026/07/28",
+    "through": "2026/10/26",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,195 +11,194 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42927046",
-      "title": "Hybrid Mechanistic-Neural Modeling of Concentration-Time Dynamics Generalizes Human Pharmacokinetics Prediction Across Unseen Chemical Space.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "publicationDate": "2026 Oct 7",
+      "id": "42928996",
+      "title": "Identifying Dose-Relevant Covariates With SCOUT: A Case Study of Lorlatinib.",
+      "journal": "CPT: pharmacometrics & systems pharmacology",
+      "publicationDate": "2026 Nov",
       "authors": [
-        "Badkul A",
-        "Cai L",
-        "Kim M"
+        "Ideno Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42927046/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928996/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926812",
-      "title": "Beat-to-Beat Action Potential Duration Variability, Not Duration, Reflects β-Adrenergic Stimulation-Induced Repolarization Instability.",
-      "journal": "medRxiv : the preprint server for health sciences",
-      "publicationDate": "2026 Oct 6",
+      "id": "42928988",
+      "title": "Restless Legs Syndrome Aggravation Associated with Berberine Use.",
+      "journal": "Movement disorders clinical practice",
+      "publicationDate": "2026 Oct 25",
       "authors": [
-        "Sato D",
-        "Shetty R",
-        "Coppini R"
+        "Cerda K",
+        "Davis EM",
+        "Karroum EG"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926812/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928988/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926783",
-      "title": "Stoichiometry-dependent gating and structural pharmacology of cardiac GIRK1/4 channels.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "publicationDate": "2026 Oct 7",
+      "id": "42928985",
+      "title": "Cordycepin Regulates the Nrf2/Hmox1 Signaling Pathway to Inhibit Ferroptosis and Improve AKI-CKD.",
+      "journal": "Cell biochemistry and function",
+      "publicationDate": "2026 Oct",
       "authors": [
-        "Wang L",
-        "Kawano T",
-        "Santa-Cruz A"
+        "Xi L",
+        "Bai M",
+        "Li J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926783/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928985/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926782",
-      "title": "Dexmedetomidine Suspected Fever and Clinical Escalation: A Pilot Study Evaluating the Impact in the Intensive Care Unit.",
-      "journal": "The Journal of pharmacy technology : jPT : official publication of the Association of Pharmacy Technicians",
-      "publicationDate": "2026 Oct 23",
+      "id": "42928923",
+      "title": "Circadian-Based Optimization of Pharmacotherapy in Chronic Diseases: Integrating Pharmacokinetics, Pharmacodynamics, and Disease Rhythm.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Quigg K",
-        "Sutton LH",
-        "Aymond K"
+        "C M",
+        "Mehrotra S",
+        "Srivastava N"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926782/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928923/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926777",
-      "title": "A CNS-targeted atovaquone nanotherapy mitigates complement activation and neuromuscular degeneration in ALS.",
-      "journal": "Materials today. Bio",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Ding YN",
-        "Bahati M",
-        "Li MQ"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926777/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
-    },
-    {
-      "id": "42926751",
-      "title": "Deciphering the therapeutic mechanisms of Pluchea lanceolata in Rheumatoid arthritis (RA) using network pharmacology, molecular docking and in silico molecular dynamics simulations.",
-      "journal": "In silico pharmacology",
+      "id": "42928917",
+      "title": "Real-World Impact of Mepolizumab in COPD in a US Commercial and Medicare Claims Database.",
+      "journal": "International journal of chronic obstructive pulmonary disease",
       "publicationDate": "2026",
       "authors": [
-        "Anand A",
-        "Kumari J",
-        "Kashyap H"
+        "Panettieri RA",
+        "Paczkowski R",
+        "Mei H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926751/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928917/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926694",
-      "title": "One Scaffold, Many Targets: Fully Modified RNA Nanostructures for Multi-Gene Silencing Beyond the Liver.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "publicationDate": "2026 Oct 9",
+      "id": "42928913",
+      "title": "Nanodelivery of Brucine in Myocardial Ischemia-Reperfusion Injury: Mitochondrial PANoptosis, Cardiotoxicity, and Translational Barriers.",
+      "journal": "International journal of nanomedicine",
+      "publicationDate": "2026",
       "authors": [
-        "Fakih HH",
-        "Summers A",
-        "Tang Q"
+        "Guo Y",
+        "Bao R",
+        "Fu Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926694/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928913/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926620",
-      "title": "Biological network identifies pathways linking mental health drugs to adverse weight-related side effects.",
-      "journal": "medRxiv : the preprint server for health sciences",
-      "publicationDate": "2026 Oct 8",
+      "id": "42928856",
+      "title": "Long-Term Cardiovascular, Thromboembolic, and Malignancy Safety of Janus Kinase (JAK) Inhibitors in Dermatologic and Rheumatologic Populations: A Narrative Comparative Review.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Arehart CH",
-        "Evans LM"
+        "Bou Rolon S",
+        "Ortiz Echevarria AN",
+        "Burgos Claudio M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926620/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928856/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926496",
-      "title": "An astrocytic AMPAR-dependent parity signal preserves synaptic strength.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "publicationDate": "2026 Oct 11",
+      "id": "42928832",
+      "title": "Sorafenib-Induced Hand-Foot Skin Reaction in a Patient With Acute Myeloid Leukemia Following Haploidentical Stem Cell Transplantation: A Case Report.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Elazar N",
-        "Ravenel JR",
-        "Kim J"
+        "Davis C",
+        "Vignesh A",
+        "Rangarajan S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926496/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928832/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926471",
-      "title": "Binding kinetics enable tumor-selective MAPK and growth suppression by a Type 1 RAF Inhibitor.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "publicationDate": "2026 Oct 6",
+      "id": "42928831",
+      "title": "High-Dose Tigecycline for Multidrug-Resistant Serratia Infections in Critically Ill Adults: A Systematic Review of Direct and Indirect Clinical Evidence.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Desaunay M",
-        "Peters TL",
-        "Matenoglou E"
+        "Choudhury A",
+        "Chaturvedi A",
+        "Ashraf A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926471/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928831/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926410",
-      "title": "Focal drug uncaging for the precise control of endogenous nicotinic receptors in behaving mice.",
-      "journal": "bioRxiv : the preprint server for biology",
-      "publicationDate": "2026 Oct 8",
+      "id": "42928818",
+      "title": "Knowledge of Antibiotic Resistance Among Dental Students at Teerthanker Mahaveer University: A Cross-Sectional Study.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Guyon N",
-        "Mohayyaei M",
-        "Bergel A"
+        "Pertin N",
+        "Jain A",
+        "Tangade P"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926410/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928818/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     },
     {
-      "id": "42926296",
-      "title": "Lipoplex Nanoparticle-Based RNA Delivery to 3D Melanoma Spheroids.",
-      "journal": "Methods in molecular biology (Clifton, N.J.)",
-      "publicationDate": "2027",
+      "id": "42928817",
+      "title": "Postnatal Hypertension Management and Discharge Documentation: A Retrospective Clinical Audit at a UK University Hospital.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Rudolf R",
-        "Cesetti T",
-        "Keller F"
+        "Mohamud I",
+        "Abdalla M",
+        "Farooq H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42926296/",
-      "retrievedAt": "2026-10-25T12:17:59.988Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928817/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
+    },
+    {
+      "id": "42928794",
+      "title": "Food-Derived Substances and Edible Chinese Medicinal Materials in Psoriasis Management: Potential, Evidence, and Perspectives-A Narrative Review.",
+      "journal": "Clinical, cosmetic and investigational dermatology",
+      "publicationDate": "2026",
+      "authors": [
+        "Ma X",
+        "Zheng S",
+        "Kai J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928794/",
+      "retrievedAt": "2026-10-26T13:48:51.734Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
