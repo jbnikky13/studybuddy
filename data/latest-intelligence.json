@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-26T13:48:51.734Z",
+  "generatedAt": "2026-10-27T12:56:00.426Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/28",
-    "through": "2026/10/26",
+    "from": "2026/07/29",
+    "through": "2026/10/27",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,196 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42928996",
-      "title": "Identifying Dose-Relevant Covariates With SCOUT: A Case Study of Lorlatinib.",
-      "journal": "CPT: pharmacometrics & systems pharmacology",
-      "publicationDate": "2026 Nov",
+      "id": "42935264",
+      "title": "Undergraduate and Postgraduate Dental Student Knowledge Regarding the Use of Antibiotics in Endodontics: An Online-Based Survey.",
+      "journal": "International endodontic journal",
+      "publicationDate": "2026 Oct 27",
       "authors": [
-        "Ideno Y"
+        "Nagendrababu V",
+        "Nassar M",
+        "Alagarsamy V"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928996/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935264/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928988",
-      "title": "Restless Legs Syndrome Aggravation Associated with Berberine Use.",
-      "journal": "Movement disorders clinical practice",
-      "publicationDate": "2026 Oct 25",
+      "id": "42935128",
+      "title": "The fight of innate immunity and abnormal cannabinoids against Candida infection.",
+      "journal": "British journal of pharmacology",
+      "publicationDate": "2026 Oct 26",
       "authors": [
-        "Cerda K",
-        "Davis EM",
-        "Karroum EG"
+        "Ofori P",
+        "Zaffran I",
+        "Levi Schaffer F"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928988/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935128/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928985",
-      "title": "Cordycepin Regulates the Nrf2/Hmox1 Signaling Pathway to Inhibit Ferroptosis and Improve AKI-CKD.",
-      "journal": "Cell biochemistry and function",
+      "id": "42935101",
+      "title": "Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on community-acquired pneumonia - assessment, diagnosis and antibiotic prescribing.",
+      "journal": "Singapore medical journal",
+      "publicationDate": "2026 Oct 1",
+      "authors": [
+        "Kyaw BM",
+        "Chua SC",
+        "See YT"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935101/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
+    },
+    {
+      "id": "42935053",
+      "title": "The Unusual Outbreak of Sepsis in a Cancer Hospital Caused by Intrinsically Contaminated Heparin Injection Vials.",
+      "journal": "Asian Pacific journal of cancer prevention : APJCP",
+      "publicationDate": "2026 Oct 1",
+      "authors": [
+        "Bajpai V",
+        "Kapoor A",
+        "Mishra A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935053/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
+    },
+    {
+      "id": "42935028",
+      "title": "Synthetic Insights on Donepezil: An Anti-Alzheimer Drug.",
+      "journal": "Archiv der Pharmazie",
       "publicationDate": "2026 Oct",
       "authors": [
-        "Xi L",
-        "Bai M",
-        "Li J"
+        "Khuman YM",
+        "Kapadiya YM",
+        "Maru JJ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928985/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935028/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928923",
-      "title": "Circadian-Based Optimization of Pharmacotherapy in Chronic Diseases: Integrating Pharmacokinetics, Pharmacodynamics, and Disease Rhythm.",
-      "journal": "Cureus",
-      "publicationDate": "2026 Sep",
+      "id": "42934920",
+      "title": "Increasing use of SGLT-2 inhibitors among patients with heart failure.",
+      "journal": "JAAPA : official journal of the American Academy of Physician Assistants",
+      "publicationDate": "2026 Nov 1",
       "authors": [
-        "C M",
-        "Mehrotra S",
-        "Srivastava N"
+        "Hoppe N",
+        "Haugh S",
+        "Umbreit A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928923/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934920/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928917",
-      "title": "Real-World Impact of Mepolizumab in COPD in a US Commercial and Medicare Claims Database.",
-      "journal": "International journal of chronic obstructive pulmonary disease",
-      "publicationDate": "2026",
+      "id": "42934895",
+      "title": "A Randomized, Double-Blind, Placebo-Controlled Study of the PD-1 Inhibitor Cetrelimab in Chronic Hepatitis B.",
+      "journal": "Journal of viral hepatitis",
+      "publicationDate": "2026 Nov",
       "authors": [
-        "Panettieri RA",
-        "Paczkowski R",
-        "Mei H"
+        "Asselah T",
+        "Kakuda TN",
+        "Kulke S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928917/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934895/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928913",
-      "title": "Nanodelivery of Brucine in Myocardial Ischemia-Reperfusion Injury: Mitochondrial PANoptosis, Cardiotoxicity, and Translational Barriers.",
-      "journal": "International journal of nanomedicine",
-      "publicationDate": "2026",
+      "id": "42934808",
+      "title": "Antimicrobial stewardship programme implementation in Ho Chi Minh City, Vietnam: a qualitative study to understand healthcare professional behaviours.",
+      "journal": "Antimicrobial resistance and infection control",
+      "publicationDate": "2026 Jul 28",
       "authors": [
-        "Guo Y",
-        "Bao R",
-        "Fu Y"
+        "Quan PB",
+        "Truong UTU",
+        "Ho DN"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928913/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934808/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928856",
-      "title": "Long-Term Cardiovascular, Thromboembolic, and Malignancy Safety of Janus Kinase (JAK) Inhibitors in Dermatologic and Rheumatologic Populations: A Narrative Comparative Review.",
-      "journal": "Cureus",
-      "publicationDate": "2026 Sep",
+      "id": "42934789",
+      "title": "Implementing Australia's psychotropic clinical practice guidelines in residential aged care: the EMBRACE helix counterbalanced randomised controlled trial comparing knowledge brokers with pharmacist education and passive distribution.",
+      "journal": "Implementation science : IS",
+      "publicationDate": "2026 Jul 29",
       "authors": [
-        "Bou Rolon S",
-        "Ortiz Echevarria AN",
-        "Burgos Claudio M"
+        "Cross AJ",
+        "Caze A",
+        "Haines TP"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928856/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934789/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928832",
-      "title": "Sorafenib-Induced Hand-Foot Skin Reaction in a Patient With Acute Myeloid Leukemia Following Haploidentical Stem Cell Transplantation: A Case Report.",
-      "journal": "Cureus",
-      "publicationDate": "2026 Sep",
+      "id": "42934767",
+      "title": "Economic impact of pharmacist-led initiatives to minimize medication wastage costs in the hospital setting: an interrupted time series analysis : J. Pharm. Health Care Sci. (Research article).",
+      "journal": "Journal of pharmaceutical health care and sciences",
+      "publicationDate": "2026 Jul 28",
       "authors": [
-        "Davis C",
-        "Vignesh A",
-        "Rangarajan S"
+        "Ueki T",
+        "Kamachi H",
+        "Oishi M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928832/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934767/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928831",
-      "title": "High-Dose Tigecycline for Multidrug-Resistant Serratia Infections in Critically Ill Adults: A Systematic Review of Direct and Indirect Clinical Evidence.",
-      "journal": "Cureus",
-      "publicationDate": "2026 Sep",
+      "id": "42934718",
+      "title": "Tetrahedral framework nucleic acids loaded with baicalein: suppressing oxidative stress and ferroptosis during renal ischemia-reperfusion injury via targeting Sirt1.",
+      "journal": "Journal of nanobiotechnology",
+      "publicationDate": "2026 Jul 29",
       "authors": [
-        "Choudhury A",
-        "Chaturvedi A",
-        "Ashraf A"
+        "Xia K",
+        "Qiu Q",
+        "Zhang Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928831/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934718/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     },
     {
-      "id": "42928818",
-      "title": "Knowledge of Antibiotic Resistance Among Dental Students at Teerthanker Mahaveer University: A Cross-Sectional Study.",
-      "journal": "Cureus",
-      "publicationDate": "2026 Sep",
+      "id": "42934711",
+      "title": "Cost-effectiveness of empirical ceftazidime-avibactam for hospital-acquired urinary tract infections: a modeling study identifying key beneficiary subgroups.",
+      "journal": "Cost effectiveness and resource allocation : C/E",
+      "publicationDate": "2026 Jul 30",
       "authors": [
-        "Pertin N",
-        "Jain A",
-        "Tangade P"
+        "Wu BS",
+        "Chang YY",
+        "Chen SC"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928818/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
-    },
-    {
-      "id": "42928817",
-      "title": "Postnatal Hypertension Management and Discharge Documentation: A Retrospective Clinical Audit at a UK University Hospital.",
-      "journal": "Cureus",
-      "publicationDate": "2026 Sep",
-      "authors": [
-        "Mohamud I",
-        "Abdalla M",
-        "Farooq H"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928817/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
-    },
-    {
-      "id": "42928794",
-      "title": "Food-Derived Substances and Edible Chinese Medicinal Materials in Psoriasis Management: Potential, Evidence, and Perspectives-A Narrative Review.",
-      "journal": "Clinical, cosmetic and investigational dermatology",
-      "publicationDate": "2026",
-      "authors": [
-        "Ma X",
-        "Zheng S",
-        "Kai J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42928794/",
-      "retrievedAt": "2026-10-26T13:48:51.734Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934711/",
+      "retrievedAt": "2026-10-27T12:56:00.426Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
