@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-27T12:56:00.426Z",
+  "generatedAt": "2026-10-28T13:45:21.809Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/29",
-    "through": "2026/10/27",
+    "from": "2026/07/30",
+    "through": "2026/10/28",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,196 +11,195 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42935264",
-      "title": "Undergraduate and Postgraduate Dental Student Knowledge Regarding the Use of Antibiotics in Endodontics: An Online-Based Survey.",
-      "journal": "International endodontic journal",
-      "publicationDate": "2026 Oct 27",
+      "id": "42947920",
+      "title": "Preclinical Assessment of Ezetimibe Combined with Curcumin in Colorectal Cancer Models.",
+      "journal": "Drug design, development and therapy",
+      "publicationDate": "2026",
       "authors": [
-        "Nagendrababu V",
-        "Nassar M",
-        "Alagarsamy V"
+        "Ntwasa M",
+        "Malindisa S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935264/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947920/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
     },
     {
-      "id": "42935128",
-      "title": "The fight of innate immunity and abnormal cannabinoids against Candida infection.",
-      "journal": "British journal of pharmacology",
-      "publicationDate": "2026 Oct 26",
+      "id": "42947851",
+      "title": "Predictors and prescribing patterns of definite anticholinergic medication use among community-dwelling older adults in Saudi Arabia: a retrospective multicenter cross-sectional study.",
+      "journal": "Frontiers in medicine",
+      "publicationDate": "2026",
       "authors": [
-        "Ofori P",
-        "Zaffran I",
-        "Levi Schaffer F"
+        "Alamer KA",
+        "Albekery MA",
+        "Keshk N"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935128/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947851/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
     },
     {
-      "id": "42935101",
-      "title": "Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on community-acquired pneumonia - assessment, diagnosis and antibiotic prescribing.",
-      "journal": "Singapore medical journal",
-      "publicationDate": "2026 Oct 1",
+      "id": "42947850",
+      "title": "Fifteen-year real-world pharmacovigilance of multiple sclerosis disease-modifying therapies: adverse event profiles, drug-specific safety signals and clinical implications.",
+      "journal": "Frontiers in neurology",
+      "publicationDate": "2026",
       "authors": [
-        "Kyaw BM",
-        "Chua SC",
-        "See YT"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935101/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42935053",
-      "title": "The Unusual Outbreak of Sepsis in a Cancer Hospital Caused by Intrinsically Contaminated Heparin Injection Vials.",
-      "journal": "Asian Pacific journal of cancer prevention : APJCP",
-      "publicationDate": "2026 Oct 1",
-      "authors": [
-        "Bajpai V",
-        "Kapoor A",
-        "Mishra A"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935053/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42935028",
-      "title": "Synthetic Insights on Donepezil: An Anti-Alzheimer Drug.",
-      "journal": "Archiv der Pharmazie",
-      "publicationDate": "2026 Oct",
-      "authors": [
-        "Khuman YM",
-        "Kapadiya YM",
-        "Maru JJ"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42935028/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42934920",
-      "title": "Increasing use of SGLT-2 inhibitors among patients with heart failure.",
-      "journal": "JAAPA : official journal of the American Academy of Physician Assistants",
-      "publicationDate": "2026 Nov 1",
-      "authors": [
-        "Hoppe N",
-        "Haugh S",
-        "Umbreit A"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934920/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42934895",
-      "title": "A Randomized, Double-Blind, Placebo-Controlled Study of the PD-1 Inhibitor Cetrelimab in Chronic Hepatitis B.",
-      "journal": "Journal of viral hepatitis",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Asselah T",
-        "Kakuda TN",
-        "Kulke S"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934895/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42934808",
-      "title": "Antimicrobial stewardship programme implementation in Ho Chi Minh City, Vietnam: a qualitative study to understand healthcare professional behaviours.",
-      "journal": "Antimicrobial resistance and infection control",
-      "publicationDate": "2026 Jul 28",
-      "authors": [
-        "Quan PB",
-        "Truong UTU",
-        "Ho DN"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934808/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42934789",
-      "title": "Implementing Australia's psychotropic clinical practice guidelines in residential aged care: the EMBRACE helix counterbalanced randomised controlled trial comparing knowledge brokers with pharmacist education and passive distribution.",
-      "journal": "Implementation science : IS",
-      "publicationDate": "2026 Jul 29",
-      "authors": [
-        "Cross AJ",
-        "Caze A",
-        "Haines TP"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934789/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42934767",
-      "title": "Economic impact of pharmacist-led initiatives to minimize medication wastage costs in the hospital setting: an interrupted time series analysis : J. Pharm. Health Care Sci. (Research article).",
-      "journal": "Journal of pharmaceutical health care and sciences",
-      "publicationDate": "2026 Jul 28",
-      "authors": [
-        "Ueki T",
-        "Kamachi H",
-        "Oishi M"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934767/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
-    },
-    {
-      "id": "42934718",
-      "title": "Tetrahedral framework nucleic acids loaded with baicalein: suppressing oxidative stress and ferroptosis during renal ischemia-reperfusion injury via targeting Sirt1.",
-      "journal": "Journal of nanobiotechnology",
-      "publicationDate": "2026 Jul 29",
-      "authors": [
-        "Xia K",
-        "Qiu Q",
+        "Lin S",
+        "Zhang B",
         "Zhang Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934718/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947850/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
     },
     {
-      "id": "42934711",
-      "title": "Cost-effectiveness of empirical ceftazidime-avibactam for hospital-acquired urinary tract infections: a modeling study identifying key beneficiary subgroups.",
-      "journal": "Cost effectiveness and resource allocation : C/E",
-      "publicationDate": "2026 Jul 30",
+      "id": "42947820",
+      "title": "Non-PML neuroinvasive infections reported with multiple sclerosis disease-modifying therapies: a mechanism-based pharmacovigilance study, 2004-2025.",
+      "journal": "Frontiers in immunology",
+      "publicationDate": "2026",
       "authors": [
-        "Wu BS",
-        "Chang YY",
-        "Chen SC"
+        "Ke L",
+        "Jiang S",
+        "Duan J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42934711/",
-      "retrievedAt": "2026-10-27T12:56:00.426Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947820/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947812",
+      "title": "Serotonergic regulation of neuronal excitability and glutamatergic synaptic transmission in rat claustrum.",
+      "journal": "Frontiers in cellular neuroscience",
+      "publicationDate": "2026",
+      "authors": [
+        "Rouleau R",
+        "Oubraim S",
+        "Cirone L"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947812/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947810",
+      "title": "Deciphering isonicotinylation and mast cell-associated pathogenic patterns in Duchenne muscular dystrophy: evidence from ensemble learning-driven multi-omics and in vitro validation.",
+      "journal": "Frontiers in molecular biosciences",
+      "publicationDate": "2026",
+      "authors": [
+        "Yu S",
+        "Xu D",
+        "Hua Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947810/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947808",
+      "title": "Evaluating student perceptions of image-based audience response questions in medical education.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
+      "authors": [
+        "Pourmoghadam Y",
+        "Mente W",
+        "Hewitt L"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947808/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947724",
+      "title": "Age-stratified reporting of immune checkpoint inhibitor-associated myocarditis: disproportionality is amplified in older adults, with implications for geriatric oncology.",
+      "journal": "Frontiers in cardiovascular medicine",
+      "publicationDate": "2026",
+      "authors": [
+        "Pehlivan M",
+        "Uyar A",
+        "Turhan O"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947724/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947707",
+      "title": "Real-world safety of vericiguat as a fifth-line agent in heart failure: a pharmacovigilance study of quintuple therapy.",
+      "journal": "Frontiers in cardiovascular medicine",
+      "publicationDate": "2026",
+      "authors": [
+        "Chen D",
+        "Wu Y",
+        "Wang Z"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947707/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947600",
+      "title": "Drug-drug Interaction Signals for Sexual Dysfunction with Antidepressants and Antipsychotics: A Pharmacovigilance-pharmacodynamic Study.",
+      "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+      "publicationDate": "2026 Nov 30",
+      "authors": [
+        "Horii R",
+        "Hatano M",
+        "Yamada S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947600/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947522",
+      "title": "The Boron-Neuron Connection: The Potential of Boron-Containing Molecules for Treating Incurable Amyotrophic Lateral Sclerosis.",
+      "journal": "ChemMedChem",
+      "publicationDate": "2026 Nov 12",
+      "authors": [
+        "Sanghai N",
+        "Vuong B",
+        "Afridi MSK"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947522/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
+    },
+    {
+      "id": "42947501",
+      "title": "Infection-related adverse events associated with T-cell-engaging bispecific agents: A real-world pharmacovigilance study using FAERS/AEMS.",
+      "journal": "International journal of immunopathology and pharmacology",
+      "publicationDate": "2026 Jan-Dec",
+      "authors": [
+        "Liu S",
+        "Tan Y",
+        "Chen A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947501/",
+      "retrievedAt": "2026-10-28T13:45:21.809Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
