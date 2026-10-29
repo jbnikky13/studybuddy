@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T13:45:21.809Z",
+  "generatedAt": "2026-10-29T13:53:54.863Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/07/30",
-    "through": "2026/10/28",
+    "from": "2026/07/31",
+    "through": "2026/10/29",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,195 +11,187 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42947920",
-      "title": "Preclinical Assessment of Ezetimibe Combined with Curcumin in Colorectal Cancer Models.",
-      "journal": "Drug design, development and therapy",
-      "publicationDate": "2026",
-      "authors": [
-        "Ntwasa M",
-        "Malindisa S"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947920/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
-    },
-    {
-      "id": "42947851",
-      "title": "Predictors and prescribing patterns of definite anticholinergic medication use among community-dwelling older adults in Saudi Arabia: a retrospective multicenter cross-sectional study.",
-      "journal": "Frontiers in medicine",
-      "publicationDate": "2026",
-      "authors": [
-        "Alamer KA",
-        "Albekery MA",
-        "Keshk N"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947851/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
-    },
-    {
-      "id": "42947850",
-      "title": "Fifteen-year real-world pharmacovigilance of multiple sclerosis disease-modifying therapies: adverse event profiles, drug-specific safety signals and clinical implications.",
-      "journal": "Frontiers in neurology",
-      "publicationDate": "2026",
-      "authors": [
-        "Lin S",
-        "Zhang B",
-        "Zhang Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947850/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
-    },
-    {
-      "id": "42947820",
-      "title": "Non-PML neuroinvasive infections reported with multiple sclerosis disease-modifying therapies: a mechanism-based pharmacovigilance study, 2004-2025.",
-      "journal": "Frontiers in immunology",
-      "publicationDate": "2026",
-      "authors": [
-        "Ke L",
-        "Jiang S",
-        "Duan J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947820/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
-    },
-    {
-      "id": "42947812",
-      "title": "Serotonergic regulation of neuronal excitability and glutamatergic synaptic transmission in rat claustrum.",
-      "journal": "Frontiers in cellular neuroscience",
-      "publicationDate": "2026",
-      "authors": [
-        "Rouleau R",
-        "Oubraim S",
-        "Cirone L"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947812/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
-    },
-    {
-      "id": "42947810",
-      "title": "Deciphering isonicotinylation and mast cell-associated pathogenic patterns in Duchenne muscular dystrophy: evidence from ensemble learning-driven multi-omics and in vitro validation.",
-      "journal": "Frontiers in molecular biosciences",
-      "publicationDate": "2026",
-      "authors": [
-        "Yu S",
-        "Xu D",
-        "Hua Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947810/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
-    },
-    {
-      "id": "42947808",
-      "title": "Evaluating student perceptions of image-based audience response questions in medical education.",
+      "id": "42952574",
+      "title": "Integrating knowledge graphs and retrieval-augmented generation to identify clinical pharmacology gaps in infectious disease trial protocols.",
       "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Pourmoghadam Y",
-        "Mente W",
-        "Hewitt L"
+        "Waikar S",
+        "Ramanathan M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947808/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952574/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
     },
     {
-      "id": "42947724",
-      "title": "Age-stratified reporting of immune checkpoint inhibitor-associated myocarditis: disproportionality is amplified in older adults, with implications for geriatric oncology.",
-      "journal": "Frontiers in cardiovascular medicine",
+      "id": "42952564",
+      "title": "Short-course versus standard- or longer-course oral antibiotic therapy for pneumonia and lower respiratory tract infection in children: a systematic review and meta-analysis of randomized controlled trials.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Pehlivan M",
-        "Uyar A",
-        "Turhan O"
+        "Zhou L",
+        "Wang S",
+        "Tang Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947724/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952564/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
     },
     {
-      "id": "42947707",
-      "title": "Real-world safety of vericiguat as a fifth-line agent in heart failure: a pharmacovigilance study of quintuple therapy.",
-      "journal": "Frontiers in cardiovascular medicine",
+      "id": "42952543",
+      "title": "Bioequivalence study of two formulations of a sitagliptin/metformin hydrochloride extended-release tablet in healthy Chinese subjects under fasting and fed conditions: a randomized, open-label, single-dose, crossover trial.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Chen D",
-        "Wu Y",
-        "Wang Z"
+        "Fang L",
+        "Li X",
+        "Ban R"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947707/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952543/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
     },
     {
-      "id": "42947600",
-      "title": "Drug-drug Interaction Signals for Sexual Dysfunction with Antidepressants and Antipsychotics: A Pharmacovigilance-pharmacodynamic Study.",
-      "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
-      "publicationDate": "2026 Nov 30",
+      "id": "42952485",
+      "title": "Cardiac adverse event signals of Bruton's tyrosine kinase inhibitors as primary suspect and in co-reported regimens: a large-scale FAERS pharmacovigilance study.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Horii R",
-        "Hatano M",
-        "Yamada S"
+        "Zhang T",
+        "Wang G",
+        "Yang X"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947600/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952485/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
     },
     {
-      "id": "42947522",
-      "title": "The Boron-Neuron Connection: The Potential of Boron-Containing Molecules for Treating Incurable Amyotrophic Lateral Sclerosis.",
-      "journal": "ChemMedChem",
-      "publicationDate": "2026 Nov 12",
+      "id": "42952431",
+      "title": "Hiring Alone Won't Close the Gap: Redesigning the Health-System Pharmacy Workforce.",
+      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publicationDate": "2026 Oct 29",
       "authors": [
-        "Sanghai N",
-        "Vuong B",
-        "Afridi MSK"
+        "Smith WT",
+        "Youmans SL"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947522/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952431/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
     },
     {
-      "id": "42947501",
-      "title": "Infection-related adverse events associated with T-cell-engaging bispecific agents: A real-world pharmacovigilance study using FAERS/AEMS.",
-      "journal": "International journal of immunopathology and pharmacology",
-      "publicationDate": "2026 Jan-Dec",
+      "id": "42952351",
+      "title": "How Preceptors Can Cultivate Professional Identity Formation Through Meaningful Participation in Experiential Learning.",
+      "journal": "Journal of the American College of Clinical Pharmacy : JACCP",
+      "publicationDate": "2026 Nov",
       "authors": [
-        "Liu S",
-        "Tan Y",
-        "Chen A"
+        "Hawkins WA",
+        "Bass KM",
+        "Smith LT"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42947501/",
-      "retrievedAt": "2026-10-28T13:45:21.809Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952351/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
+    },
+    {
+      "id": "42952336",
+      "title": "Switching between semaglutide and tirzepatide in obesity Management: an expert-consensus framework for approximate clinical Efficacy-matched switching doses.",
+      "journal": "Expert opinion on pharmacotherapy",
+      "publicationDate": "2026 Oct 29",
+      "authors": [
+        "Schwartzberg E",
+        "Berman E",
+        "Shani S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952336/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
+    },
+    {
+      "id": "42952294",
+      "title": "Updated Management of Sodium Disorders During Continuous Venovenous Hemofiltration.",
+      "journal": "Seminars in dialysis",
+      "publicationDate": "2026 Oct 29",
+      "authors": [
+        "Alrashidi FS"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952294/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
+    },
+    {
+      "id": "42952264",
+      "title": "Estimand-based design strategies for cardiovascular recurrent event trials of combination therapies.",
+      "journal": "Journal of biopharmaceutical statistics",
+      "publicationDate": "2026 Oct 28",
+      "authors": [
+        "Mukherjee A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952264/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
+    },
+    {
+      "id": "42952236",
+      "title": "Real-World Clinical Data and Thrombin Generation of Efanesoctocog Alfa Prophylaxis in Pediatric Patients With Haemophilia A.",
+      "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+      "publicationDate": "2026 Oct 28",
+      "authors": [
+        "Garcia J",
+        "Zia A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952236/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
+    },
+    {
+      "id": "42952211",
+      "title": "AI-Enabled Animal Behavior Analysis for Translational Pharmacology and Therapeutic Discovery.",
+      "journal": "Biomolecules & therapeutics",
+      "publicationDate": "2026 Nov 1",
+      "authors": [
+        "Kim S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952211/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
+    },
+    {
+      "id": "42952203",
+      "title": "Tiny Lungs, Big Challenge: The Treatment Landscape of Pediatric Tuberculosis.",
+      "journal": "Pulmonary medicine",
+      "publicationDate": "2026",
+      "authors": [
+        "Dumeni LN",
+        "Kumar P",
+        "Choonara YE"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42952203/",
+      "retrievedAt": "2026-10-29T13:53:54.863Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
