@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-31T13:14:55.069Z",
+  "generatedAt": "2026-11-01T13:58:52.482Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/02",
-    "through": "2026/10/31",
+    "from": "2026/08/03",
+    "through": "2026/11/01",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,194 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42964358",
-      "title": "Clitoria ternatea as a phytopharmacological resource: plant metabolites, mechanistic evidence, translational prospects, and safety considerations.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
+      "id": "42967154",
+      "title": "Responsible use of new antibiotics for critically ill patients suffering from infections due to carbapenem-resistant organisms-a narrative review for an enablement strategy.",
+      "journal": "JAC-antimicrobial resistance",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Devi DR",
-        "Maheswari SN",
-        "Saranya RK"
+        "Eckmann C",
+        "Akova M",
+        "Antonelli M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964358/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42967154/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     },
     {
-      "id": "42964203",
-      "title": "The Schisandra-Salvia-Hawthorn herbal formulation demonstrates therapeutic efficacy in ameliorating hyperlipidemia.",
-      "journal": "Frontiers in pharmacology",
+      "id": "42967149",
+      "title": "Sudanese Pharmacists' Knowledge, Attitudes, Practices, and Barriers Regarding Breast Cancer Endocrine Therapy: A Cross- Sectional Survey.",
+      "journal": "Breast cancer (Dove Medical Press)",
       "publicationDate": "2026",
       "authors": [
-        "Xing N",
-        "Qu H",
-        "Jiang Y"
+        "Hassan TM",
+        "Alarabi AM",
+        "Hussein Eljack RA"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964203/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42967149/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     },
     {
-      "id": "42964193",
-      "title": "Pregnancy and perinatal outcomes following exposure to GLP-1 and dual GLP-1/GIP receptor agonists: a time-window-stratified systematic review and meta-analysis.",
-      "journal": "Frontiers in pharmacology",
+      "id": "42967130",
+      "title": "Biomaterial-Enabled Delivery Strategies to Overcome Treatment Resistance in Medulloblastoma.",
+      "journal": "International journal of nanomedicine",
       "publicationDate": "2026",
       "authors": [
-        "Mavigök E",
-        "Mavigök AN"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964193/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
-    },
-    {
-      "id": "42964182",
-      "title": "Benzoylaconine suppresses colorectal cancer progression by modulating the CDK2/MMP2 signaling axis.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Li F",
-        "Zhang K",
-        "Wang M"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964182/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
-    },
-    {
-      "id": "42964105",
-      "title": "Clinical characteristics and pharmacovigilance signals of immune checkpoint inhibitor-associated cystitis and ureteritis: analysis of FAERS reports and published cases.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Zhang Y",
-        "Yang J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964105/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
-    },
-    {
-      "id": "42964102",
-      "title": "Prospective evaluation of combination oral S-1 and intravenous cisplatin in cancer patients with severe hepatic dysfunction - a feasibility, safety, and pharmacokinetic study.",
-      "journal": "Frontiers in oncology",
-      "publicationDate": "2026",
-      "authors": [
-        "Gwee YX",
-        "Wong ALA",
-        "Goh BC"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964102/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
-    },
-    {
-      "id": "42964069",
-      "title": "Yixintai granules enhance glucose and lipid metabolism after ischemic heart failure by regulating inflammatory factors via the LPS/TLR4/NF-κB signaling pathway.",
-      "journal": "Frontiers in immunology",
-      "publicationDate": "2026",
-      "authors": [
-        "Wang Z",
-        "Liu C",
+        "Sheng Z",
+        "Dong Y",
         "Wei J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964069/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42967130/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     },
     {
-      "id": "42964032",
-      "title": "Targeting the gut-tumor axis: probiotic therapy as an adjunct strategy in colorectal cancer treatment.",
-      "journal": "Frontiers in cellular and infection microbiology",
+      "id": "42967089",
+      "title": "Non-ST Elevation Myocardial Infarction Following Significant Weight Loss During Tirzepatide Therapy: A Case Report.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Oct",
+      "authors": [
+        "Roy A",
+        "Pabani UK",
+        "Kyriakou A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42967089/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
+    },
+    {
+      "id": "42967046",
+      "title": "Drug-Development Potential of Muntingia calabura L.: A Systematic Review of Ethnopharmacological Use, Pharmacological Potency, Preclinical Evidence, and Plant-Mediated Nanotechnology.",
+      "journal": "Drug design, development and therapy",
       "publicationDate": "2026",
       "authors": [
-        "Li H",
-        "Hou C",
-        "Pan Y"
+        "Febriyanti RM",
+        "Irawan AA",
+        "Ramadhania ZM"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42964032/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42967046/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     },
     {
-      "id": "42963985",
-      "title": "Pharmacokinetics of Pradofloxacin in Loggerhead Sea Turtles (Caretta caretta) After Single Intravenous and Subcutaneous Injections.",
-      "journal": "Journal of veterinary pharmacology and therapeutics",
+      "id": "42966874",
+      "title": "Defining Core Functions and Forms for the Implementation of Pharmacogenomics Testing in Primary Care.",
+      "journal": "Clinical and translational science",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Ramesh S",
+        "Cavallari LH",
+        "Wittner V"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966874/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
+    },
+    {
+      "id": "42966706",
+      "title": "TEAD as a druggable target in Hippo signaling: Structure-based discovery of small-molecule inhibitors.",
+      "journal": "Bulletin du cancer",
       "publicationDate": "2026 Oct 31",
       "authors": [
-        "Yde MM",
-        "Papich MG",
-        "Lewbart GA"
+        "Prasad M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42963985/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966706/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     },
     {
-      "id": "42963984",
-      "title": "Operationalizing quantitative neuromuscular monitoring in perioperative practice: A pharmacy-led framework for health systems.",
-      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "id": "42966678",
+      "title": "Pharmacist-managed buprenorphine care across diverse practice settings: A qualitative study of implementation patterns, collaborative practice agreement design, and scalability conditions.",
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "publicationDate": "2026 Oct 27",
+      "authors": [
+        "Hohmeier KC",
+        "Tyszko M",
+        "Barenie R"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966678/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
+    },
+    {
+      "id": "42966516",
+      "title": "Dendrobium officinale extract ameliorates Alzheimer's disease by modulating PI3K-AKT-mTOR pathway and autophagy-related processes: An integrated study combining feature-based molecular networking, network pharmacology and multi-omics.",
+      "journal": "Journal of ethnopharmacology",
       "publicationDate": "2026 Oct 31",
       "authors": [
-        "Linn DD",
-        "Freundlich RE",
-        "Renew JR"
+        "Fu J",
+        "Liang Z",
+        "Wang F"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42963984/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966516/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     },
     {
-      "id": "42963977",
-      "title": "Community Pharmacists' Perspectives and Experiences of Deprescribing in Québec, Canada: Findings From a Survey.",
-      "journal": "Basic & clinical pharmacology & toxicology",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Campeau Calfat A",
-        "Martin B",
-        "Sirois C"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42963977/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
-    },
-    {
-      "id": "42963953",
-      "title": "Concomitant calcium supplementation does not compromise immunosuppressive dosing in kidney transplant recipients.",
-      "journal": "British journal of clinical pharmacology",
+      "id": "42966450",
+      "title": "Metabolite profiling and antiproliferative activity of endophytic fungus Alternaria alternata Y-13 isolated from Ageratina adenophora against cervical cancer cells.",
+      "journal": "Fitoterapia",
       "publicationDate": "2026 Oct 31",
       "authors": [
-        "Aftret LH",
-        "Ellingsen AØ",
-        "Midtvedt K"
+        "Yang F",
+        "Yousif M",
+        "Okyere SK"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42963953/",
-      "retrievedAt": "2026-10-31T13:14:55.069Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966450/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
+    },
+    {
+      "id": "42966404",
+      "title": "SGLT2 inhibitor-induced genitourinary infections and the consequent antimicrobial-antidiabetic drug interactions: A narrative review of clinical and pharmacovigilance concern.",
+      "journal": "Diabetes research and clinical practice",
+      "publicationDate": "2026 Oct 31",
+      "authors": [
+        "Chandel P",
+        "Sharma A",
+        "Vijukumar A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966404/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
+    },
+    {
+      "id": "42966345",
+      "title": "Melatonin-loaded proniosomes enhance gemcitabine response in gemcitabine-resistant cholangiocarcinoma: Proteomic and computational insights.",
+      "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "publicationDate": "2026 Oct 31",
+      "authors": [
+        "Thongpon P",
+        "Kongsintaweesuk S",
+        "Chomwong S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42966345/",
+      "retrievedAt": "2026-11-01T13:58:52.482Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
