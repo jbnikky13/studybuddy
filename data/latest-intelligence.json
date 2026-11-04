@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-03T14:48:44.324Z",
+  "generatedAt": "2026-11-04T15:01:48.947Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/05",
-    "through": "2026/11/03",
+    "from": "2026/08/06",
+    "through": "2026/11/04",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,193 +11,195 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42973480",
-      "title": "Exploring the potential mechanisms of Pei Yuan Yi Fei decoction for non-small cell lung cancer through network pharmacology and experimental validation.",
-      "journal": "Frontiers in oncology",
+      "id": "42979021",
+      "title": "Global prevalence of fluoroquinolone resistance in common Campylobacter species associated with human infections.",
+      "journal": "New microbes and new infections",
+      "publicationDate": "2026 Feb",
+      "authors": [
+        "Aghmiyuni ZF",
+        "Ahmadi MH",
+        "Javadi K"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42979021/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
+    },
+    {
+      "id": "42979005",
+      "title": "Identification of potential inhibitors against monoamine oxidase (MAO-B) using an integrative chemoinformatics approach: a lead against neurodegenerative disorder.",
+      "journal": "In silico pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Zhou Y",
-        "Wu J",
-        "Li M"
+        "Shukla R",
+        "Bhattacharya S",
+        "Singh TR"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973480/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42979005/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973459",
-      "title": "Contextualizing a One Health definition of appropriate antimicrobial use.",
-      "journal": "JAC-antimicrobial resistance",
-      "publicationDate": "2026 Dec",
+      "id": "42978897",
+      "title": "Unraveling the multitarget mechanisms of aloe emodin against periodontitis: a synergy of network pharmacology and experimental validation.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Schermuly A",
-        "Scarborough R",
-        "Dowson L"
+        "Zhang Y",
+        "Ma H",
+        "Zhang S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973459/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978897/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973374",
-      "title": "In silico Characterization of Taxifolin as a Dual Cyclooxygenase Ligand: Potential Role in Limiting Inflammation?",
-      "journal": "Endocrine, metabolic & immune disorders drug targets",
-      "publicationDate": "2026 Oct 22",
+      "id": "42978829",
+      "title": "Predicting clinically actionable metagenomic next-generation sequencing in sepsis through dynamic inflammatory trajectories.",
+      "journal": "Frontiers in microbiology",
+      "publicationDate": "2026",
       "authors": [
-        "Quilenda JC",
-        "Cruz-Machado SDS",
-        "Marques MA"
+        "Ding X",
+        "Bao P",
+        "Huang X"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973374/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978829/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973369",
-      "title": "Biotechnological Approaches in Natural Products Isolation and Characterization.",
-      "journal": "Mini reviews in medicinal chemistry",
-      "publicationDate": "2026 Oct 21",
+      "id": "42978823",
+      "title": "Treatment of vascular dementia based on neuroprotection and neural repair strategies: from pathophysiology to natural products.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Adhami S",
-        "Farooqi H"
+        "Luo Q",
+        "Li Z",
+        "Liao Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973369/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978823/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973366",
-      "title": "Network Diffusion on a Multiscale Interactome Reveals Novel Herbal Candidates and Bioactive Compounds Converging on Shared Effectors in Anemia.",
-      "journal": "Combinatorial chemistry & high throughput screening",
-      "publicationDate": "2026 Oct 21",
+      "id": "42978782",
+      "title": "Increased Levothyroxine Requirement After Tirzepatide Initiation.",
+      "journal": "AACE endocrinology and diabetes",
+      "publicationDate": "2026 Sep-Oct",
       "authors": [
-        "Lee WY"
+        "Koç D",
+        "Vural Keskinler M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973366/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978782/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973364",
-      "title": "Deciphering and Predicting the Anti-Gastric Cancer Constituents of Actinidia eriantha Benth. Root via UPLC-Q-TOF-MS and In Vitro Mechanistic Validation.",
-      "journal": "Combinatorial chemistry & high throughput screening",
-      "publicationDate": "2026 Oct 21",
+      "id": "42978736",
+      "title": "Oral Adverse Drug Reactions in Patients Receiving Polypharmacy: A Prospective Interdisciplinary Case Series.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Oct",
       "authors": [
-        "Li T",
-        "Du B",
-        "Liu S"
+        "Singh J",
+        "Bhatti N",
+        "Joseph G"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973364/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978736/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973357",
-      "title": "Mechanistic Insights into GLP-1 and DPP-4 Pathways: Opportunities for Nano-Delivery and β-Cell Protection and Regeneration.",
-      "journal": "Current diabetes reviews",
-      "publicationDate": "2026 Oct 21",
+      "id": "42978726",
+      "title": "Community pharmacists' strategies and barriers in supporting medication adherence in Saudi Arabia: a cross-sectional study.",
+      "journal": "Frontiers in medicine",
+      "publicationDate": "2026",
       "authors": [
-        "Raza M",
-        "Kim JS",
-        "Lee HY"
+        "Alzahrani F",
+        "Alnezary FS",
+        "Saleem Z"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973357/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978726/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973340",
-      "title": "Structure-Activity Relationships and Mechanistic Insights of Racetam Derivatives in Epilepsy Management.",
-      "journal": "Central nervous system agents in medicinal chemistry",
-      "publicationDate": "2026 Oct 20",
+      "id": "42978718",
+      "title": "Carbapenem Renal Dose Discordance and Acute Kidney Injury in the Intensive Care Unit: A Retrospective Cohort Study.",
+      "journal": "The Journal of pharmacy technology : jPT : official publication of the Association of Pharmacy Technicians",
+      "publicationDate": "2026 Nov 1",
       "authors": [
-        "Chaudhary T",
-        "Dhama N",
-        "Sangal S"
+        "Quach NT",
+        "Le NHB",
+        "Huynh TTM"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973340/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978718/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973322",
-      "title": "Natural Medicines for Parkinson's Disease: A Bibliometric Analysis of Trends, Challenges, and Future Directions.",
-      "journal": "Current neuropharmacology",
-      "publicationDate": "2026 Oct 19",
+      "id": "42978715",
+      "title": "Bioequivalence of budesonide inhalation suspension with and without activated charcoal in healthy Chinese subjects: two randomized four-period crossover trials.",
+      "journal": "Journal of pharmacy & pharmaceutical sciences : a publication of the Canadian Society for Pharmaceutical Sciences, Societe canadienne des sciences pharmaceutiques",
+      "publicationDate": "2026",
       "authors": [
-        "Fang K",
-        "Niu B",
-        "Zhang Z"
+        "Li Y",
+        "Qi L",
+        "Fan R"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973322/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978715/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973316",
-      "title": "Network Pharmacology and In Vivo Validation Reveal the Potential Protective Mechanisms of Chonggu Granules in Knee Osteoarthritis.",
-      "journal": "Current pharmaceutical design",
-      "publicationDate": "2026 Oct 19",
+      "id": "42978644",
+      "title": "Case Report: Temporal dissociation between peripheral B-cell pharmacodynamics and renal remission during sequential rituximab and telitacicept-containing therapy in childhood secondary steroid-resistant nephrotic syndrome.",
+      "journal": "Frontiers in immunology",
+      "publicationDate": "2026",
       "authors": [
-        "Cheng Y",
-        "Zhu Y",
-        "Qian A"
+        "Hu S",
+        "Li Q",
+        "Qi H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973316/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978644/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     },
     {
-      "id": "42973310",
-      "title": "Quinoline-derived Anticancer Agents for Breast Cancer Therapy: Molecular Targets, Structure-activity Relationships, and Clinical Perspectives.",
-      "journal": "Mini reviews in medicinal chemistry",
-      "publicationDate": "2026 Oct 22",
+      "id": "42978643",
+      "title": "Reconfiguring clinical pharmacists' roles under China's DRG payment system: perspectives from clinical pharmacists and physicians in multidisciplinary teams.",
+      "journal": "Frontiers in public health",
+      "publicationDate": "2026",
       "authors": [
-        "Yadav A",
-        "Kaushik N",
-        "Paliwal D"
+        "Fu J",
+        "Gao X",
+        "Sun Q"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973310/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
-    },
-    {
-      "id": "42973309",
-      "title": "Network Pharmacology and Molecular Docking on the Mechanism of Epimedium in the Treatment of Chronic Obstructive Pulmonary Disease.",
-      "journal": "Current pharmaceutical design",
-      "publicationDate": "2026 Oct 22",
-      "authors": [
-        "Pan C",
-        "Wang Y",
-        "Li Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42973309/",
-      "retrievedAt": "2026-11-03T14:48:44.324Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42978643/",
+      "retrievedAt": "2026-11-04T15:01:48.947Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
