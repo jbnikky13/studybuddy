@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-05T15:07:07.002Z",
+  "generatedAt": "2026-11-06T14:45:24.314Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/07",
-    "through": "2026/11/05",
+    "from": "2026/08/08",
+    "through": "2026/11/06",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,196 +11,193 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42982766",
-      "title": "Drug-Drug Interactions of Cenobamate With Medications: Dose-Dependent Induction/Inhibition and Clinical Implications.",
-      "journal": "CPT: pharmacometrics & systems pharmacology",
+      "id": "42990067",
+      "title": "Beyond Class-Wide Warnings: A Dynamic Framework for Infection Vulnerability During Complement-Directed Therapy in Paroxysmal Nocturnal Hemoglobinuria.",
+      "journal": "Journal of clinical pharmacology",
       "publicationDate": "2026 Nov",
       "authors": [
-        "Ichida H",
-        "Nakao T",
-        "Mori T"
+        "Shimazu Y",
+        "Inano S",
+        "Hira D"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982766/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42990067/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982704",
-      "title": "Inhaled corticosteroid adherence in pediatric asthma: A systematic review of measurement methods and temporal patterns.",
-      "journal": "Paediatric respiratory reviews",
-      "publicationDate": "2026 Oct 1",
+      "id": "42990049",
+      "title": "Impact of multimodal interventions on β-lactam use in patients with penicillin or cephalosporin allergy.",
+      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Rodriguez-Martinez CE",
-        "Sossa-Briceño MP",
-        "Castro-Rodriguez JA"
+        "Wegener N",
+        "Ameye J",
+        "Rajanna V"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982704/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42990049/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982670",
-      "title": "Outpatient parenteral antimicrobial therapy in long-term care facilities: Clinical outcomes in frail institutionalized older adults.",
-      "journal": "Enfermedades infecciosas y microbiologia clinica (English ed.)",
-      "publicationDate": "2026 Nov 4",
+      "id": "42990035",
+      "title": "From empirical to targeted therapy: A comprehensive review of clinical microbiological diagnostics for urinary tract infections.",
+      "journal": "Investigative and clinical urology",
+      "publicationDate": "2026 Nov",
       "authors": [
-        "Licetti A",
-        "Bayón IC",
-        "Santos SM"
+        "Kim JA",
+        "Kim JH"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982670/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42990035/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982605",
-      "title": "Alterations of fecal microbiome and metabolome in patients with diminished ovarian reserve.",
-      "journal": "Human reproduction (Oxford, England)",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989981",
+      "title": "I Have a Medical Degree. Should I Consider a Career in Clinical Pharmacology in 2026?",
+      "journal": "Clinical pharmacology and therapeutics",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Sun L",
-        "Li J",
-        "Zhu Y"
+        "Terrier J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982605/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989981/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982563",
-      "title": "STELLAR study: impact of a proximity medication delivery and telepharmacy programme on access to medicines in rural settings in Spain.",
-      "journal": "European journal of hospital pharmacy : science and practice",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989872",
+      "title": "Separation Science Perspectives on Processing-Induced Chemical Transformations of Natural Anti-Prostate Cancer Agents From Traditional Chinese Medicine.",
+      "journal": "Journal of separation science",
+      "publicationDate": "2026 Nov",
       "authors": [
-        "Castaño-Amores C",
-        "Nieto-Gómez P",
-        "Donaire-Martínez S"
+        "Zhu J",
+        "Chen Z",
+        "Shen Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982563/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989872/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982484",
-      "title": "Atypical oculogyric crisis mimicking horizontal gaze palsy following prochlorperazine therapy in a postoperative mastoidectomy patient with vestibular dysfunction.",
-      "journal": "BMJ case reports",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989839",
+      "title": "Personalized anticoagulation and drug monitoring for pregnancy-associated venous thromboembolism in hereditary type IIa antithrombin deficiency.",
+      "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Srivastava A",
-        "Kapoor D",
-        "Soni A"
+        "Gong X",
+        "Wang W",
+        "Tian H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982484/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989839/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982417",
-      "title": "Beyond Dendritic Cells: A Cellular Pharmacology Agenda for mRNA Cancer Vaccines in Hematologic Malignancies.",
-      "journal": "European journal of haematology",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989830",
+      "title": "Renal Function-Guided Valganciclovir Dosing and Ganciclovir Exposure Variability: A Population Pharmacokinetic Simulation Study.",
+      "journal": "Basic & clinical pharmacology & toxicology",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Morabito F",
-        "Martino EA",
-        "Bruzzese A"
+        "Maizaud F",
+        "Labriffe M",
+        "Sayadi H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982417/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989830/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982299",
-      "title": "Evodiamine inhibits lung cancer by rectifying abnormal glycolysis via the AMPK signaling pathway.",
-      "journal": "European journal of pharmacology",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989776",
+      "title": "Nosocomial Infections in Hospitalised Haematological Patients: A Retrospective Observational Record-Based Study.",
+      "journal": "Nursing open",
+      "publicationDate": "2026 Nov",
       "authors": [
-        "Chen Y",
-        "Zheng Y",
-        "Zhang F"
+        "Cabrera-Jaime L",
+        "Cabrera-Jaime S",
+        "Feijoo-Cid M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982299/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989776/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982287",
-      "title": "Clinical failure in bloodstream infections extends beyond antimicrobial therapy: Factors associated with individual outcomes in a multicenter prospective cohort study.",
-      "journal": "International journal of antimicrobial agents",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989752",
+      "title": "Current Trend in Bacteriological Profile and Antibiograms of Urinary Tract Infection at a Tertiary Care Center in Nepal.",
+      "journal": "Kathmandu University medical journal (KUMJ)",
+      "publicationDate": "2026 Jan-Mar",
       "authors": [
-        "Nagaoka K",
-        "Kawasuji H",
-        "Kato N"
+        "Rana Magar SB ",
+        "Madhup SK ",
+        "Sapkota P "
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982287/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989752/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982259",
-      "title": "Proteomic, biochemical, and in vivo toxicological characterization of Ophiophagus hannah venom from Mizoram, Northeast India.",
-      "journal": "International journal of biological macromolecules",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989751",
+      "title": "Availability of Point-of-care Testing Diagnostic Devices and Assessment of Knowledge, Attitude and Practice for Screening of Cholesterol in Community Pharmacies in Kathmandu Metropolitan City.",
+      "journal": "Kathmandu University medical journal (KUMJ)",
+      "publicationDate": "2026 Jan-Mar",
       "authors": [
-        "Gogoi P",
-        "Deb S",
-        "Sen D"
+        "Chaudhary P ",
+        "Bhujel R ",
+        "Shahukhal S "
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982259/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989751/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982198",
-      "title": "Unveiling the mechanisms of nephrotoxicity caused by the interplay of losartan and febuxostat.",
-      "journal": "Toxicology and applied pharmacology",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989742",
+      "title": "Literacy and Attitudes toward Eco-pharmacology among Medical and Nursing Students: A Quasi-experimental Study.",
+      "journal": "Kathmandu University medical journal (KUMJ)",
+      "publicationDate": "2026 Jan-Mar",
       "authors": [
-        "Zhang C",
-        "Wang Q",
-        "Xu T"
+        "Khadka A ",
+        "Kaundinnyayana S ",
+        "Sharma M "
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982198/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989742/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     },
     {
-      "id": "42982162",
-      "title": "Effect of ursodeoxycholic acid on the pharmacokinetics of enalapril and its active metabolite enalaprilat in mice: Implications for transporter-mediated drug-drug interaction.",
-      "journal": "Chemico-biological interactions",
-      "publicationDate": "2026 Nov 4",
+      "id": "42989673",
+      "title": "The prodigal peptides.",
+      "journal": "JPMA. The Journal of the Pakistan Medical Association",
+      "publicationDate": "2026 Sep",
       "authors": [
-        "Subba RK",
-        "Panthi M",
-        "Lee SJ"
+        "Kalra S",
+        "Dhingra A",
+        "Verma SK"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42982162/",
-      "retrievedAt": "2026-11-05T15:07:07.002Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989673/",
+      "retrievedAt": "2026-11-06T14:45:24.314Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
