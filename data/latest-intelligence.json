@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-06T14:45:24.314Z",
+  "generatedAt": "2026-11-07T13:42:33.547Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/08",
-    "through": "2026/11/06",
+    "from": "2026/08/09",
+    "through": "2026/11/07",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,193 +11,193 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42990067",
-      "title": "Beyond Class-Wide Warnings: A Dynamic Framework for Infection Vulnerability During Complement-Directed Therapy in Paroxysmal Nocturnal Hemoglobinuria.",
-      "journal": "Journal of clinical pharmacology",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Shimazu Y",
-        "Inano S",
-        "Hira D"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42990067/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
-    },
-    {
-      "id": "42990049",
-      "title": "Impact of multimodal interventions on β-lactam use in patients with penicillin or cephalosporin allergy.",
-      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "id": "42995159",
+      "title": "The placental transfer of nirmatrelvir using the ex vivo human placental perfusion model.",
+      "journal": "British journal of clinical pharmacology",
       "publicationDate": "2026 Nov 6",
       "authors": [
-        "Wegener N",
-        "Ameye J",
-        "Rajanna V"
+        "Zabek M",
+        "Chan E",
+        "Lim YJ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42990049/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42995159/",
+      "retrievedAt": "2026-11-07T13:42:33.546Z"
     },
     {
-      "id": "42990035",
-      "title": "From empirical to targeted therapy: A comprehensive review of clinical microbiological diagnostics for urinary tract infections.",
-      "journal": "Investigative and clinical urology",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Kim JA",
-        "Kim JH"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42990035/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
-    },
-    {
-      "id": "42989981",
-      "title": "I Have a Medical Degree. Should I Consider a Career in Clinical Pharmacology in 2026?",
+      "id": "42995140",
+      "title": "Impact of Food and Beverage on Enlicitide Pharmacokinetics and LDL-C Lowering.",
       "journal": "Clinical pharmacology and therapeutics",
       "publicationDate": "2026 Nov 6",
       "authors": [
-        "Terrier J"
+        "Johns DG",
+        "Skataric M",
+        "Zhou S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989981/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42995140/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989872",
-      "title": "Separation Science Perspectives on Processing-Induced Chemical Transformations of Natural Anti-Prostate Cancer Agents From Traditional Chinese Medicine.",
-      "journal": "Journal of separation science",
-      "publicationDate": "2026 Nov",
+      "id": "42995083",
+      "title": "Workplace satisfaction among pharmacy staff: The influence of practice setting and professional role.",
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "publicationDate": "2026 Nov 4",
       "authors": [
-        "Zhu J",
-        "Chen Z",
-        "Shen Y"
+        "Changizi V",
+        "Moussa M",
+        "Hedegaard U"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989872/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42995083/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989839",
-      "title": "Personalized anticoagulation and drug monitoring for pregnancy-associated venous thromboembolism in hereditary type IIa antithrombin deficiency.",
-      "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+      "id": "42995023",
+      "title": "Advanced platinum strategies for triple-negative breast cancer.",
+      "journal": "Trends in pharmacological sciences",
       "publicationDate": "2026 Nov 6",
       "authors": [
-        "Gong X",
-        "Wang W",
-        "Tian H"
+        "Espino J",
+        "Estirado S",
+        "Garrido M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989839/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42995023/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989830",
-      "title": "Renal Function-Guided Valganciclovir Dosing and Ganciclovir Exposure Variability: A Population Pharmacokinetic Simulation Study.",
-      "journal": "Basic & clinical pharmacology & toxicology",
-      "publicationDate": "2026 Dec",
+      "id": "42995014",
+      "title": "PCSK9-Targeted Therapy and Kidney Function in Chronic Kidney Disease: A Systematic Review and Narrative Synthesis.",
+      "journal": "Clinical therapeutics",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Maizaud F",
-        "Labriffe M",
-        "Sayadi H"
+        "Adleh MH",
+        "Kassis A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989830/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42995014/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989776",
-      "title": "Nosocomial Infections in Hospitalised Haematological Patients: A Retrospective Observational Record-Based Study.",
-      "journal": "Nursing open",
-      "publicationDate": "2026 Nov",
+      "id": "42995001",
+      "title": "Zanidatamab in the treatment of esophagogastric adenocarcinoma.",
+      "journal": "Future oncology (London, England)",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Cabrera-Jaime L",
-        "Cabrera-Jaime S",
-        "Feijoo-Cid M"
+        "Fitzpatrick OM",
+        "Ku GY"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989776/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42995001/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989752",
-      "title": "Current Trend in Bacteriological Profile and Antibiograms of Urinary Tract Infection at a Tertiary Care Center in Nepal.",
-      "journal": "Kathmandu University medical journal (KUMJ)",
-      "publicationDate": "2026 Jan-Mar",
+      "id": "42994976",
+      "title": "Analgesic ceiling of non-steroidal anti-inflammatory drugs in cancer pain: a systematic review and one-stage dose-response meta-analysis.",
+      "journal": "BMJ supportive & palliative care",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Rana Magar SB ",
-        "Madhup SK ",
-        "Sapkota P "
+        "Bagrodia V",
+        "Goyal A",
+        "Kondepudi S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989752/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42994976/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989751",
-      "title": "Availability of Point-of-care Testing Diagnostic Devices and Assessment of Knowledge, Attitude and Practice for Screening of Cholesterol in Community Pharmacies in Kathmandu Metropolitan City.",
-      "journal": "Kathmandu University medical journal (KUMJ)",
-      "publicationDate": "2026 Jan-Mar",
+      "id": "42994971",
+      "title": "Medication literacy and medication adherence in patients with tuberculosis receiving video-observed therapy: cross-sectional study.",
+      "journal": "European journal of hospital pharmacy : science and practice",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Chaudhary P ",
-        "Bhujel R ",
-        "Shahukhal S "
+        "Külcü M",
+        "Babalık A",
+        "Okuyan B"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989751/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42994971/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989742",
-      "title": "Literacy and Attitudes toward Eco-pharmacology among Medical and Nursing Students: A Quasi-experimental Study.",
-      "journal": "Kathmandu University medical journal (KUMJ)",
-      "publicationDate": "2026 Jan-Mar",
+      "id": "42994915",
+      "title": "Implementation of antimicrobial stewardship programmes in hospitals of the Brazilian public health system: PeGASUS study protocol.",
+      "journal": "BMJ open",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Khadka A ",
-        "Kaundinnyayana S ",
-        "Sharma M "
+        "Cortez AL",
+        "Fachi MM",
+        "Boszczowski I"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989742/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42994915/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     },
     {
-      "id": "42989673",
-      "title": "The prodigal peptides.",
-      "journal": "JPMA. The Journal of the Pakistan Medical Association",
-      "publicationDate": "2026 Sep",
+      "id": "42994890",
+      "title": "Central nervous system hemorrhage related to protein kinase inhibitors: A real-world pharmacovigilance case-control study and genetic correlation study.",
+      "journal": "Medicine",
+      "publicationDate": "2026 Nov 6",
       "authors": [
-        "Kalra S",
-        "Dhingra A",
-        "Verma SK"
+        "Zhang L",
+        "Zhao Z",
+        "Shu Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42989673/",
-      "retrievedAt": "2026-11-06T14:45:24.314Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42994890/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
+    },
+    {
+      "id": "42994846",
+      "title": "Identification of potential active ingredients from Chuanxiong Rhizoma in the treatment of vascular dementia: CHI3L1 and TLR2 are potential key targets.",
+      "journal": "Medicine",
+      "publicationDate": "2026 Nov 6",
+      "authors": [
+        "Liao H",
+        "Zeng Q",
+        "Zhang J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42994846/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
+    },
+    {
+      "id": "42994843",
+      "title": "Neurological and systemic adverse event reporting patterns for lecanemab: A global WHO VigiAccess analysis.",
+      "journal": "Medicine",
+      "publicationDate": "2026 Nov 6",
+      "authors": [
+        "Alorfi NM",
+        "Algarni AS"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42994843/",
+      "retrievedAt": "2026-11-07T13:42:33.547Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
