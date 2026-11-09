@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-08T14:01:35.755Z",
+  "generatedAt": "2026-11-09T17:04:55.165Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/10",
-    "through": "2026/11/08",
+    "from": "2026/08/11",
+    "through": "2026/11/09",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,194 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "42998849",
-      "title": "Targeting the metabolism-autophagy-ferroptosis interactome in cancer drug resistance: molecular targets, structural pharmacology, and combination strategies.",
-      "journal": "Biochemical pharmacology",
-      "publicationDate": "2026 Nov 7",
+      "id": "43002153",
+      "title": "Inhaled TSLP blockade in asthma: Feno suppression, serum target engagement, and the challenge of local pharmacology.",
+      "journal": "The Journal of allergy and clinical immunology",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Liang J",
-        "Lei H",
-        "Li T"
+        "Huang J",
+        "Wang B"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998849/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002153/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998847",
-      "title": "The RGS4-Gαq/11 axis in vascular homeostasis: Mechanisms and therapeutic implications.",
-      "journal": "Biochemical pharmacology",
-      "publicationDate": "2026 Nov 7",
+      "id": "43002077",
+      "title": "SCY-247, a second-generation triterpenoid antifungal, shows low risk for clinically meaningful interactions with CYP3A4 substrates: results from a phase 1 midazolam drug-drug interaction study.",
+      "journal": "Antimicrobial agents and chemotherapy",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Xiong J",
-        "You J",
-        "Xia M"
+        "Wring S",
+        "Argent C",
+        "Murphy G"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998847/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002077/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998703",
-      "title": "Total alkaloids from Sophora flavescens and Sophora flavescens film ameliorate intrauterine adhesions in rats with associated changes in IL-17A/MMP-related inflammatory and fibrotic responses.",
-      "journal": "Journal of ethnopharmacology",
-      "publicationDate": "2026 Nov 7",
+      "id": "43002067",
+      "title": "Allicin attenuates diet-induced obesity in association with gut microbiota remodeling, fecal butyrate, and hepatic PPAR signaling in rats.",
+      "journal": "Food & function",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Yang M",
-        "Jiang D",
-        "Peng L"
+        "Zhang S",
+        "Ding L",
+        "Yao J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998703/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002067/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998625",
-      "title": "Computational tools for biomarker identification in inborn errors of metabolism: A rapid systematic review.",
-      "journal": "Molecular genetics and metabolism",
-      "publicationDate": "2026 Nov 5",
+      "id": "43002029",
+      "title": "Poly(2-oxazoline)- and Poly(2-oxazine)-Based Formulation Library Reveals Limits of Solubility Parameter-Based Drug-Polymer Compatibility Prediction.",
+      "journal": "Biomacromolecules",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Saldaña DA",
-        "Echeverri-Peña OY",
-        "Alméciga-Díaz CJ"
+        "Haider MS",
+        "Luxenhofer R"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998625/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002029/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998619",
-      "title": "Systemic In vivo Chemical profiling and pharmacokinetics of Wuwei Qingzhuo San in rats: Unraveling the systemic exposure and metabolic fate of bioactive alkaloids.",
-      "journal": "Journal of pharmaceutical and biomedical analysis",
-      "publicationDate": "2026 Nov 5",
+      "id": "43001918",
+      "title": "Benchmarking Protein-Ligand Cofolding Models: Correct Ligand Placement Is Decoupled From Accurate Protein Conformation.",
+      "journal": "Journal of chemical information and modeling",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Zhang C",
-        "Liu Y",
-        "Wang J"
+        "Obendorf L",
+        "Doering NP",
+        "Knaus P"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998619/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001918/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998590",
-      "title": "Variables associated with epilepsy self-management competency among people with epilepsy from an epilepsy self-management clinical trial.",
-      "journal": "Clinical neurology and neurosurgery",
-      "publicationDate": "2026 Oct 6",
+      "id": "43001902",
+      "title": "Pharmacists' perspectives on efficiencies and other benefits of combination influenza/COVID-19 vaccination.",
+      "journal": "Journal of medical economics",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Branning R",
-        "Tan L",
-        "Yu H"
+        "Sweeney C",
+        "Calhoun S",
+        "Boyle K"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998590/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001902/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998518",
-      "title": "Indole-based anti-angiogenic agents via VEGFR-2 inhibition: A critical review.",
-      "journal": "European journal of medicinal chemistry",
-      "publicationDate": "2026 Nov 3",
+      "id": "43001791",
+      "title": "Bioanalysis of antibody-drug conjugates: current practices and future directions-a workshop report.",
+      "journal": "Bioanalysis",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Soudi A",
-        "Abdelhafez EMN",
-        "Aly OM"
+        "Xu W",
+        "Garimella T",
+        "Booth B"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998518/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001791/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998465",
-      "title": "Genomic epidemiology of azithromycin-resistant Salmonella London reveals plasmid-mediated multidrug resistance dissemination through pork production chains.",
-      "journal": "International journal of food microbiology",
-      "publicationDate": "2026 Oct 31",
+      "id": "43001766",
+      "title": "Development of a New Survey Instrument to Measure Professional Health Literacy.",
+      "journal": "Health literacy research and practice",
+      "publicationDate": "2026 Oct",
       "authors": [
-        "Zheng Z",
-        "Yu H",
-        "Zheng W"
+        "Griebler R",
+        "De Gani SM",
+        "Griese L"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998465/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001766/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998460",
-      "title": "Understanding discourses on multiple sclerosis medications and side effects in an online support group: a Latent Dirichlet Allocation analysis.",
-      "journal": "Patient education and counseling",
-      "publicationDate": "2026 Nov 6",
+      "id": "43001655",
+      "title": "Pharmacokinetics and plasma protein binding of oxytetracycline in ducks (Anas platyrhynchos) following intravenous, intramuscular, subcutaneous and oral administration.",
+      "journal": "British poultry science",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Ayine B"
+        "Badillo E",
+        "Marín P",
+        "Corum O"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998460/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001655/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998445",
-      "title": "Lamotrigine toxicity during GLP-1-based therapy: A potential drug interaction requiring clinical vigilance.",
-      "journal": "Seizure",
-      "publicationDate": "2026 Oct 21",
+      "id": "43001631",
+      "title": "Butin Ameliorates Atherosclerosis by Regulating the TIMM13-TIMM8A Complex to Alleviate Macrophage Ferroptosis.",
+      "journal": "Phytotherapy research : PTR",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Adelberg RG",
-        "Ammar A",
-        "Chuang DT"
+        "Wang D",
+        "Yu X",
+        "Xie M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998445/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001631/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998406",
-      "title": "Vancomycin presoaking of ligament grafts: State of the Art and graft-specific evidence.",
-      "journal": "Journal of ISAKOS : joint disorders & orthopaedic sports medicine",
-      "publicationDate": "2026 Nov 7",
+      "id": "43001609",
+      "title": "Transforming Public Healthcare through MedTech: A Multi-Method Qualitative Research.",
+      "journal": "Health marketing quarterly",
+      "publicationDate": "2026 Nov 9",
       "authors": [
-        "Salim R",
-        "Araújo PH",
-        "Vertullo CJ"
+        "Kataria A",
+        "Garg R",
+        "Agrawal G"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998406/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001609/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     },
     {
-      "id": "42998281",
-      "title": "Structured multi-view relational learning for drug response prediction.",
-      "journal": "Briefings in bioinformatics",
-      "publicationDate": "2026 Nov 2",
+      "id": "43001460",
+      "title": "Novel creatine formulation exhibits similar serum creatine concentrations and pharmacokinetics to creatine monohydrate in healthy adults.",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "publicationDate": "2026 Dec 31",
       "authors": [
-        "Wang Z",
-        "Li W",
-        "Xu J"
+        "DelBiondo GM",
+        "Gottlieb CW",
+        "Baker PA"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/42998281/",
-      "retrievedAt": "2026-11-08T14:01:35.755Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001460/",
+      "retrievedAt": "2026-11-09T17:04:55.165Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
