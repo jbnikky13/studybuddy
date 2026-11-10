@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-09T17:04:55.165Z",
+  "generatedAt": "2026-11-10T15:22:54.964Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/11",
-    "through": "2026/11/09",
+    "from": "2026/08/12",
+    "through": "2026/11/10",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,194 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43002153",
-      "title": "Inhaled TSLP blockade in asthma: Feno suppression, serum target engagement, and the challenge of local pharmacology.",
-      "journal": "The Journal of allergy and clinical immunology",
+      "id": "43003780",
+      "title": "Safety of proton pump inhibitors in children: A systematic review.",
+      "journal": "British journal of clinical pharmacology",
       "publicationDate": "2026 Nov 9",
       "authors": [
-        "Huang J",
-        "Wang B"
+        "Sachel AR",
+        "Rieder M",
+        "'t Jong GW"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002153/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003780/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
     },
     {
-      "id": "43002077",
-      "title": "SCY-247, a second-generation triterpenoid antifungal, shows low risk for clinically meaningful interactions with CYP3A4 substrates: results from a phase 1 midazolam drug-drug interaction study.",
-      "journal": "Antimicrobial agents and chemotherapy",
+      "id": "43003757",
+      "title": "Interventions to improve wellbeing and job satisfaction among pharmacists: A systematic review.",
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "publicationDate": "2026 Nov 3",
+      "authors": [
+        "Issa S",
+        "Thrimawithana T",
+        "Ghazi L"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003757/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003756",
+      "title": "Expanding the frontiers of cancer screening: A systematic review of pharmacist contributions.",
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "publicationDate": "2026 Oct 22",
+      "authors": [
+        "Pathak N",
+        "Dhungana S",
+        "Rana T"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003756/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003748",
+      "title": "[Translated article] Implementation of safe practices for the use of high-risk medications in Spanish hospitals.",
+      "journal": "Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria",
       "publicationDate": "2026 Nov 9",
       "authors": [
-        "Wring S",
-        "Argent C",
-        "Murphy G"
+        "Otero MJ",
+        "Prieto-Santos N",
+        "Martín Muñoz R"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002077/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003748/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
     },
     {
-      "id": "43002067",
-      "title": "Allicin attenuates diet-induced obesity in association with gut microbiota remodeling, fecal butyrate, and hepatic PPAR signaling in rats.",
-      "journal": "Food & function",
+      "id": "43003706",
+      "title": "Intravenous push ceftriaxone use in the emergency department: Is convenience compromising safety?",
+      "journal": "The American journal of emergency medicine",
+      "publicationDate": "2026 Nov 4",
+      "authors": [
+        "Vagasky T",
+        "Rech MA",
+        "Slocum GW"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003706/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003665",
+      "title": "Peak expectations: a question of power and timing.",
+      "journal": "Regional anesthesia and pain medicine",
       "publicationDate": "2026 Nov 9",
       "authors": [
-        "Zhang S",
-        "Ding L",
-        "Yao J"
+        "Rozier R",
+        "Destere A",
+        "Maurice-Szamburski A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002067/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003665/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
     },
     {
-      "id": "43002029",
-      "title": "Poly(2-oxazoline)- and Poly(2-oxazine)-Based Formulation Library Reveals Limits of Solubility Parameter-Based Drug-Polymer Compatibility Prediction.",
-      "journal": "Biomacromolecules",
+      "id": "43003546",
+      "title": "Prediction, Prescription, and Proactive Medication Management in the Intensive Care Unit.",
+      "journal": "Critical care clinics",
+      "publicationDate": "2027 Jan",
+      "authors": [
+        "Murray B"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003546/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003542",
+      "title": "Intensive Care Unit Staffing Ratios: Evidence, Experience, Economics, and Execution.",
+      "journal": "Critical care clinics",
+      "publicationDate": "2027 Jan",
+      "authors": [
+        "Gershengorn HB",
+        "Buckley MS",
+        "Costa DK"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003542/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003541",
+      "title": "Optimizing Team Integration of Critical Care Pharmacists: Where We Go Next.",
+      "journal": "Critical care clinics",
+      "publicationDate": "2027 Jan",
+      "authors": [
+        "Smith SE",
+        "Henry K",
+        "Papadopoulos J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003541/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003540",
+      "title": "Optimizing Team Integration of Critical Care Pharmacists: A History of Critical Care Pharmacy Practice and Evolving Definition of \"Optimal Practice\".",
+      "journal": "Critical care clinics",
+      "publicationDate": "2027 Jan",
+      "authors": [
+        "Smith SE",
+        "Bektas AN",
+        "Henry K"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003540/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003537",
+      "title": "The Intensive Care Unit Team: Roles, Scope, and Interprofessional Interdependence in the Intensive Care Unit.",
+      "journal": "Critical care clinics",
+      "publicationDate": "2027 Jan",
+      "authors": [
+        "Manzo LL",
+        "Christoph ENI",
+        "Kessinger SK"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003537/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
+    },
+    {
+      "id": "43003495",
+      "title": "Preparedness for Imported Malaria in Non-Endemic Europe: Healthcare Workforce Knowledge and Travel-History Practice in Poland.",
+      "journal": "Tropical medicine & international health : TM & IH",
       "publicationDate": "2026 Nov 9",
       "authors": [
-        "Haider MS",
-        "Luxenhofer R"
+        "Bogacka A",
+        "Grzybek J",
+        "Krzysztoń P"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43002029/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001918",
-      "title": "Benchmarking Protein-Ligand Cofolding Models: Correct Ligand Placement Is Decoupled From Accurate Protein Conformation.",
-      "journal": "Journal of chemical information and modeling",
-      "publicationDate": "2026 Nov 9",
-      "authors": [
-        "Obendorf L",
-        "Doering NP",
-        "Knaus P"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001918/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001902",
-      "title": "Pharmacists' perspectives on efficiencies and other benefits of combination influenza/COVID-19 vaccination.",
-      "journal": "Journal of medical economics",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Sweeney C",
-        "Calhoun S",
-        "Boyle K"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001902/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001791",
-      "title": "Bioanalysis of antibody-drug conjugates: current practices and future directions-a workshop report.",
-      "journal": "Bioanalysis",
-      "publicationDate": "2026 Nov 9",
-      "authors": [
-        "Xu W",
-        "Garimella T",
-        "Booth B"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001791/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001766",
-      "title": "Development of a New Survey Instrument to Measure Professional Health Literacy.",
-      "journal": "Health literacy research and practice",
-      "publicationDate": "2026 Oct",
-      "authors": [
-        "Griebler R",
-        "De Gani SM",
-        "Griese L"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001766/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001655",
-      "title": "Pharmacokinetics and plasma protein binding of oxytetracycline in ducks (Anas platyrhynchos) following intravenous, intramuscular, subcutaneous and oral administration.",
-      "journal": "British poultry science",
-      "publicationDate": "2026 Nov 9",
-      "authors": [
-        "Badillo E",
-        "Marín P",
-        "Corum O"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001655/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001631",
-      "title": "Butin Ameliorates Atherosclerosis by Regulating the TIMM13-TIMM8A Complex to Alleviate Macrophage Ferroptosis.",
-      "journal": "Phytotherapy research : PTR",
-      "publicationDate": "2026 Nov 9",
-      "authors": [
-        "Wang D",
-        "Yu X",
-        "Xie M"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001631/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001609",
-      "title": "Transforming Public Healthcare through MedTech: A Multi-Method Qualitative Research.",
-      "journal": "Health marketing quarterly",
-      "publicationDate": "2026 Nov 9",
-      "authors": [
-        "Kataria A",
-        "Garg R",
-        "Agrawal G"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001609/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
-    },
-    {
-      "id": "43001460",
-      "title": "Novel creatine formulation exhibits similar serum creatine concentrations and pharmacokinetics to creatine monohydrate in healthy adults.",
-      "journal": "Journal of the International Society of Sports Nutrition",
-      "publicationDate": "2026 Dec 31",
-      "authors": [
-        "DelBiondo GM",
-        "Gottlieb CW",
-        "Baker PA"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43001460/",
-      "retrievedAt": "2026-11-09T17:04:55.165Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43003495/",
+      "retrievedAt": "2026-11-10T15:22:54.964Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
