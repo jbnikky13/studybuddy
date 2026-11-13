@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T15:44:17.507Z",
+  "generatedAt": "2026-11-13T15:03:24.093Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/14",
-    "through": "2026/11/12",
+    "from": "2026/08/15",
+    "through": "2026/11/13",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,193 +11,194 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43016419",
-      "title": "Development and evaluation of a transesophageal echocardiography-derived left atrial appendage structure-function coupling index across the atrial fibrillation disease continuum.",
-      "journal": "Frontiers in cardiovascular medicine",
+      "id": "43022098",
+      "title": "Inhibitory effects of phenylpropionamides from the hemp seed cake on protein tyrosine phosphatase 1B: in vitro, molecular docking, and network pharmacology approach.",
+      "journal": "Food science and biotechnology",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Cao TQ",
+        "Yeo CE",
+        "Yu S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022098/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
+    },
+    {
+      "id": "43022061",
+      "title": "Toward integrated One Health surveillance of antimicrobial resistance in the Republic of Korea: a narrative review of international approaches.",
+      "journal": "Clinical and experimental vaccine research",
+      "publicationDate": "2026 Oct",
+      "authors": [
+        "Kim JY",
+        "Yoon YK"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022061/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
+    },
+    {
+      "id": "43022028",
+      "title": "Epimedium koreanum Nakai attenuates glucocorticoid-induced osteoporosis by suppressing ferroptosis via the KEAP1/NRF2/SLC7A11/GPX4 axis: comparative pharmacodynamic evaluation of four epimedium species and proteomic and metabolomic analyses of epk.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Zhu J",
-        "Ni C",
-        "Ruan Y"
+        "Xu TY",
+        "Li P",
+        "Qi ZM"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016419/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022028/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     },
     {
-      "id": "43016353",
-      "title": "Physicians' opinions on hospital pharmacist prescribing: a Belgian survey.",
-      "journal": "Acta clinica Belgica",
-      "publicationDate": "2026 Nov 12",
-      "authors": [
-        "Mattens L",
-        "De Broe E",
-        "Spreuwers E"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016353/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
-    },
-    {
-      "id": "43016310",
-      "title": "Chronobiology of Aging: Interactions Between Circadian Rhythms, Oxidative Stress, and Inflammation.",
-      "journal": "The journals of gerontology. Series A, Biological sciences and medical sciences",
-      "publicationDate": "2026 Nov 12",
-      "authors": [
-        "Chauhan B",
-        "Singh I",
-        "Maurya PK"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016310/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
-    },
-    {
-      "id": "43016295",
-      "title": "Combined Inhibitory Effects of Quercetin and β-Sitosterol on a Hydrogen Sulfide-Producing Enzyme Fn1220 in Fusobacterium nucleatum: A Potential Strategy for Halitosis Control.",
-      "journal": "Journal of applied microbiology",
-      "publicationDate": "2026 Nov 11",
-      "authors": [
-        "Dong M",
-        "Liu Z",
-        "Chen R"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016295/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
-    },
-    {
-      "id": "43016227",
-      "title": "[Hybrid Medicine in the 21st Century (Part 2)].",
-      "journal": "Revue medicale suisse",
-      "publicationDate": "2026 Nov 11",
-      "authors": [
-        "Simon P"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016227/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
-    },
-    {
-      "id": "43016160",
-      "title": "Prolonged wireless measurement of intragastric pH and pharmacodynamics of extended-release injectable omeprazole in horses.",
-      "journal": "Journal of veterinary internal medicine",
-      "publicationDate": "2026 Nov 2",
-      "authors": [
-        "Hodgson E",
-        "Thirouin M",
-        "Romano TR"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016160/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
-    },
-    {
-      "id": "43016106",
-      "title": "Optimization of Incubation Time for Accurate Protein Binding Assessment in Biological Matrices Using Equilibrium Dialysis.",
-      "journal": "Drug metabolism and bioanalysis",
+      "id": "43022025",
+      "title": "Ambrisentan ameliorates methotrexate nephrotoxicity through modulation of RhoA/ROCK and PI3K/MDM2-associated signaling: network pharmacology-guided discovery and in vivo confirmation.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Jain JP",
-        "Shi J",
-        "Rathore A"
+        "Baraka SA",
+        "Eissa N",
+        "Nagib MM"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016106/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022025/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     },
     {
-      "id": "43016103",
-      "title": "CYP3A4 Interaction with Green Tea Catechins: Insights from Molecular Docking Simulations.",
-      "journal": "Drug metabolism and bioanalysis",
+      "id": "43022007",
+      "title": "Transcutaneous electrical acupoint stimulation versus sham stimulation and dexamethasone versus amisulpride for preventing postoperative nausea and vomiting after laparoscopic gynecologic surgery: protocol for a randomized 2 × 2 factorial trial.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Srinivasa DGB",
-        "Kadiri SK"
+        "Li Y",
+        "Zhang J",
+        "Xu Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016103/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022007/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     },
     {
-      "id": "43016101",
-      "title": "Cyclovirobuxine D: Pharmacological and Bioanalytical Perspectives and Therapeutic Insights.",
-      "journal": "Drug metabolism and bioanalysis",
+      "id": "43021992",
+      "title": "Multi-omics identifies PCK1-associated immunometabolic regulation underlying the protective effects of sinomenine in vascular dementia.",
+      "journal": "Frontiers in pharmacology",
       "publicationDate": "2026",
       "authors": [
-        "Bhardwaj M",
-        "Singh AP",
-        "Sharma BM"
+        "Ren W",
+        "Wang Z",
+        "Yang W"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016101/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021992/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     },
     {
-      "id": "43016036",
-      "title": "Physiologically Based Pharmacokinetic Modeling of Fruquintinib and Its Metabolite to Assess Drug-Drug Interaction Liability as an Object or Precipitant.",
-      "journal": "CPT: pharmacometrics & systems pharmacology",
-      "publicationDate": "2026 Nov",
+      "id": "43021956",
+      "title": "Recent advances in the pharmacological effects and mechanisms of borneol and borneol-containing formulations in central nervous system diseases.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Templeton IE",
-        "Jones HM",
-        "Chien C"
+        "Zhang X",
+        "Wu Y",
+        "Han J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43016036/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021956/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     },
     {
-      "id": "43015834",
-      "title": "Safety of TNF-α inhibitors, IL-17 inhibitors, and JAK inhibitors in the treatment of axial spondyloarthritis: a protocol for a multi-method study integrating FAERS data mining, dose-response network meta-analysis, and drug-target Mendelian randomization.",
-      "journal": "Systematic reviews",
-      "publicationDate": "2026 Aug 15",
+      "id": "43021939",
+      "title": "Early postmarketing reporting patterns of resmetirom in FAERS: disproportionality analyses with indication-restricted and active comparators.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Qiu Z",
-        "Du Y",
-        "Yu Z"
+        "Zhao X",
+        "Pan B",
+        "Chen T"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43015834/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021939/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     },
     {
-      "id": "43015799",
-      "title": "Beyond knowledge acquisition: the role of problem-based learning in supporting competency and skills development in pharmacy education - a systematic review.",
-      "journal": "BMC medical education",
-      "publicationDate": "2026 Aug 15",
+      "id": "43021781",
+      "title": "Limitations of transmucosal ketamine administration for chronic pain in dogs with osteoarthritis.",
+      "journal": "Frontiers in veterinary science",
+      "publicationDate": "2026",
       "authors": [
-        "Atweh S",
-        "Eltoum Y",
-        "Al-Diery T"
+        "Seabolt RA",
+        "Elam LH",
+        "Griffenhagen GM"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43015799/",
-      "retrievedAt": "2026-11-12T15:44:17.507Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021781/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
+    },
+    {
+      "id": "43021767",
+      "title": "Jiangtang Pill for Type 2 Diabetes: Network Pharmacology and Transcriptomics.",
+      "journal": "Current pharmaceutical design",
+      "publicationDate": "2026 Nov 4",
+      "authors": [
+        "Liu R",
+        "Zhang M",
+        "Zhao Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021767/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
+    },
+    {
+      "id": "43021761",
+      "title": "Recent Advances in Quinoxaline Derivatives as Antitubercular Agents: A Comprehensive Review.",
+      "journal": "Mini reviews in medicinal chemistry",
+      "publicationDate": "2026 Nov 4",
+      "authors": [
+        "Kanjiya N",
+        "Makasana J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021761/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
+    },
+    {
+      "id": "43021755",
+      "title": "Pharmacological management of severe plaque psoriasis in patients with cancer.",
+      "journal": "Expert opinion on pharmacotherapy",
+      "publicationDate": "2026 Nov 13",
+      "authors": [
+        "Megna M",
+        "D'agostino M",
+        "Tommasino N"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021755/",
+      "retrievedAt": "2026-11-13T15:03:24.093Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
