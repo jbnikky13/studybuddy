@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-13T15:03:24.093Z",
+  "generatedAt": "2026-11-14T13:54:28.925Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/15",
-    "through": "2026/11/13",
+    "from": "2026/08/16",
+    "through": "2026/11/14",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,192 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43022098",
-      "title": "Inhibitory effects of phenylpropionamides from the hemp seed cake on protein tyrosine phosphatase 1B: in vitro, molecular docking, and network pharmacology approach.",
-      "journal": "Food science and biotechnology",
+      "id": "43031822",
+      "title": "Editorial: Pharmacoepidemiology in chronic diseases.",
+      "journal": "Frontiers in epidemiology",
+      "publicationDate": "2026",
+      "authors": [
+        "Sohn M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031822/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
+    },
+    {
+      "id": "43031817",
+      "title": "Knowledge Construction and Co-Construction in the Era of Team-Based Care: A Scoping Review.",
+      "journal": "Medical science educator",
       "publicationDate": "2026 Dec",
       "authors": [
-        "Cao TQ",
-        "Yeo CE",
-        "Yu S"
+        "Cheung PYJ",
+        "He Q",
+        "Yue Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022098/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031817/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43022061",
-      "title": "Toward integrated One Health surveillance of antimicrobial resistance in the Republic of Korea: a narrative review of international approaches.",
-      "journal": "Clinical and experimental vaccine research",
-      "publicationDate": "2026 Oct",
+      "id": "43031781",
+      "title": "Optimizing Matchy-Matchy: A Method for a Team-based Activity Approach to Learning Pharmacology by Reinforcing Connections.",
+      "journal": "Medical science educator",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Kim JY",
-        "Yoon YK"
+        "Hernandez M",
+        "Dalal S",
+        "Ecay T"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022061/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031781/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43022028",
-      "title": "Epimedium koreanum Nakai attenuates glucocorticoid-induced osteoporosis by suppressing ferroptosis via the KEAP1/NRF2/SLC7A11/GPX4 axis: comparative pharmacodynamic evaluation of four epimedium species and proteomic and metabolomic analyses of epk.",
-      "journal": "Frontiers in pharmacology",
+      "id": "43031746",
+      "title": "Cutaneous reporting patterns of drugs relevant to hepatocellular carcinoma: a cross-indication FAERS analysis and proposed management framework.",
+      "journal": "Frontiers in medicine",
       "publicationDate": "2026",
       "authors": [
-        "Xu TY",
-        "Li P",
-        "Qi ZM"
+        "Sun X",
+        "Liu Z",
+        "Zhang J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022028/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031746/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43022025",
-      "title": "Ambrisentan ameliorates methotrexate nephrotoxicity through modulation of RhoA/ROCK and PI3K/MDM2-associated signaling: network pharmacology-guided discovery and in vivo confirmation.",
-      "journal": "Frontiers in pharmacology",
+      "id": "43031677",
+      "title": "Dweck's Growth Mindset Theory in Health Professions Education: A Bibliometric Review.",
+      "journal": "Medical science educator",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Frederick KD",
+        "Lewis LS",
+        "Larson S"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031677/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
+    },
+    {
+      "id": "43031661",
+      "title": "Preparedness of undergraduate health students to provide women-specific epilepsy care: knowledge gaps and stigmatizing attitudes in Saudi Arabia.",
+      "journal": "Frontiers in neurology",
       "publicationDate": "2026",
       "authors": [
-        "Baraka SA",
-        "Eissa N",
-        "Nagib MM"
+        "Alzahrani F",
+        "Alharbi Y",
+        "Almuzaini Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022025/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031661/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43022007",
-      "title": "Transcutaneous electrical acupoint stimulation versus sham stimulation and dexamethasone versus amisulpride for preventing postoperative nausea and vomiting after laparoscopic gynecologic surgery: protocol for a randomized 2 × 2 factorial trial.",
-      "journal": "Frontiers in pharmacology",
+      "id": "43031611",
+      "title": "Epidemiology, microbiological characteristics, and antimicrobial resistance of device-associated healthcare-associated infections in a neonatal intensive care unit: a six-year surveillance study.",
+      "journal": "Frontiers in public health",
       "publicationDate": "2026",
       "authors": [
-        "Li Y",
-        "Zhang J",
-        "Xu Y"
+        "Zhang H",
+        "Zou M",
+        "Guo X"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43022007/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031611/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43021992",
-      "title": "Multi-omics identifies PCK1-associated immunometabolic regulation underlying the protective effects of sinomenine in vascular dementia.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Ren W",
-        "Wang Z",
-        "Yang W"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021992/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
-    },
-    {
-      "id": "43021956",
-      "title": "Recent advances in the pharmacological effects and mechanisms of borneol and borneol-containing formulations in central nervous system diseases.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Zhang X",
-        "Wu Y",
-        "Han J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021956/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
-    },
-    {
-      "id": "43021939",
-      "title": "Early postmarketing reporting patterns of resmetirom in FAERS: disproportionality analyses with indication-restricted and active comparators.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Zhao X",
-        "Pan B",
-        "Chen T"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021939/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
-    },
-    {
-      "id": "43021781",
-      "title": "Limitations of transmucosal ketamine administration for chronic pain in dogs with osteoarthritis.",
-      "journal": "Frontiers in veterinary science",
-      "publicationDate": "2026",
-      "authors": [
-        "Seabolt RA",
-        "Elam LH",
-        "Griffenhagen GM"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021781/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
-    },
-    {
-      "id": "43021767",
-      "title": "Jiangtang Pill for Type 2 Diabetes: Network Pharmacology and Transcriptomics.",
-      "journal": "Current pharmaceutical design",
+      "id": "43031540",
+      "title": "Scoparone attenuates ethanol-induced hepatocellular injury through PI3K/Akt-mediated regulation of oxidative stress and apoptosis.",
+      "journal": "The Journal of pharmacy and pharmacology",
       "publicationDate": "2026 Nov 4",
       "authors": [
-        "Liu R",
-        "Zhang M",
-        "Zhao Y"
+        "Wei M",
+        "Qi W",
+        "Fang Y"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021767/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031540/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43021761",
-      "title": "Recent Advances in Quinoxaline Derivatives as Antitubercular Agents: A Comprehensive Review.",
-      "journal": "Mini reviews in medicinal chemistry",
-      "publicationDate": "2026 Nov 4",
+      "id": "43031533",
+      "title": "Compounded GLP-1 receptor agonists in the post-shortage era: Balancing access and patient safety.",
+      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publicationDate": "2026 Nov 14",
       "authors": [
-        "Kanjiya N",
-        "Makasana J"
+        "Nasr Fayyaz MM",
+        "Mughal A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021761/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031533/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     },
     {
-      "id": "43021755",
-      "title": "Pharmacological management of severe plaque psoriasis in patients with cancer.",
-      "journal": "Expert opinion on pharmacotherapy",
+      "id": "43031519",
+      "title": "The Relationship Between Pre-Operative Ipilimumab and Nivolumab Pharmacokinetics and Treatment Outcome in Locoregionally Advanced Urothelial Cancer.",
+      "journal": "Clinical and translational science",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Zielhuis SWJ",
+        "de Jong KAM",
+        "Huisman-Siebinga H"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031519/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
+    },
+    {
+      "id": "43031386",
+      "title": "Differing roles of the calcitonin gene-related peptide (CGRP) and amylin receptors in migraine-related light aversion and gastrointestinal dysfunction in mice.",
+      "journal": "British journal of pharmacology",
       "publicationDate": "2026 Nov 13",
       "authors": [
-        "Megna M",
-        "D'agostino M",
-        "Tommasino N"
+        "Waite JS",
+        "Kuburas A",
+        "Hanigan QK"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43021755/",
-      "retrievedAt": "2026-11-13T15:03:24.093Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031386/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
+    },
+    {
+      "id": "43031356",
+      "title": "Optimizing recurrent pericarditis management through IL-1 inhibition and the evolving multidisciplinary pharmacist-led care to comprehensive patient management.",
+      "journal": "Postgraduate medicine",
+      "publicationDate": "2026 Nov 13",
+      "authors": [
+        "Al-Taie A",
+        "Atal D"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43031356/",
+      "retrievedAt": "2026-11-14T13:54:28.925Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
