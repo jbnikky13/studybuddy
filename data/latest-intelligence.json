@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-15T14:28:50.278Z",
+  "generatedAt": "2026-11-16T16:41:25.674Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/17",
-    "through": "2026/11/15",
+    "from": "2026/08/18",
+    "through": "2026/11/16",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,196 +11,196 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43034872",
-      "title": "Nanotechnology-enabled construction of bispecific and multispecific antibody platforms for enhanced antitumor therapy.",
-      "journal": "Materials today. Bio",
-      "publicationDate": "2026 Dec",
+      "id": "43037540",
+      "title": "Efficacy and safety of faecal microbiota transplantation for recurrent Clostridioides difficile infection: a 4-year retrospective study in a Swiss cohort.",
+      "journal": "Swiss medical weekly",
+      "publicationDate": "2026 Jul 16",
       "authors": [
-        "Ye S",
-        "Zhang J",
-        "Lv M"
+        "Moser K",
+        "Ballif A",
+        "Becker D"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034872/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037540/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     },
     {
-      "id": "43034858",
-      "title": "Antibiotic utilization patterns, direct antibiotic acquisition costs, and hospital transfer outcomes in a pediatric emergency care unit: a retrospective study from Northeastern Brazil.",
-      "journal": "Exploratory research in clinical and social pharmacy",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Rocha CA",
-        "Valenzuela EF",
-        "Rosa FW"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034858/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
-    },
-    {
-      "id": "43034737",
-      "title": "Mechanistic study of thermally denatured β-lactoglobulin nanoparticles for ferulic acid encapsulation and antioxidant enhancement.",
-      "journal": "Food chemistry: X",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Zhang T",
-        "Fang Y",
-        "Zhu R"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034737/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
-    },
-    {
-      "id": "43034682",
-      "title": "Adaptive gating-based fusion of sequential and local features for predicting drug-drug interactions.",
-      "journal": "iScience",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Dai G",
-        "Luo T",
-        "Lin T"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034682/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
-    },
-    {
-      "id": "43034630",
-      "title": "Integrative Network Pharmacology and Experimental Validation Reveal Multi-target Hepatoprotective Mechanisms of Bioactive Compounds from Xiao-Yao-San.",
-      "journal": "Iranian journal of pharmaceutical research : IJPR",
-      "publicationDate": "2026 Jan-Dec",
-      "authors": [
-        "Zheng ZY",
-        "Chen JY",
-        "Quah RYC"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034630/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
-    },
-    {
-      "id": "43034617",
-      "title": "Pharmacokinetic interactions between atorvastatin and traditional herbal medicines, Banhabaekchulcheonmatang and Hwangryeonhaedoktang in healthy volunteers.",
-      "journal": "Integrative medicine research",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Song J",
-        "Cho SJ",
-        "Kang DW"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034617/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
-    },
-    {
-      "id": "43034521",
-      "title": "Dapagliflozin transfer in breast milk may be clinically insignificant-An opportunity for optimization of evidence-based management of heart failure in postpartum patients.",
-      "journal": "Pregnancy (Hoboken, N.J.)",
+      "id": "43037386",
+      "title": "Gut microbial metabolite indole-3-lactic acid may bind to IL1B: An in silico network pharmacology study of the gut-pulmonary artery axis in pulmonary arterial hypertension.",
+      "journal": "The Journal of international medical research",
       "publicationDate": "2026 Nov",
       "authors": [
-        "Bartell A",
-        "Erickson J",
-        "Anderson LJ"
+        "Zhang N",
+        "Wang R",
+        "Liu F"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034521/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037386/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     },
     {
-      "id": "43034520",
-      "title": "Combination therapies for hidradenitis suppurativa: Narrative review of current strategies and emerging perspectives.",
-      "journal": "Sage open chronic disease",
-      "publicationDate": "2026 Jan-Dec",
+      "id": "43037367",
+      "title": "Intracrinology and tissue-selective effects of tibolone: mechanisms and implications.",
+      "journal": "Climacteric : the journal of the International Menopause Society",
+      "publicationDate": "2026 Nov 16",
       "authors": [
-        "Carugno A",
-        "Bighetti S",
-        "Fratton Z"
+        "de Melo NR",
+        "Schmidt do Prado-Lima PA",
+        "Melo Pompei L"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034520/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037367/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     },
     {
-      "id": "43034514",
-      "title": "Deciphering the Anticancer Effects of Baicalein in Human Gastric Cancer Cells: Computational Chemistry, Bioinformatics, Network Pharmacology Insights, and in vitro Experimental Validation.",
-      "journal": "Iranian journal of pharmaceutical research : IJPR",
-      "publicationDate": "2026 Jan-Dec",
+      "id": "43037234",
+      "title": "Recent advances and translational challenges of potassium channel openers in cardiovascular medicine: a narrative review.",
+      "journal": "Future cardiology",
+      "publicationDate": "2026 Nov 16",
       "authors": [
-        "Jing B",
-        "Hui R",
-        "Xiao L"
+        "Shafiei S",
+        "Nemati Z",
+        "Arzhangzadeh A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034514/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037234/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     },
     {
-      "id": "43034495",
-      "title": "Improving timeliness of antihypertensive treatment intensification through pharmacist-led interventions among older adult patients in Northwest Ethiopia: Multicenter prospective cohort study.",
-      "journal": "Sage open chronic disease",
-      "publicationDate": "2026 Jan-Dec",
+      "id": "43037193",
+      "title": "Synergistic modulation of cardiac lipid metabolism by Hedan Pill and Shexiang Baoxin Pill through the peroxisome proliferator-activated receptor α-carnitine palmitoyltransferase 1A axis in experimental heart failure.",
+      "journal": "Experimental physiology",
+      "publicationDate": "2026 Nov 16",
       "authors": [
-        "Dagnew SB",
-        "Zerihun TE",
-        "Mussie DA"
+        "Wang F",
+        "Wang L",
+        "Zhang Q"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034495/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037193/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     },
     {
-      "id": "43034429",
-      "title": "In vitro, In silico, and phytochemical studies of Heterophragma adenophyllum leaves against hepatocellular carcinoma.",
-      "journal": "In vitro models",
-      "publicationDate": "2026 Dec",
+      "id": "43037124",
+      "title": "Micronutrient reconciliation at transitions in continuous renal replacement therapy.",
+      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publicationDate": "2026 Nov 16",
       "authors": [
-        "Hazeefa U",
-        "Ahmed N",
-        "Bhatti R"
+        "Mahapatra C",
+        "Srikanth M",
+        "Vijayasimha M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034429/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037124/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     },
     {
-      "id": "43034411",
-      "title": "Preliminary in vivo evaluation of Adenosma indianum (Lour.) Merr. against diarrhea and pain: in vivo pharmacology and in silico hypothesis generation through molecular docking, DFT, and ADMET profiling of isoacteoside.",
-      "journal": "In silico pharmacology",
+      "id": "43037103",
+      "title": "Omentoplasty for the Prevention and Treatment of Complications after Abdomino-Perineal Rectal Resection - Analysis of 21 Consecutive Cases.",
+      "journal": "Chirurgia (Bucharest, Romania : 1990)",
+      "publicationDate": "2026 Oct 1",
+      "authors": [
+        "Botianu PV",
+        "Tutuianu F",
+        "Radoi C"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43037103/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
+    },
+    {
+      "id": "43036976",
+      "title": "Integrated evaluation of pharmacokinetics and pharmacogenomics of sunitinib and pazopanib in patients with metastatic renal carcinoma.",
+      "journal": "British journal of clinical pharmacology",
+      "publicationDate": "2026 Nov 16",
+      "authors": [
+        "Maillard M",
+        "Gracia M",
+        "Cabarrou B"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43036976/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
+    },
+    {
+      "id": "43036962",
+      "title": "[Statins and adverse effects : towards proportionate risk communication].",
+      "journal": "Revue medicale de Liege",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Locquet M",
+        "Douxfilx J",
+        "Lancellotti P"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43036962/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
+    },
+    {
+      "id": "43036912",
+      "title": "Plasma and intra-abdominal drain fluid pharmacokinetics of linezolid in critically ill patients with complicated intra-abdominal infections: implications for pharmacokinetics/pharmacodynamics target attainment against Enterococcus spp.",
+      "journal": "The Journal of antimicrobial chemotherapy",
+      "publicationDate": "2026 Nov 3",
+      "authors": [
+        "Benítez-Cano A",
+        "De Antonio-Cuscó M",
+        "Ramos I"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43036912/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
+    },
+    {
+      "id": "43036853",
+      "title": "Lateral Flow Immunoassay Technology for Blood-Based Infection and Sepsis-Related Biomarker Detection: Trends, Analytical Performance, and Clinical Translation.",
+      "journal": "Critical reviews in analytical chemistry",
+      "publicationDate": "2026 Nov 16",
+      "authors": [
+        "Thapa R",
+        "Fuloria NK",
+        "Bhat AA"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43036853/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
+    },
+    {
+      "id": "43036655",
+      "title": "Uniform PLGA Nanorods Loaded with Curcumin: Statistical Optimization, Cellular Cytotoxicity and in vivo Pharmacokinetics.",
+      "journal": "International journal of nanomedicine",
       "publicationDate": "2026",
       "authors": [
-        "Fahim MSZ",
-        "Sarkar P",
-        "Mia MS"
+        "Liu L",
+        "Liao Z",
+        "Liu H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43034411/",
-      "retrievedAt": "2026-11-15T14:28:50.278Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43036655/",
+      "retrievedAt": "2026-11-16T16:41:25.674Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
