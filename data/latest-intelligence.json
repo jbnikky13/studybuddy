@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-17T16:38:39.643Z",
+  "generatedAt": "2026-11-18T16:07:58.455Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/19",
-    "through": "2026/11/17",
+    "from": "2026/08/20",
+    "through": "2026/11/18",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,193 +11,194 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43041413",
-      "title": "Erythroderma Following Fluphenazine Decanoate Injection: A Rare Adverse Drug Reaction in a Resource-Limited Setting.",
-      "journal": "Clinical case reports",
+      "id": "43046915",
+      "title": "The effect of the synthetic analogue of kisspeptin on the level of hormones of the reproductive system in Danio rerio.",
+      "journal": "Biomeditsinskaia khimiia",
       "publicationDate": "2026 Nov",
       "authors": [
-        "Riesehaymanot FT",
-        "Tekeste LM",
-        "Berhe ND"
+        "Kostina MI",
+        "Blazhenko AA",
+        "Glebskaya SA"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041413/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046915/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
     },
     {
-      "id": "43041374",
-      "title": "Ocular adverse event profiles associated with endocrine therapies for breast cancer: a global pharmacovigilance study using FAERS and VigiAccess.",
-      "journal": "Frontiers in oncology",
-      "publicationDate": "2026",
-      "authors": [
-        "Wang X",
-        "Zuo W",
-        "Zhang C"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041374/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041357",
-      "title": "Vanishing bile duct syndrome reports and recorded fatal outcomes in FAERS: a disproportionality analysis.",
-      "journal": "Frontiers in medicine",
-      "publicationDate": "2026",
-      "authors": [
-        "Yin Y",
-        "Zhang G"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041357/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041248",
-      "title": "Astaxanthin attenuates H(2)O(2)-induced oxidative injury in R28 retinal precursor cells via the Keap1-Nrf2/HO-1 signaling pathway.",
-      "journal": "Frontiers in medicine",
-      "publicationDate": "2026",
-      "authors": [
-        "Xu L",
-        "Liu B",
-        "Wang Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041248/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041232",
-      "title": "Emerging Multimodal AIE Theranostics with Key Diagnostic and Therapeutic Roles: A Review of Evidence.",
-      "journal": "International journal of nanomedicine",
-      "publicationDate": "2026",
-      "authors": [
-        "Zhang J",
-        "Wang X",
-        "Zou H"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041232/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041136",
-      "title": "Simultaneous Quantification of Acetaminophen and Oxycodone in Human Plasma by UPLC-MS/MS and Its Application to Pharmacokinetic Study of Single-Dose and Multiple-Dose Administrations.",
-      "journal": "Biomedical chromatography : BMC",
-      "publicationDate": "2027 Jan",
-      "authors": [
-        "Tang WY",
-        "Yang SS",
-        "Wei YT"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041136/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041122",
-      "title": "Determination of Apalutamide in Human Plasma by Sensitive LC-MS/MS Method and the Application to a Bioequivalence Study.",
-      "journal": "Biomedical chromatography : BMC",
-      "publicationDate": "2027 Jan",
-      "authors": [
-        "Lu T",
-        "Xiong D",
-        "Yuan Z"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041122/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041088",
-      "title": "Acipimox as a clinical pharmacology probe: A two-level bibliometric analysis of antilipolysis and bioenergetic readouts.",
-      "journal": "British journal of clinical pharmacology",
-      "publicationDate": "2026 Nov 16",
-      "authors": [
-        "Liu Z",
-        "Guo J",
-        "Niu T"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041088/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
-    },
-    {
-      "id": "43041078",
-      "title": "Pregnancy Risk Information Systems for Psychotropic Medications: A Practical Review for Clinical Decision-Making.",
-      "journal": "Psychiatry investigation",
+      "id": "43046913",
+      "title": "Antimicrobial peptides that cross the blood-brain barrier: systematisation of data on known representatives and prospects for their use in CNS diseases.",
+      "journal": "Biomeditsinskaia khimiia",
       "publicationDate": "2026 Nov",
       "authors": [
-        "Kim JH",
-        "Kim SH"
+        "Martynov DD",
+        "Shamova OV"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43041078/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046913/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
     },
     {
-      "id": "43040858",
-      "title": "Development, Implementation, and Assessment of a Computer Decision Support System for Monitoring and Management of Oral Anticoagulation With Warfarin in Resource-Constrained Settings: Mixed Methods Study.",
-      "journal": "JMIR medical informatics",
-      "publicationDate": "2026 Nov 16",
+      "id": "43046875",
+      "title": "Knowledge of Medication Use During Lactation: A Cross-Sectional Study of Family Physicians in Samsun, Türkiye.",
+      "journal": "Breastfeeding medicine : the official journal of the Academy of Breastfeeding Medicine",
+      "publicationDate": "2026 Nov 18",
       "authors": [
-        "Marcolino MS",
-        "Rezende LC",
-        "Cunha LVRD"
+        "Tokur M",
+        "Yavuz E",
+        "Şimşek Yurt N"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43040858/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046875/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
     },
     {
-      "id": "43040548",
-      "title": "Assessment of quantum mechanics-based hydropathic descriptors to navigate the isofunctional chemical space in scaffold hopping.",
-      "journal": "Journal of cheminformatics",
-      "publicationDate": "2026 Aug 20",
+      "id": "43046848",
+      "title": "Lysosome-Targeting Chimeras as Clearing Agents for Pretargeted ImmunoSPECT.",
+      "journal": "Bioconjugate chemistry",
+      "publicationDate": "2026 Nov 18",
       "authors": [
-        "Ginex T",
-        "Luque FJ"
+        "Delaney S",
+        "Denholt CL",
+        "Madsen J"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43040548/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046848/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
     },
     {
-      "id": "43040534",
-      "title": "Stakeholders' perspectives on the contemporary landscape of pharmaceutical market competition in Malaysia's public sector: exploring the key influences of economic, regulatory, and public procurement policies and practices.",
-      "journal": "BMC health services research",
-      "publicationDate": "2026 Aug 20",
+      "id": "43046818",
+      "title": "Impact of a National Antimicrobial Stewardship Pilot Program on Hospital Antimicrobial Stewardship Implementation: A Two-Year Nationwide Survey in Korea.",
+      "journal": "Infection & chemotherapy",
+      "publicationDate": "2026 Oct 23",
       "authors": [
-        "Mohd Kasim F",
-        "Hatah E",
-        "Osman LH"
+        "Cheong HS",
+        "Kwon KT",
+        "Kim B"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43040534/",
-      "retrievedAt": "2026-11-17T16:38:39.643Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046818/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046757",
+      "title": "Real-world effectiveness and safety of eptinezumab in migraine prevention.",
+      "journal": "Expert opinion on biological therapy",
+      "publicationDate": "2026 Nov 18",
+      "authors": [
+        "Pellesi L",
+        "Scuteri D",
+        "Allamprese R"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046757/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046695",
+      "title": "Matrine-Loaded Macrophage Membrane-Functionalized Liposomes Suppress Macrophage Dll4-Dependent Vascular Smooth Muscle Cell Senescence and Improve Plaque Stability-Associated Features.",
+      "journal": "Aging cell",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Liu J",
+        "Wang H",
+        "Wang X"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046695/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046640",
+      "title": "ASHP member perspectives on balancing academic rigor and pharmacy student wellness.",
+      "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publicationDate": "2026 Nov 18",
+      "authors": [
+        "Babin J",
+        "Khosraviani V"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046640/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046592",
+      "title": "Multomic Analysis of Sepsis Molecular Subtypes: Discovery of Candidate Biomarkers and Potential Drug Targets.",
+      "journal": "Chemical biology & drug design",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Yu X",
+        "Deng Y",
+        "Song Q"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046592/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046589",
+      "title": "Model-informed characterisation of the target therapeutic window for dexamethasone by quantitatively balancing foetal lung maturation and neurotoxicity in pregnant rats.",
+      "journal": "British journal of pharmacology",
+      "publicationDate": "2026 Nov 17",
+      "authors": [
+        "Song L",
+        "Zhao X",
+        "Du R"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046589/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046584",
+      "title": "Integrative Multiomics Analysis and Machine Learning Identify Core Host Targets of Gut Microbial Metabolites in Gestational Diabetes Mellitus.",
+      "journal": "Journal of diabetes research",
+      "publicationDate": "2026",
+      "authors": [
+        "Zhai P",
+        "Song X",
+        "Wang H"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046584/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
+    },
+    {
+      "id": "43046577",
+      "title": "Sex-related differences in time-to-onset of immune checkpoint inhibitor-related interstitial lung disease: a JADER pharmacovigilance study.",
+      "journal": "Journal of chemotherapy (Florence, Italy)",
+      "publicationDate": "2026 Nov 17",
+      "authors": [
+        "Ide N",
+        "Yamashita M",
+        "Yamashita M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046577/",
+      "retrievedAt": "2026-11-18T16:07:58.455Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
