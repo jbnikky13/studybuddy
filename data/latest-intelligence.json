@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-18T16:07:58.455Z",
+  "generatedAt": "2026-11-19T16:14:46.413Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/20",
-    "through": "2026/11/18",
+    "from": "2026/08/21",
+    "through": "2026/11/19",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,192 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43046915",
-      "title": "The effect of the synthetic analogue of kisspeptin on the level of hormones of the reproductive system in Danio rerio.",
-      "journal": "Biomeditsinskaia khimiia",
+      "id": "43053696",
+      "title": "Weight- and age-dependent bias in remimazolam pharmacokinetic-pharmacodynamic models during bispectral index-guided anesthesia: a retrospective analysis.",
+      "journal": "Korean journal of anesthesiology",
+      "publicationDate": "2026 Nov 19",
+      "authors": [
+        "Yoon SB",
+        "Shim K",
+        "Jung CW"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053696/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
+    },
+    {
+      "id": "43053644",
+      "title": "Follow-Up Questionnaires in Pharmacovigilance: A Quantitative Evaluation Based on Completeness Score.",
+      "journal": "Pharmacoepidemiology and drug safety",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Gordillo-Marañón M",
+        "Fernández-Fernández C"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053644/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
+    },
+    {
+      "id": "43053613",
+      "title": "Comment on \"Acute Supraglottitis in Pediatric Patients-An Emerging Disease?\".",
+      "journal": "Pediatric pulmonology",
       "publicationDate": "2026 Nov",
       "authors": [
-        "Kostina MI",
-        "Blazhenko AA",
-        "Glebskaya SA"
+        "Yılmaz E",
+        "Özer NK"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046915/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053613/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046913",
-      "title": "Antimicrobial peptides that cross the blood-brain barrier: systematisation of data on known representatives and prospects for their use in CNS diseases.",
-      "journal": "Biomeditsinskaia khimiia",
+      "id": "43053603",
+      "title": "Azole Resistance in Aspergillus fumigatus Infections Remains Low in Germany and Is Mainly Related to Environmental Resistance Mutations.",
+      "journal": "Mycoses",
       "publicationDate": "2026 Nov",
       "authors": [
-        "Martynov DD",
-        "Shamova OV"
+        "Laer AV",
+        "Walther G",
+        "Reichert F"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046913/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053603/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046875",
-      "title": "Knowledge of Medication Use During Lactation: A Cross-Sectional Study of Family Physicians in Samsun, Türkiye.",
-      "journal": "Breastfeeding medicine : the official journal of the Academy of Breastfeeding Medicine",
+      "id": "43053590",
+      "title": "Galunisertib During Normothermic Machine Perfusion Attenuates Profibrotic Signaling in Discarded Human Donor Kidneys.",
+      "journal": "Artificial organs",
       "publicationDate": "2026 Nov 18",
       "authors": [
-        "Tokur M",
-        "Yavuz E",
-        "Şimşek Yurt N"
+        "Pamplona CC",
+        "Ballester Bergada C",
+        "Jaynes CL"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046875/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053590/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046848",
-      "title": "Lysosome-Targeting Chimeras as Clearing Agents for Pretargeted ImmunoSPECT.",
-      "journal": "Bioconjugate chemistry",
-      "publicationDate": "2026 Nov 18",
-      "authors": [
-        "Delaney S",
-        "Denholt CL",
-        "Madsen J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046848/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
-    },
-    {
-      "id": "43046818",
-      "title": "Impact of a National Antimicrobial Stewardship Pilot Program on Hospital Antimicrobial Stewardship Implementation: A Two-Year Nationwide Survey in Korea.",
-      "journal": "Infection & chemotherapy",
-      "publicationDate": "2026 Oct 23",
-      "authors": [
-        "Cheong HS",
-        "Kwon KT",
-        "Kim B"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046818/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
-    },
-    {
-      "id": "43046757",
-      "title": "Real-world effectiveness and safety of eptinezumab in migraine prevention.",
-      "journal": "Expert opinion on biological therapy",
-      "publicationDate": "2026 Nov 18",
-      "authors": [
-        "Pellesi L",
-        "Scuteri D",
-        "Allamprese R"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046757/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
-    },
-    {
-      "id": "43046695",
-      "title": "Matrine-Loaded Macrophage Membrane-Functionalized Liposomes Suppress Macrophage Dll4-Dependent Vascular Smooth Muscle Cell Senescence and Improve Plaque Stability-Associated Features.",
-      "journal": "Aging cell",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Liu J",
-        "Wang H",
-        "Wang X"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046695/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
-    },
-    {
-      "id": "43046640",
-      "title": "ASHP member perspectives on balancing academic rigor and pharmacy student wellness.",
+      "id": "43053564",
+      "title": "Evaluating Pharmacist Authorship Trends in Leading Emergency Medicine Journals.",
       "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "publicationDate": "2026 Nov 19",
+      "authors": [
+        "Edwards CJ",
+        "Patel J",
+        "Allababidi O"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053564/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
+    },
+    {
+      "id": "43053482",
+      "title": "When Clinical Innovation Outpaces Implementation: A Dual Diffusion Model for GLP-1 Therapy and Employer Cardiometabolic Health.",
+      "journal": "Population health management",
       "publicationDate": "2026 Nov 18",
       "authors": [
-        "Babin J",
-        "Khosraviani V"
+        "Halterman SL"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046640/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053482/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046592",
-      "title": "Multomic Analysis of Sepsis Molecular Subtypes: Discovery of Candidate Biomarkers and Potential Drug Targets.",
-      "journal": "Chemical biology & drug design",
-      "publicationDate": "2026 Nov",
+      "id": "43053162",
+      "title": "In vitro biological evaluation of a water-soluble hyperbranched β-cyclodextrin nanocarrier for co-delivery of doxorubicin and curcumin.",
+      "journal": "Journal of translational medicine",
+      "publicationDate": "2026 Aug 22",
       "authors": [
-        "Yu X",
-        "Deng Y",
-        "Song Q"
+        "Samadzadeh M",
+        "Salmanifard Ardestani MT",
+        "Zarepour A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046592/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053162/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046589",
-      "title": "Model-informed characterisation of the target therapeutic window for dexamethasone by quantitatively balancing foetal lung maturation and neurotoxicity in pregnant rats.",
-      "journal": "British journal of pharmacology",
-      "publicationDate": "2026 Nov 17",
+      "id": "43053105",
+      "title": "Strategies to optimize antimicrobial use and control antimicrobial resistance: an evidence-informed policy process.",
+      "journal": "Health research policy and systems",
+      "publicationDate": "2026 Aug 22",
       "authors": [
-        "Song L",
-        "Zhao X",
-        "Du R"
+        "Vélez-Marín V",
+        "Marín-Orozco IC",
+        "Velásquez-Salazar P"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046589/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053105/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046584",
-      "title": "Integrative Multiomics Analysis and Machine Learning Identify Core Host Targets of Gut Microbial Metabolites in Gestational Diabetes Mellitus.",
-      "journal": "Journal of diabetes research",
-      "publicationDate": "2026",
+      "id": "43053022",
+      "title": "The effect of an in-person mindfulness program on compassion in nursing care among undergraduate nursing students.",
+      "journal": "BMC nursing",
+      "publicationDate": "2026 Aug 24",
       "authors": [
-        "Zhai P",
-        "Song X",
-        "Wang H"
+        "Basirat M",
+        "Mousavizadeh SN",
+        "Ghalenoee M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046584/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053022/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     },
     {
-      "id": "43046577",
-      "title": "Sex-related differences in time-to-onset of immune checkpoint inhibitor-related interstitial lung disease: a JADER pharmacovigilance study.",
-      "journal": "Journal of chemotherapy (Florence, Italy)",
-      "publicationDate": "2026 Nov 17",
+      "id": "43053019",
+      "title": "Perceptions and attitudes toward patient safety: perspectives of students in the medical and health sciences at the University of Aden, Yemen.",
+      "journal": "BMC medical education",
+      "publicationDate": "2026 Aug 24",
       "authors": [
-        "Ide N",
-        "Yamashita M",
-        "Yamashita M"
+        "Basaleem H",
+        "Muthanna FMS",
+        "Bahattab A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43046577/",
-      "retrievedAt": "2026-11-18T16:07:58.455Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053019/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
+    },
+    {
+      "id": "43053009",
+      "title": "From lectures to learning outcomes: meaningful integration of AI-generated content in pre-clerkship medical training.",
+      "journal": "BMC medical education",
+      "publicationDate": "2026 Aug 22",
+      "authors": [
+        "Khurana J",
+        "Zaki HA",
+        "Pavlick E"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43053009/",
+      "retrievedAt": "2026-11-19T16:14:46.413Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
