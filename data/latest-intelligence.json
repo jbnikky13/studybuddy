@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-20T15:52:46.948Z",
+  "generatedAt": "2026-11-21T15:03:12.698Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/22",
-    "through": "2026/11/20",
+    "from": "2026/08/23",
+    "through": "2026/11/21",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,192 +11,195 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43059540",
-      "title": "Statement of Retraction: Based on network pharmacology and in vitro experiments to prove the effective inhibition of myocardial fibrosis by Buyang Huanwu decoction.",
-      "journal": "Bioengineered",
-      "publicationDate": "2026 Dec",
-      "authors": [],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059540/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059507",
-      "title": "Response Heterogeneity to Gegen Qinlian Decoction in Ameliorating Insulin Sensitivity Is Associated With Osteopontin Expression.",
-      "journal": "Basic & clinical pharmacology & toxicology",
-      "publicationDate": "2026 Dec",
-      "authors": [
-        "Li D",
-        "Lao Y",
-        "Qin Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059507/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059463",
-      "title": "Plasma D- and L-2-hydroxyglutarate during vorasidenib treatment of isocitrate dehydrogenase-mutant glioma: development and validation of an enantioselective LC-MS/MS assay.",
-      "journal": "Clinical chemistry and laboratory medicine",
-      "publicationDate": "2026 Nov 23",
-      "authors": [
-        "Ponzetto F",
-        "Melis A",
-        "Leoni L"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059463/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059459",
-      "title": "Impact of a multifaceted intervention integrating infection prevention and control and antibiotic stewardship on urinary tract infection management in nursing homes in eight European countries, 2023 to 2025.",
-      "journal": "Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Jensen JN",
-        "Theut AM",
-        "Antsupova VS"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059459/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059457",
-      "title": "Antimicrobial consumption and resistance targets remain largely unmet 5 years before 2030, European Union, 2019 to 2025.",
-      "journal": "Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Giske CG",
-        "Högberg LD",
-        "Merk H"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059457/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059416",
-      "title": "The dynamic landscape of the mucin-1 β subunit is altered upon the binding of a peptide mimicking mucin-1 α.",
-      "journal": "Physical chemistry chemical physics : PCCP",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Magnouloux E",
-        "Lemercier G",
-        "Frochot C"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059416/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059400",
-      "title": "FusionGDB 3.0: integrating breakpoints, generating personalized sequences, and inferring tumorigenic scenarios for human fusion genes.",
-      "journal": "Nucleic acids research",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Kim P",
-        "Yang Z",
-        "Kim J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059400/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059395",
-      "title": "From network pharmacology to experimental verification: Angelica sinensis and its key constituent β‑sitosterol exert anti‑liver cancer effects through the p53 signaling pathway.",
-      "journal": "Molecular medicine reports",
-      "publicationDate": "2027 Jan",
-      "authors": [
-        "Du Y",
-        "Song Y",
-        "Fan Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059395/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059372",
-      "title": "Baicalin attenuates high‑altitude pulmonary edema via PI3K/Akt activation and NLRP3 pyroptosis inhibition.",
-      "journal": "International journal of molecular medicine",
-      "publicationDate": "2027 Jan",
-      "authors": [
-        "Chen W",
-        "Pang J",
-        "Zhang X"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059372/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
-    },
-    {
-      "id": "43059310",
-      "title": "Structural characterisation of the effect of 5-chloroindole on orthosteric activation of murine 5-HT(3A) receptors.",
-      "journal": "British journal of pharmacology",
+      "id": "43065614",
+      "title": "Changes in Pharmacists' Prescription Recommendations, Information Provision, and Practice-Related Attitudes Following Academic Detailing Training in Cancer Supportive Care.",
+      "journal": "The Journal of pharmacy technology : jPT : official publication of the Association of Pharmacy Technicians",
       "publicationDate": "2026 Nov 19",
       "authors": [
-        "Stauffer MM",
-        "Felt KC",
-        "Befekadu HB"
+        "Sato J",
+        "Sekine I",
+        "Ozeki R"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059310/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065614/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
     },
     {
-      "id": "43059307",
-      "title": "Hormonal Milieu-Dependent Cervicovaginal and Mammary Gland Effects of a Long-Acting Relaxin Agonist in Female Rats: A Nonclinical Evaluation Across Investigative Studies.",
-      "journal": "Toxicologic pathology",
-      "publicationDate": "2026 Nov 19",
+      "id": "43065598",
+      "title": "MSER-DDI: molecular and semantic event representations for few-shot and unseen-event drug-drug interaction prediction.",
+      "journal": "Frontiers in chemistry",
+      "publicationDate": "2026",
       "authors": [
-        "Bhaskaran M",
-        "Vidal JD",
-        "Abernathy MM"
+        "Li W",
+        "Fu Y",
+        "Wu X"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43059307/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065598/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
     },
     {
-      "id": "43058975",
-      "title": "Evolution of the Transplant Pharmacist Workforce in U.S. Solid Organ Transplant Programs: A 10-Year Follow-up National Survey.",
-      "journal": "Journal of the American College of Clinical Pharmacy : JACCP",
-      "publicationDate": "2026 Dec",
+      "id": "43065521",
+      "title": "Protective effects of AKBA against hypoxia-induced cognitive dysfunction: potential involvement of SLC2A1, PTGS1, and BCL2L1.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
       "authors": [
-        "Kaiser TE",
-        "Pilch NA",
-        "Trofe J"
+        "Wang J",
+        "Gao L",
+        "Lv B"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43058975/",
-      "retrievedAt": "2026-11-20T15:52:46.948Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065521/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065487",
+      "title": "When regulation disrupts treatment: controlled-substance policies, continuity of chronic disease care, and health equity.",
+      "journal": "Frontiers in public health",
+      "publicationDate": "2026",
+      "authors": [
+        "Sepulveda R",
+        "Shegog R",
+        "Saljuqi AT"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065487/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065479",
+      "title": "Huaban Tongmai decoction attenuates ferroptosis-associated vascular inflammation in carotid artery atherosclerosis with involvement of the p53-Parkin mitophagy pathway.",
+      "journal": "Frontiers in cell and developmental biology",
+      "publicationDate": "2026",
+      "authors": [
+        "Zou J",
+        "Zhou X",
+        "Jin N"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065479/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065466",
+      "title": "Sheng-Jiang Powder and Akkermansia muciniphila interventions in experimental autoimmune encephalomyelitis: microbiota-linked sphingolipid/S1PR1-associated barrier remodeling.",
+      "journal": "Frontiers in immunology",
+      "publicationDate": "2026",
+      "authors": [
+        "Xia H",
+        "Zeng J",
+        "Tang Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065466/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065435",
+      "title": "Diterpenoid tanshinones enhance CD8(+) T-cell-mediated antitumor immunity in gastric cancer by suppressing ENO1 activity and glycolysis.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
+      "authors": [
+        "Guo J",
+        "Ni X",
+        "Zhang K"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065435/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065329",
+      "title": "Addressing medication adherence in lung transplantation patients: a narrative review on interventions.",
+      "journal": "Expert review of respiratory medicine",
+      "publicationDate": "2026 Nov 21",
+      "authors": [
+        "Schelders MA",
+        "Laios LC",
+        "Smit C"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065329/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065308",
+      "title": "Past, present and future of Estetrol (E4); a natural fetal estrogen for human use.",
+      "journal": "Endocrine reviews",
+      "publicationDate": "2026 Nov 21",
+      "authors": [
+        "Coelingh Bennink HJT",
+        "Afors K",
+        "Douxfils J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065308/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065287",
+      "title": "Incremental associations of pharmacological components in heart failure with mildly reduced or preserved ejection fraction: a systematic review and component network meta-analysis.",
+      "journal": "Expert review of clinical pharmacology",
+      "publicationDate": "2026 Nov 20",
+      "authors": [
+        "Omrani MA",
+        "Baskaran BS",
+        "Jafari A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065287/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065283",
+      "title": "Sustaining Clinical Pharmacology Into the Next Generation.",
+      "journal": "Journal of clinical pharmacology",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Greenblatt DJ",
+        "Sellers EM"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065283/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
+    },
+    {
+      "id": "43065280",
+      "title": "Bioequivalence Studies of Two Fixed-Dose Combination of Dapagliflozin and Metformin XR Formulations in Healthy Participants Under Fed and Fasting Conditions.",
+      "journal": "Clinical pharmacology in drug development",
+      "publicationDate": "2026 Nov",
+      "authors": [
+        "Sözer G",
+        "Abdulkhaleq A",
+        "Zead I"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065280/",
+      "retrievedAt": "2026-11-21T15:03:12.698Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
