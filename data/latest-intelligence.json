@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-21T15:03:12.698Z",
+  "generatedAt": "2026-11-22T15:00:26.037Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/23",
-    "through": "2026/11/21",
+    "from": "2026/08/24",
+    "through": "2026/11/22",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,195 +11,193 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43065614",
-      "title": "Changes in Pharmacists' Prescription Recommendations, Information Provision, and Practice-Related Attitudes Following Academic Detailing Training in Cancer Supportive Care.",
-      "journal": "The Journal of pharmacy technology : jPT : official publication of the Association of Pharmacy Technicians",
+      "id": "43068269",
+      "title": "Development and validation of an integrated community pharmacy service performance model: Implications for client satisfaction and revisit intentions.",
+      "journal": "Exploratory research in clinical and social pharmacy",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Oamen TE",
+        "Ihekoronye MR",
+        "Idiake JO"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43068269/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43068228",
+      "title": "Improving Documentation of Surgical Site Infection Prevention Measures Through a Digital Quality Improvement Intervention: A Two-Cycle Clinical Audit at Al Managil Teaching Hospital, Sudan.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Oct",
+      "authors": [
+        "ShmsEldeen Abozaid Alshafiea W",
+        "Mustafa AMA",
+        "Abdelkarim MKH"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43068228/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43068147",
+      "title": "Efficient flavonoids from Helichrysum bracteatum and their multi-target antioxidant mechanisms.",
+      "journal": "Food chemistry: X",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Zeng X",
+        "Wei W",
+        "Cai G"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43068147/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43068091",
+      "title": "Buffalo farming in Nepal: current status, sustainability, value chains, and future development opportunities.",
+      "journal": "Veterinary and animal science",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Acharya A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43068091/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43068073",
+      "title": "Artificial Intelligence-Guided Precision Nanomedicine: Bridging Delivery Barriers, Controlled Release, and Clinical Translation.",
+      "journal": "International journal of nanomedicine",
+      "publicationDate": "2026",
+      "authors": [
+        "Li M",
+        "Song Y",
+        "Feng N"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43068073/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43067993",
+      "title": "From Policy to Practice: A Qualitative Conceptual Framework for Leading Social Accountability in Interdisciplinary Healthcare Service Delivery in Jordan.",
+      "journal": "Journal of healthcare leadership",
+      "publicationDate": "2026",
+      "authors": [
+        "Odeh M",
+        "Aldabobe BA",
+        "Almaaytah A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067993/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43067954",
+      "title": "Wenpi decoction attenuates cisplatin-induced chronic kidney disease via inhibition of the NLRP3/caspase1 signaling pathway: an experimental study.",
+      "journal": "American journal of translational research",
+      "publicationDate": "2026",
+      "authors": [
+        "Tan J",
+        "Sun G",
+        "Wang J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067954/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43067936",
+      "title": "Circular RNAs in Hepatocellular Carcinoma: Biogenesis, Detection, Functional Mechanisms, and Translational Evidence.",
+      "journal": "Journal of hepatocellular carcinoma",
+      "publicationDate": "2026",
+      "authors": [
+        "Xu B",
+        "Wei J",
+        "Li W"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067936/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
+    },
+    {
+      "id": "43067931",
+      "title": "Misinterpretation of PCR-Guided Personalized Antibiograms in Urinary Tract Infections: A Case Series.",
+      "journal": "Hospital pharmacy",
       "publicationDate": "2026 Nov 19",
       "authors": [
-        "Sato J",
-        "Sekine I",
-        "Ozeki R"
+        "Orfanides T",
+        "Kufel J",
+        "Avery L"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065614/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067931/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
     },
     {
-      "id": "43065598",
-      "title": "MSER-DDI: molecular and semantic event representations for few-shot and unseen-event drug-drug interaction prediction.",
-      "journal": "Frontiers in chemistry",
-      "publicationDate": "2026",
+      "id": "43067903",
+      "title": "Clear Skin, Vanishing Brows: Trichoscopy-Confirmed Eyebrow Alopecia Areata Associated With Secukinumab.",
+      "journal": "Cureus",
+      "publicationDate": "2026 Oct",
       "authors": [
-        "Li W",
-        "Fu Y",
-        "Wu X"
+        "Charaa M",
+        "Chiheb S",
+        "Agharbi FZ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065598/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067903/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
     },
     {
-      "id": "43065521",
-      "title": "Protective effects of AKBA against hypoxia-induced cognitive dysfunction: potential involvement of SLC2A1, PTGS1, and BCL2L1.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Wang J",
-        "Gao L",
-        "Lv B"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065521/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065487",
-      "title": "When regulation disrupts treatment: controlled-substance policies, continuity of chronic disease care, and health equity.",
-      "journal": "Frontiers in public health",
-      "publicationDate": "2026",
-      "authors": [
-        "Sepulveda R",
-        "Shegog R",
-        "Saljuqi AT"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065487/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065479",
-      "title": "Huaban Tongmai decoction attenuates ferroptosis-associated vascular inflammation in carotid artery atherosclerosis with involvement of the p53-Parkin mitophagy pathway.",
-      "journal": "Frontiers in cell and developmental biology",
-      "publicationDate": "2026",
-      "authors": [
-        "Zou J",
-        "Zhou X",
-        "Jin N"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065479/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065466",
-      "title": "Sheng-Jiang Powder and Akkermansia muciniphila interventions in experimental autoimmune encephalomyelitis: microbiota-linked sphingolipid/S1PR1-associated barrier remodeling.",
-      "journal": "Frontiers in immunology",
-      "publicationDate": "2026",
-      "authors": [
-        "Xia H",
-        "Zeng J",
-        "Tang Y"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065466/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065435",
-      "title": "Diterpenoid tanshinones enhance CD8(+) T-cell-mediated antitumor immunity in gastric cancer by suppressing ENO1 activity and glycolysis.",
-      "journal": "Frontiers in pharmacology",
-      "publicationDate": "2026",
-      "authors": [
-        "Guo J",
-        "Ni X",
-        "Zhang K"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065435/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065329",
-      "title": "Addressing medication adherence in lung transplantation patients: a narrative review on interventions.",
-      "journal": "Expert review of respiratory medicine",
-      "publicationDate": "2026 Nov 21",
-      "authors": [
-        "Schelders MA",
-        "Laios LC",
-        "Smit C"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065329/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065308",
-      "title": "Past, present and future of Estetrol (E4); a natural fetal estrogen for human use.",
-      "journal": "Endocrine reviews",
-      "publicationDate": "2026 Nov 21",
-      "authors": [
-        "Coelingh Bennink HJT",
-        "Afors K",
-        "Douxfils J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065308/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065287",
-      "title": "Incremental associations of pharmacological components in heart failure with mildly reduced or preserved ejection fraction: a systematic review and component network meta-analysis.",
-      "journal": "Expert review of clinical pharmacology",
+      "id": "43067592",
+      "title": "The Multidimensional Pharmacotherapy Burden Index (MPBI): A proposed model integrating pharmacological, functional, social, and technological dimensions.",
+      "journal": "Research in social & administrative pharmacy : RSAP",
       "publicationDate": "2026 Nov 20",
       "authors": [
-        "Omrani MA",
-        "Baskaran BS",
-        "Jafari A"
+        "Morillo-Verdugo R",
+        "Blanco Ramos JR",
+        "Vélez Díaz-Pallares M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065287/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067592/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
     },
     {
-      "id": "43065283",
-      "title": "Sustaining Clinical Pharmacology Into the Next Generation.",
-      "journal": "Journal of clinical pharmacology",
-      "publicationDate": "2026 Nov",
+      "id": "43067576",
+      "title": "Drug Safety Management Across the Lifecycle: Regulatory and Clinical Perspectives.",
+      "journal": "Clinical therapeutics",
+      "publicationDate": "2026 Nov 21",
       "authors": [
-        "Greenblatt DJ",
-        "Sellers EM"
+        "Fath MJ",
+        "Loebs PF"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065283/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
-    },
-    {
-      "id": "43065280",
-      "title": "Bioequivalence Studies of Two Fixed-Dose Combination of Dapagliflozin and Metformin XR Formulations in Healthy Participants Under Fed and Fasting Conditions.",
-      "journal": "Clinical pharmacology in drug development",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Sözer G",
-        "Abdulkhaleq A",
-        "Zead I"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43065280/",
-      "retrievedAt": "2026-11-21T15:03:12.698Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43067576/",
+      "retrievedAt": "2026-11-22T15:00:26.037Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
