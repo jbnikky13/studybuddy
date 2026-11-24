@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-23T18:55:33.036Z",
+  "generatedAt": "2026-11-24T18:35:15.762Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/25",
-    "through": "2026/11/23",
+    "from": "2026/08/26",
+    "through": "2026/11/24",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,188 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43070951",
-      "title": "HyperDFI: Cross-View Hypergraph-Graph Contrastive Learning for Drug-Food Interaction Prediction.",
-      "journal": "Journal of chemical information and modeling",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076877",
+      "title": "Implementation of an Oxytocin Dosing Protocol for Cesarean Delivery.",
+      "journal": "AANA journal",
+      "publicationDate": "2026 Dec 1",
       "authors": [
-        "Huang L",
-        "Han Z",
-        "Ding J"
+        "Conley RP"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070951/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076877/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070870",
-      "title": "Drug onset timing identifies potential protopathic bias in severe cutaneous adverse reaction reporting.",
-      "journal": "The Journal of allergy and clinical immunology",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076859",
+      "title": "Desensitization Protocol for Subcutaneous Octreotide in Progressive Carcinoid Tumor: Pharmacokinetic Considerations From a Case Report.",
+      "journal": "Journal of investigational allergology & clinical immunology",
+      "publicationDate": "2026 Nov 24",
       "authors": [
-        "Mukherjee EM",
-        "Park D",
-        "Asiaee A"
+        "Suksawat Y",
+        "Wong T",
+        "Gilmour S"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070870/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076859/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070824",
-      "title": "Faster, Longer, and Smarter: Advancements in Insulin Therapy.",
-      "journal": "Clinical nurse specialist CNS",
-      "publicationDate": "2027 Jan-Feb 01",
+      "id": "43076855",
+      "title": "Beyond the Chatbot: Agentic Artificial Intelligence and the Future of Infectious Disease Practice.",
+      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+      "publicationDate": "2026 Nov 24",
       "authors": [
-        "Aderhold K"
+        "Cobuccio LG"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070824/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076855/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070793",
-      "title": "A phase 1 study of secutrelvir with single and multiple oral doses evaluating the safety, tolerability, pharmacokinetics, and drug-drug interaction with midazolam.",
-      "journal": "Antimicrobial agents and chemotherapy",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076801",
+      "title": "Pharmacokinetics of an elexacaftor/tezacaftor/ivacaftor formulation in pediatric cystic fibrosis: Comparison with published parameters of the reference drug.",
+      "journal": "Archivos argentinos de pediatria",
+      "publicationDate": "2026 Nov 26",
       "authors": [
-        "Koshimichi H",
-        "Yonemoto R",
-        "Horiuchi K"
+        "Cáceres Guid P",
+        "Taboada GF",
+        "Sassone A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070793/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076801/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070792",
-      "title": "pH-Responsive Folate-Targeted Micelles for Tofacitinib Delivery in Adjuvant-Induced Arthritis.",
-      "journal": "Journal of drug targeting",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076700",
+      "title": "Assessing the Roles of Two Community-Based Health Professionals in Japan: Public Health Nurses and Community Pharmacists.",
+      "journal": "Health systems and reform",
+      "publicationDate": "2026 Dec 31",
       "authors": [
-        "Ansarypour Z",
-        "Emami J",
-        "Hassanzadeh F"
+        "Goto A",
+        "Yumiya Y",
+        "Okada H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070792/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076700/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070740",
-      "title": "Nanotechnology-Enabled STING Activation in Cancer Immunotherapy: Is there a Sting in the Tail?",
-      "journal": "Small (Weinheim an der Bergstrasse, Germany)",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076552",
+      "title": "Bright Alkyl Quantum Defects Govern Early Carbon Nanotube Pharmacokinetics in Mice.",
+      "journal": "ACS nano",
+      "publicationDate": "2026 Nov 24",
       "authors": [
-        "Hanumanthappa R",
-        "Mukherjee V",
-        "Mahalingaswamy M"
+        "Sun HS",
+        "Nguyen AP",
+        "Quiroz Reyes CJ"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070740/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076552/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070698",
-      "title": "Social Determinants of Health and Disease Burden Among Medicare Advantage Enrollees With Systemic Lupus Erythematosus in the United States.",
-      "journal": "Arthritis care & research",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076475",
+      "title": "A Phase 2 Study of Imlifidase in the Treatment of Guillain-Barré Syndrome.",
+      "journal": "NEJM evidence",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Daviano A",
-        "Nadipelli VR",
-        "Xu Y"
+        "Attarian S",
+        "Magy L",
+        "Echaniz-Laguna A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070698/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076475/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070669",
-      "title": "Applying pharmacogenetic results from cancer genomic tests to advance precision oncology.",
-      "journal": "Journal of the National Cancer Institute",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076428",
+      "title": "Disarming MRSA through mechanism-guided repurposing of FDA-approved drugs and clinically investigated compounds.",
+      "journal": "Future microbiology",
+      "publicationDate": "2026 Dec",
       "authors": [
-        "Patel JN",
-        "Hertz DL",
-        "O'Donnell PH"
+        "Raja Abd Rahman RMF",
+        "Vasquez J",
+        "Syafruddin SE"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070669/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076428/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070627",
-      "title": "Analysis of the prevalence of anti-infliximab antibodies in Japanese patients with inflammatory bowel disease in a long-term clinical practice.",
-      "journal": "Immunological medicine",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076327",
+      "title": "Dual Nature of Molecules: Amphiphilicity as a Missing Descriptor in Drug Design.",
+      "journal": "Langmuir : the ACS journal of surfaces and colloids",
+      "publicationDate": "2026 Nov 24",
       "authors": [
-        "Yajima K",
-        "Iwafune A",
-        "Oiwa Y"
+        "Loura LMS",
+        "Cordeiro MM",
+        "Oliveira AC"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070627/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076327/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070565",
-      "title": "Prevalence of Antibiotic Allergy in Patients with Inborn Errors of Immunity.",
-      "journal": "Journal of human immunity",
-      "publicationDate": "2026 Nov 23",
+      "id": "43076000",
+      "title": "Real-Time Cumulative Fluid Balance Surveillance and Stewardship in Critical Care: From Prediction to Prevention of Fluid Overload.",
+      "journal": "Journal of intensive care medicine",
+      "publicationDate": "2026 Nov 24",
       "authors": [
-        "Berglund L",
-        "Angus X",
-        "Eisenhhuth K"
+        "Rao SB",
+        "Boukas K",
+        "Spentzas T"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070565/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076000/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070534",
-      "title": "Real-World Use of IGPRO10 (PRIVIGEN): Review of 10 Years of Post-Marketing Pharmacovigilance Data.",
-      "journal": "Journal of human immunity",
-      "publicationDate": "2026 Nov 23",
+      "id": "43075999",
+      "title": "Enhancing Primary Healthcare Capacity in Management of Cleft Lip and Palate: Preliminary Psychometric Evaluation of a Module Training Tool.",
+      "journal": "The Cleft palate-craniofacial journal : official publication of the American Cleft Palate-Craniofacial Association",
+      "publicationDate": "2026 Nov 24",
       "authors": [
-        "Bonagua E",
-        "Sawyer C",
-        "Gabriel S"
+        "Harini M",
+        "Yufika A",
+        "Arif FU"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070534/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43075999/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     },
     {
-      "id": "43070463",
-      "title": "Trimethoprim metabolites and formation of protein adducts.",
-      "journal": "Drug metabolism reviews",
-      "publicationDate": "2026 Nov 23",
-      "authors": [
-        "Nolte WM",
-        "Tessman RT",
-        "Flores-Ascencio P"
-      ],
+      "id": "43075962",
+      "title": "Correction to \"Comparison of Population Pharmacokinetics-Related Information in Drug Labeling Between Japan, the United States, and the European Union\".",
+      "journal": "Journal of clinical pharmacology",
+      "publicationDate": "2026 Nov",
+      "authors": [],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43070463/",
-      "retrievedAt": "2026-11-23T18:55:33.036Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43075962/",
+      "retrievedAt": "2026-11-24T18:35:15.762Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
