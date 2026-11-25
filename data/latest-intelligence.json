@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T18:35:15.762Z",
+  "generatedAt": "2026-11-25T17:45:51.899Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/26",
-    "through": "2026/11/24",
+    "from": "2026/08/27",
+    "through": "2026/11/25",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,188 +11,196 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43076877",
-      "title": "Implementation of an Oxytocin Dosing Protocol for Cesarean Delivery.",
-      "journal": "AANA journal",
-      "publicationDate": "2026 Dec 1",
+      "id": "43083781",
+      "title": "From mRNA Vaccines to In Vivo CAR-T Therapy: RNA-LNP Design and the Pharmacology of CAR-Positive Cells.",
+      "journal": "Vaccines",
+      "publicationDate": "2026 Oct 31",
       "authors": [
-        "Conley RP"
+        "Wang Y",
+        "Yu L",
+        "Ma X"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076877/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083781/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076859",
-      "title": "Desensitization Protocol for Subcutaneous Octreotide in Progressive Carcinoid Tumor: Pharmacokinetic Considerations From a Case Report.",
-      "journal": "Journal of investigational allergology & clinical immunology",
-      "publicationDate": "2026 Nov 24",
+      "id": "43083683",
+      "title": "Rifampicin Pharmacokinetics and Clinical Outcomes in Tuberculosis Patients with Comorbidities: A Descriptive Longitudinal Analysis.",
+      "journal": "Tropical medicine and infectious disease",
+      "publicationDate": "2026 Nov 4",
       "authors": [
-        "Suksawat Y",
-        "Wong T",
-        "Gilmour S"
+        "Said B",
+        "Pétermann YJ",
+        "Sariko M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076859/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083683/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076855",
-      "title": "Beyond the Chatbot: Agentic Artificial Intelligence and the Future of Infectious Disease Practice.",
-      "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-      "publicationDate": "2026 Nov 24",
+      "id": "43083472",
+      "title": "Synchronous Hybrid Teaching on the Nursing Degree: Opinions, Satisfaction Levels and Student Results-An Observational Cross-Sectional Study During the COVID Pandemic.",
+      "journal": "Nursing reports (Pavia, Italy)",
+      "publicationDate": "2026 Oct 31",
       "authors": [
-        "Cobuccio LG"
+        "Serrano-Gómez D",
+        "Aranda-Moreno S",
+        "Sáiz-Manzanares MC"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076855/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083472/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076801",
-      "title": "Pharmacokinetics of an elexacaftor/tezacaftor/ivacaftor formulation in pediatric cystic fibrosis: Comparison with published parameters of the reference drug.",
-      "journal": "Archivos argentinos de pediatria",
-      "publicationDate": "2026 Nov 26",
+      "id": "43083446",
+      "title": "Changes in Community Pharmacists' Self-Assessed Explanatory Ability and Preventive Awareness Following an Integrated Atrial Fibrillation Screening and Community Education Programme: A Longitudinal Study.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 20",
       "authors": [
-        "Cáceres Guid P",
-        "Taboada GF",
-        "Sassone A"
+        "Nakamura C",
+        "Nakajima T",
+        "Shimizu A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076801/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083446/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076700",
-      "title": "Assessing the Roles of Two Community-Based Health Professionals in Japan: Public Health Nurses and Community Pharmacists.",
-      "journal": "Health systems and reform",
-      "publicationDate": "2026 Dec 31",
+      "id": "43083445",
+      "title": "The Role of Hospital Pharmacists and Pharmaceutical-Care Interventions in the Personalized Management of Patients with Non-Small-Cell Lung Cancer: A Scoping Review.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 19",
       "authors": [
-        "Goto A",
-        "Yumiya Y",
-        "Okada H"
+        "Nikolova N",
+        "Aleksandrov T",
+        "Yordanova M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076700/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083445/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076552",
-      "title": "Bright Alkyl Quantum Defects Govern Early Carbon Nanotube Pharmacokinetics in Mice.",
-      "journal": "ACS nano",
-      "publicationDate": "2026 Nov 24",
+      "id": "43083444",
+      "title": "Pharmaceutical Indication and Pharmacist Prescribing in Primary Care: An International Comparative Characterization of Regulatory Models, Clinical Scope, and Evidence Synthesis.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 17",
       "authors": [
-        "Sun HS",
-        "Nguyen AP",
-        "Quiroz Reyes CJ"
+        "Zavaleta-Monestel E",
+        "Monge-Bogantes LC",
+        "Hernandez-Cordonero A"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076552/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083444/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076475",
-      "title": "A Phase 2 Study of Imlifidase in the Treatment of Guillain-Barré Syndrome.",
-      "journal": "NEJM evidence",
-      "publicationDate": "2026 Dec",
+      "id": "43083443",
+      "title": "EQ-5D-5L Measurement in Bulgarian Community Pharmacies: A Cross-Sectional Study of Published Patient Data and a New Pharmacist Survey to Inform a Prospective Feasibility Study.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 12",
       "authors": [
-        "Attarian S",
-        "Magy L",
-        "Echaniz-Laguna A"
+        "Vutova Y",
+        "Georgiev S",
+        "Krastev H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076475/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083443/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076428",
-      "title": "Disarming MRSA through mechanism-guided repurposing of FDA-approved drugs and clinically investigated compounds.",
-      "journal": "Future microbiology",
-      "publicationDate": "2026 Dec",
+      "id": "43083442",
+      "title": "Medication Review Training for Japanese Community Pharmacists Using the Ask-Assess-Advise Framework: A Post-Workshop Cross-Sectional Survey of Self-Assessed Competencies.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 11",
       "authors": [
-        "Raja Abd Rahman RMF",
-        "Vasquez J",
-        "Syafruddin SE"
+        "Iijima H",
+        "Chong L",
+        "Sakamaki H"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076428/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083442/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076327",
-      "title": "Dual Nature of Molecules: Amphiphilicity as a Missing Descriptor in Drug Design.",
-      "journal": "Langmuir : the ACS journal of surfaces and colloids",
-      "publicationDate": "2026 Nov 24",
+      "id": "43083441",
+      "title": "Ready-to-Use Versus Traditional IV Piggyback Preparation: A Combined Process-Error, Workforce-Time-Waste, and Cost-Effectiveness Analysis.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 11",
       "authors": [
-        "Loura LMS",
-        "Cordeiro MM",
-        "Oliveira AC"
+        "Hertig JB",
+        "Louden L",
+        "Raley WP"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076327/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083441/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43076000",
-      "title": "Real-Time Cumulative Fluid Balance Surveillance and Stewardship in Critical Care: From Prediction to Prevention of Fluid Overload.",
-      "journal": "Journal of intensive care medicine",
-      "publicationDate": "2026 Nov 24",
+      "id": "43083440",
+      "title": "Perceived Workload and Student Satisfaction in Pharmacy Education: A Critical Review of the Implications for Curriculum Design.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 7",
       "authors": [
-        "Rao SB",
-        "Boukas K",
-        "Spentzas T"
+        "Zaykov H",
+        "Todorova A",
+        "Ivanova M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43076000/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083440/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43075999",
-      "title": "Enhancing Primary Healthcare Capacity in Management of Cleft Lip and Palate: Preliminary Psychometric Evaluation of a Module Training Tool.",
-      "journal": "The Cleft palate-craniofacial journal : official publication of the American Cleft Palate-Craniofacial Association",
-      "publicationDate": "2026 Nov 24",
+      "id": "43083439",
+      "title": "Community Pharmacists' Confidence, Barriers, and Educational Needs for Continuous Glucose Monitoring Counseling: A Cross-Sectional Survey.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 7",
       "authors": [
-        "Harini M",
-        "Yufika A",
-        "Arif FU"
+        "Lin KP",
+        "Montez C",
+        "Weaver T"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43075999/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083439/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     },
     {
-      "id": "43075962",
-      "title": "Correction to \"Comparison of Population Pharmacokinetics-Related Information in Drug Labeling Between Japan, the United States, and the European Union\".",
-      "journal": "Journal of clinical pharmacology",
-      "publicationDate": "2026 Nov",
-      "authors": [],
+      "id": "43083438",
+      "title": "From Urban Concentration to Territorial Diffusion: The Historical Development of the Pharmacy Network in Bihor County (Romania) Before 1920.",
+      "journal": "Pharmacy (Basel, Switzerland)",
+      "publicationDate": "2026 Nov 6",
+      "authors": [
+        "Pașca IA",
+        "Pașca AC",
+        "Gitea D"
+      ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43075962/",
-      "retrievedAt": "2026-11-24T18:35:15.762Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43083438/",
+      "retrievedAt": "2026-11-25T17:45:51.899Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
