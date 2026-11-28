@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-27T17:09:17.136Z",
+  "generatedAt": "2026-11-28T15:55:57.045Z",
   "query": "(\"pharmacology\"[Title/Abstract] OR \"pharmacy\"[Title/Abstract] OR pharmacist*[Title/Abstract] OR pharmacovigilance[Title/Abstract] OR \"drug safety\"[Title/Abstract] OR \"medication safety\"[Title/Abstract] OR \"antimicrobial stewardship\"[Title/Abstract] OR \"pharmaceutical care\"[Title/Abstract] OR \"adverse drug reaction\"[Title/Abstract] OR pharmacokinetics[Title/Abstract] OR pharmacodynamics[Title/Abstract] OR \"drug interaction\"[Title/Abstract] OR \"medicine recall\"[Title/Abstract])",
   "indexDateWindow": {
-    "from": "2026/08/29",
-    "through": "2026/11/27",
+    "from": "2026/08/30",
+    "through": "2026/11/28",
     "dateType": "PubMed entry date"
   },
   "source": "National Library of Medicine PubMed via NCBI E-utilities",
@@ -11,194 +11,192 @@
   "recordCount": 12,
   "records": [
     {
-      "id": "43102362",
-      "title": "Therapeutic Efficacy of Yangxin Huoxue Jiedu Decoction as Adjuvant Therapy for Children with Acute Severe Viral Myocarditis.",
-      "journal": "Journal of visualized experiments : JoVE",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Hao H",
-        "Ji M",
-        "Zhou K"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102362/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43102297",
-      "title": "Exploratory Analysis of N6-Methyladenosine Regulator Expression and Predicted Traditional Chinese Medicine-Target Associations in Ulcerative Colitis.",
-      "journal": "Journal of visualized experiments : JoVE",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Geng H",
-        "Chang Z",
-        "Zhang Z"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102297/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43102269",
-      "title": "Bushen Huoxue Formula Modulation of Endometriotic Stromal Cell Activity in an In Vitro Macrophage-Stromal Cell Co-Culture Model.",
-      "journal": "Journal of visualized experiments : JoVE",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Jiang L",
-        "Wu J",
-        "Yang Q"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102269/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43102242",
-      "title": "Bioinformatics and Network Pharmacology Reveal Potential Molecular Mechanisms of Taohong Siwu Decoction for Osteoarthritis.",
-      "journal": "Journal of visualized experiments : JoVE",
-      "publicationDate": "2026 Nov 20",
-      "authors": [
-        "Jiang Y",
-        "Luo Y",
-        "Song C"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102242/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43102205",
-      "title": "Marine Actin-Associated Agents Cause Distinct In Vivo Neuromuscular, Epithelia, and Organogenesis Phenotype Profiles in Caenorhabditis elegans.",
-      "journal": "Journal of natural products",
-      "publicationDate": "2026 Nov 27",
-      "authors": [
-        "Athapaththu AMGK",
-        "Raval B",
-        "Ratnayake R"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102205/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43102141",
-      "title": "Public Awareness, Knowledge and Perception of Drug Expiry Dates and Proper Storage Conditions Among Online-Recruited Adults in Bangladesh: A Cross-Sectional Survey.",
-      "journal": "Inquiry : a journal of medical care organization, provision and financing",
-      "publicationDate": "2026 Jan-Dec",
-      "authors": [
-        "Al Amin M",
-        "Kabir MI",
-        "Ferdous Ekra J"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102141/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43102127",
-      "title": "Assessing Burnout Among Pain and Palliative Care Pharmacists.",
-      "journal": "Journal of pain & palliative care pharmacotherapy",
-      "publicationDate": "2026 Nov 27",
-      "authors": [
-        "Godsey MM",
-        "Walker K",
-        "McPherson ML"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43102127/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43101996",
-      "title": "Provincial Assessment of Hyaluronidase Availability in Ontario Emergency Departments for the Treatment of Hyaluronic Acid Filler-Induced Vascular Occlusion.",
-      "journal": "Journal of otolaryngology - head & neck surgery = Le Journal d'oto-rhino-laryngologie et de chirurgie cervico-faciale",
-      "publicationDate": "2026 Jan-Dec",
-      "authors": [
-        "Tremblay C",
-        "Pynn ER",
-        "McGaughey M"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43101996/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43101994",
-      "title": "Buccal Esketamine Combined With Intranasal Dexmedetomidine for Venipuncture Sedation in Preschool Children Undergoing Day-Case Surgery: A Randomized, Double-Blind, Placebo-Controlled Trial.",
-      "journal": "Paediatric anaesthesia",
-      "publicationDate": "2026 Nov 27",
-      "authors": [
-        "Li BL",
-        "Zhong ZP",
-        "Zhang L"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43101994/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43101892",
-      "title": "In silico design and evaluation of a novel ADE-S-S-ADE as a potential therapeutics for breast cancer.",
-      "journal": "SAR and QSAR in environmental research",
-      "publicationDate": "2026 Nov 27",
-      "authors": [
-        "Manikandan MM",
-        "Muthumanickam S",
-        "Radhakrishnan K"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43101892/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43101843",
-      "title": "Methocarbamol: Muscle Relaxation or Central Nervous System Depression?",
-      "journal": "Cureus",
-      "publicationDate": "2026 Nov",
-      "authors": [
-        "Pham B"
-      ],
-      "sourceType": "PubMed bibliographic record",
-      "evidenceType": "Not assessed — inspect the original record",
-      "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43101843/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
-    },
-    {
-      "id": "43101788",
-      "title": "Gexia Zhuyu Decoction Exerts Protective Effects Against MAFLD by Modulating the SPHK-S1P-S1PR Signaling Pathway.",
-      "journal": "International journal of general medicine",
+      "id": "43105278",
+      "title": "Development of [(131)I]-Labeled Hesperidin for Potential Breast Cancer Theranostic Applications: Computational, Radiochemical, and Biological Evaluation.",
+      "journal": "Drug design, development and therapy",
       "publicationDate": "2026",
       "authors": [
-        "Ma X",
-        "Luo S",
-        "Yin H"
+        "Fakih TM",
+        "Novitasari D",
+        "Syaifudin M"
       ],
       "sourceType": "PubMed bibliographic record",
       "evidenceType": "Not assessed — inspect the original record",
       "jurisdiction": "International research literature",
-      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43101788/",
-      "retrievedAt": "2026-11-27T17:09:17.136Z"
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105278/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105255",
+      "title": "Differential effects of new allosteric modulators of HCN channel function on intrinsic excitability in CA1 pyramidal neurons.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
+      "authors": [
+        "Castelli R",
+        "Barnett A",
+        "Moroni A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105255/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105252",
+      "title": "Leveraging Community Pharmacies to Close the CKD Testing Gap: A Quasi-experimental Implementation Feasibility Study.",
+      "journal": "Health services insights",
+      "publicationDate": "2026",
+      "authors": [
+        "Schultz M",
+        "Talbot-Montgomery E",
+        "Eisenbeis A"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105252/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105248",
+      "title": "SARS-CoV-2 spike and nicotinic acetylcholine receptors: a testable context-dependent hypothesis across acute and post-acute disease.",
+      "journal": "Frontiers in immunology",
+      "publicationDate": "2026",
+      "authors": [
+        "Leitzke M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105248/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105153",
+      "title": "Population-based incidence, clinical phenotypes and toxicity-related mortality of immune-related myositis, myocarditis and myasthenia-like overlap (ir-MMM): study.",
+      "journal": "ESMO real world data and digital oncology",
+      "publicationDate": "2026 Dec",
+      "authors": [
+        "Tenstad HB",
+        "Lindegaard H",
+        "Schäfer M"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105153/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105137",
+      "title": "Design, synthesis, and antiseizure evaluation of benzhydryl 5-arylfuran-2-carboxylates: GABA-A/SV2A targeting, EEG, and ADMET profiling.",
+      "journal": "RSC advances",
+      "publicationDate": "2026 Nov 27",
+      "authors": [
+        "Zia A",
+        "Rasool N",
+        "Saghir KA"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105137/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105129",
+      "title": "Spatial omics in cancer: decoding tumor heterogeneity, metabolic reprogramming and therapy resistance.",
+      "journal": "Frontiers in cell and developmental biology",
+      "publicationDate": "2026",
+      "authors": [
+        "Ma Y",
+        "Xu Z",
+        "Chen W"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105129/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105096",
+      "title": "Acute diarrhea following the first subcutaneous dose of tafolecimab: a case report of a probable adverse drug reaction.",
+      "journal": "Frontiers in pharmacology",
+      "publicationDate": "2026",
+      "authors": [
+        "He J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105096/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43105086",
+      "title": "Gut microbiota-insulin signaling axis mediates the therapeutic effects of TJZY decoction against PMOS.",
+      "journal": "Frontiers in microbiology",
+      "publicationDate": "2026",
+      "authors": [
+        "Ke B",
+        "Zhi H",
+        "Lei Y"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43105086/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43104948",
+      "title": "Integrated phytochemical profiling and multi-compartment metabolomics characterize gut-serum metabolic responses associated with Yangpi San administration.",
+      "journal": "Frontiers in immunology",
+      "publicationDate": "2026",
+      "authors": [
+        "Guo J",
+        "Cai S",
+        "Li J"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43104948/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43104938",
+      "title": "Post-marketing safety signals of the ROCK2 inhibitor Belumosudil for chronic graft-versus-host disease: a real-world disproportionality analysis based on the FAERS database.",
+      "journal": "Frontiers in immunology",
+      "publicationDate": "2026",
+      "authors": [
+        "Zeng Y",
+        "Zhang T",
+        "Wang X"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43104938/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
+    },
+    {
+      "id": "43104932",
+      "title": "Integrative transcriptomic and network pharmacology analyses explore potential mechanisms underlying the protective effects of Mailuoning oral liquid after intracerebral hemorrhage in mice.",
+      "journal": "Frontiers in neurology",
+      "publicationDate": "2026",
+      "authors": [
+        "Wang F",
+        "Zeng Y",
+        "Wan Z"
+      ],
+      "sourceType": "PubMed bibliographic record",
+      "evidenceType": "Not assessed — inspect the original record",
+      "jurisdiction": "International research literature",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/43104932/",
+      "retrievedAt": "2026-11-28T15:55:57.045Z"
     }
   ],
   "notice": "Research discovery only. Records were recently added to PubMed; the displayed citation/issue date can be later than online publication. Open the original record to check electronic publication details. These records are not verified clinical guidance; check the original paper, applicable guidelines, and official regulator notices before acting."
